@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-0633d90~59~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-3eb3db0~66~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -44,8 +44,6 @@
     (zone_clearance 0.2032)
     (zone_45_only no)
     (trace_min 0.254)
-    (segment_width 0.2286)
-    (edge_width 0.2286)
     (via_size 0.889)
     (via_drill 0.635)
     (via_min_size 0.889)
@@ -55,6 +53,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.508)
     (uvia_min_drill 0.127)
+    (edge_width 0.2286)
+    (segment_width 0.2286)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.381)
@@ -68,6 +68,9 @@
     (pcbplotparams
       (layerselection 0x000f0_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
@@ -76,7 +79,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -88,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers/))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -100,8 +103,8 @@
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
   )
 
   (net_class GND ""
@@ -111,8 +114,8 @@
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
   )
 
   (net_class LEDPOWER ""
@@ -122,8 +125,8 @@
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
   )
 
   (net_class POWER ""
@@ -133,8 +136,8 @@
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
   )
 
   (net_class SIGNAL ""
@@ -144,8 +147,8 @@
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
   )
 
   (net_class SUPERPOWER ""
@@ -155,8 +158,8 @@
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
   )
 
   (module smart_vision_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE (layer F.Cu) (tedit 59284569) (tstamp 589B7BA4)
@@ -166,7 +169,7 @@
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_text value MODULAR_DEVICE_BASE_5x3_MALE (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_circle (center 73.66 30.48) (end 76.2 30.48) (layer F.SilkS) (width 0.2286))
     (fp_circle (center 73.66 -30.48) (end 76.2 -30.48) (layer F.SilkS) (width 0.2286))
@@ -247,7 +250,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 102.87 133.35) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\nsmart_vision_controller\npart_number: 1000\n02/2017 ver 1.0 5x3" (at 73.66 105.41 90) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nsmart_vision_controller\npart_number: 1270\n08/2018 ver 1.0 5x3" (at 73.66 105.41 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
 
