@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:smart_vision_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -26,7 +27,7 @@ F 5 "S1011E-25-ND" H 1300 1700 60  0001 C CNN "PartNumber"
 F 6 "25 Positions Header Breakaway Connector 0.1in" H 1300 1800 60  0001 C CNN "Description"
 F 7 "2" H 2600 1700 60  0001 C CNN "PartCount"
 	1    2850 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
@@ -36,8 +37,8 @@ F 0 "#FLG?" H 150 225 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 924 50  0000 C CNN
 F 2 "" H 150 150 50  0001 C CNN
 F 3 "" H 150 150 50  0001 C CNN
-	1    700  750
-	1    0    0    -1
+	1    700  750 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
@@ -47,17 +48,17 @@ F 0 "#FLG?" H 550 225 50  0001 C CNN
 F 1 "PWR_FLAG" H 1100 924 50  0000 C CNN
 F 2 "" H 550 150 50  0001 C CNN
 F 3 "" H 550 150 50  0001 C CNN
-	1    1100 750
-	1    0    0    -1
+	1    1100 750 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 750  1100 800
+	1100 750  1100 800 
 Wire Wire Line
-	1100 800  1350 800
+	1100 800  1350 800 
 Wire Wire Line
-	700  750  700  900
+	700  750  700  900 
 Wire Wire Line
-	700  900  1400 900
+	700  900  1400 900 
 $Comp
 L power:GND #PWR?
 U 1 1 589B84A6
@@ -66,10 +67,10 @@ F 0 "#PWR?" H 0   -300 50  0001 C CNN
 F 1 "GND" H 705 777 50  0000 C CNN
 F 2 "" H 0   -50 50  0001 C CNN
 F 3 "" H 0   -50 50  0001 C CNN
-	1    700  950
-	1    0    0    -1
+	1    700  950 
+	1    0    0    -1  
 $EndComp
-Connection ~ 700  900
+Connection ~ 700  900 
 $Comp
 L power:VDD #PWR?
 U 1 1 589B84C6
@@ -78,12 +79,12 @@ F 0 "#PWR?" H -150 -50 50  0001 C CNN
 F 1 "VDD" H 1367 923 50  0000 C CNN
 F 2 "" H -150 100 50  0001 C CNN
 F 3 "" H -150 100 50  0001 C CNN
-	1    1350 750
-	1    0    0    -1
+	1    1350 750 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 750  1350 800
-Connection ~ 1350 800
+	1350 750  1350 800 
+Connection ~ 1350 800 
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 589B8557
@@ -92,13 +93,13 @@ F 0 "#FLG?" H 4600 275 50  0001 C CNN
 F 1 "PWR_FLAG" H 5150 974 50  0000 C CNN
 F 2 "" H 4600 200 50  0001 C CNN
 F 3 "" H 4600 200 50  0001 C CNN
-	1    5150 800
-	1    0    0    -1
+	1    5150 800 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 900  4850 900
+	4300 900  4850 900 
 Wire Wire Line
-	5150 900  5150 800
+	5150 900  5150 800 
 $Comp
 L power:VEE #PWR?
 U 1 1 589B8578
@@ -107,12 +108,12 @@ F 0 "#PWR?" H -50 -100 50  0001 C CNN
 F 1 "VEE" H 4867 973 50  0000 C CNN
 F 2 "" H -50 50  50  0001 C CNN
 F 3 "" H -50 50  50  0001 C CNN
-	1    4850 800
-	1    0    0    -1
+	1    4850 800 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 800  4850 900
-Connection ~ 4850 900
+	4850 800  4850 900 
+Connection ~ 4850 900 
 NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1200
@@ -136,7 +137,7 @@ NoConn ~ 1400 2900
 NoConn ~ 1400 3000
 NoConn ~ 1400 3100
 NoConn ~ 1400 3200
-NoConn ~ 4300 800
+NoConn ~ 4300 800 
 NoConn ~ 4300 1000
 NoConn ~ 4300 1100
 NoConn ~ 4300 1200
@@ -161,9 +162,127 @@ NoConn ~ 4300 3000
 NoConn ~ 4300 3100
 NoConn ~ 4300 3200
 Wire Wire Line
-	700  900  700  950
+	700  900  700  950 
 Wire Wire Line
-	1350 800  1400 800
+	1350 800  1400 800 
 Wire Wire Line
-	4850 900  5150 900
+	4850 900  5150 900 
+$Comp
+L smart_vision_controller_5x3:PWR_JACK_2.5x5.5 P?
+U 1 1 5B6D3CF2
+P 1800 7200
+F 0 "P?" H 1800 7350 50  0000 C CNN
+F 1 "PWR_JACK_2.5x5.5" V 1900 7200 50  0000 C CNN
+F 2 "smart_vision_controller_5x3:DCJACK_2PIN_HIGHCURRENT" H 1700 7250 60  0001 C CNN
+F 3 "" H 1800 7200 60  0001 C CNN
+F 4 "digikey" H 1900 7450 60  0001 C CNN "Vendor"
+F 5 "CP-063BH-ND" H 2000 7550 60  0001 C CNN "PartNumber"
+F 6 "CONN PWR JACK DC 2.5X5.5 8A T/H" H 2100 7650 60  0001 C CNN "Description"
+	1    1800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR?
+U 1 1 5B6D4084
+P 1500 7100
+F 0 "#PWR?" H 1500 6950 50  0001 C CNN
+F 1 "VAA" H 1517 7273 50  0000 C CNN
+F 2 "" H 1500 7100 50  0001 C CNN
+F 3 "" H 1500 7100 50  0001 C CNN
+	1    1500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5B6D40FB
+P 1400 7000
+F 0 "#FLG?" H 1400 7075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 7174 50  0000 C CNN
+F 2 "" H 1400 7000 50  0001 C CNN
+F 3 "~" H 1400 7000 50  0001 C CNN
+	1    1400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B6D412A
+P 1500 7300
+F 0 "#PWR?" H 1500 7050 50  0001 C CNN
+F 1 "GND" H 1505 7127 50  0000 C CNN
+F 2 "" H 1500 7300 50  0001 C CNN
+F 3 "" H 1500 7300 50  0001 C CNN
+	1    1500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5B6D4144
+P 1100 7200
+F 0 "#FLG?" H 1100 7275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 7374 50  0000 C CNN
+F 2 "" H 1100 7200 50  0001 C CNN
+F 3 "~" H 1100 7200 50  0001 C CNN
+	1    1100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7000 1400 7150
+Wire Wire Line
+	1400 7150 1500 7150
+Wire Wire Line
+	1500 7100 1500 7150
+Connection ~ 1500 7150
+Wire Wire Line
+	1500 7150 1600 7150
+Wire Wire Line
+	1600 7250 1500 7250
+Wire Wire Line
+	1100 7250 1100 7200
+Wire Wire Line
+	1500 7300 1500 7250
+Connection ~ 1500 7250
+Wire Wire Line
+	1500 7250 1100 7250
+$Comp
+L smart_vision_controller_5x3:DB9F J?
+U 1 1 5B6DA342
+P 3900 4550
+F 0 "J?" H 4079 4596 50  0000 L CNN
+F 1 "DB9F" H 4079 4505 50  0000 L CNN
+F 2 "smart_vision_controller_5x3:DB9F" H 3800 5000 50  0001 C CNN
+F 3 "" H 3900 4550 50  0001 C CNN
+F 4 "digikey" H 4000 5200 60  0001 C CNN "Vendor"
+F 5 "626-1052-ND" H 4100 5300 60  0001 C CNN "PartNumber"
+F 6 " CONN D-SUB RCPT 9POS VERT SOLDER" H 4200 5400 60  0001 C CNN "Description"
+	1    3900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L smart_vision_controller_5x3:DB9M J?
+U 1 1 5B6DA3F3
+P 3900 5800
+F 0 "J?" H 4080 5846 50  0000 L CNN
+F 1 "DB9M" H 4080 5755 50  0000 L CNN
+F 2 "smart_vision_controller_5x3:DB9M" H 3900 5800 50  0001 C CNN
+F 3 "" H 3900 5800 50  0001 C CNN
+F 4 "digikey" H 4000 6250 60  0001 C CNN "Vendor"
+F 5 "626-1798-ND" H 4100 6150 60  0001 C CNN "PartNumber"
+F 6 "CONN D-SUB PLUG 9POS VERT SOLDER" H 4200 6050 60  0001 C CNN "Description"
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L smart_vision_controller_5x3:SN74ABT541BDWR U?
+U 1 1 5B6DA5A5
+P 1900 4900
+F 0 "U?" H 1900 5800 60  0000 C CNN
+F 1 "SN74ABT541BDWR" H 1900 5694 60  0000 C CNN
+F 2 "smart_vision_controller_5x3:SOIC_20" H 2000 5450 60  0001 C CNN
+F 3 "" H 1900 4900 60  0001 C CNN
+F 4 "digikey" H 2000 4100 60  0001 C CNN "Vendor"
+F 5 "296-14668-1-ND" H 2100 4200 60  0001 C CNN "PartNumber"
+F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" H 2200 4300 60  0001 C CNN "Description"
+	1    1900 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
