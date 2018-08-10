@@ -1,4 +1,13 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | PartNumber | Vendor | Description |
-|------+----------+------------+--------+-------------|
+| Item | Quantity | PartNumber   | Vendor  | Description                      |
+|------+----------+--------------+---------+----------------------------------|
+|    1 |        1 | 364-1306-ND  | digikey | 120W DESK-TOP POWER SUPPLY       |
+|    2 |        1 | Q102-ND      | digikey | CORD 18AWG 3COND M/F BLK 2M      |
+|    3 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
+|    4 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
+|    5 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
+|    6 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
+|    7 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
+|    8 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
+|      |          |              |         |                                  |
