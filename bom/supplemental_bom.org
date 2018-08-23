@@ -2,8 +2,8 @@
 #+RESULTS: supplemental-parts
 | Item | Quantity | PartNumber   | Vendor  | Description                      |
 |------+----------+--------------+---------+----------------------------------|
-|    1 |        1 | 364-1306-ND  | digikey | 120W DESK-TOP POWER SUPPLY       |
-|    2 |        1 | Q102-ND      | digikey | CORD 18AWG 3COND M/F BLK 2M      |
+|    1 |        1 | 1866-2122-ND | digikey | AC/DC DESKTOP ADAPTER 24V 280W   |
+|    2 |        1 | 1866-5006-ND | digikey | CORD IEC 320-C13 6FT BLACK       |
 |    3 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
 |    4 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
 |    5 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
