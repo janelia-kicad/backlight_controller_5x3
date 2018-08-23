@@ -10,4 +10,5 @@
 |    6 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
 |    7 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
 |    8 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
+|    9 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
 |      |          |              |         |                                  |
