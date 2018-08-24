@@ -1131,7 +1131,7 @@
     <net code="44" name="Net-(MDB1-Pad12)">
       <node ref="MDB1" pin="12"/>
     </net>
-    <net code="45" name="/RED">
+    <net code="45" name="/VISIBLE">
       <node ref="J4" pin="4"/>
       <node ref="U2" pin="13"/>
     </net>
