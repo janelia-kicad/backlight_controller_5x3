@@ -1,4 +1,4 @@
-update=Fri 24 Aug 2018 04:51:17 PM EDT
+update=Mon 27 Aug 2018 04:25:22 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -71,7 +71,7 @@ SolderPasteRatio=-0
 [pcbnew/Netclasses/1]
 Name=GND
 Clearance=0.1016
-TrackWidth=0.4064
+TrackWidth=0.8128
 ViaDiameter=0.889
 ViaDrill=0.635
 uViaDiameter=0.508
@@ -82,7 +82,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=LEDPOWER
 Clearance=0.254
-TrackWidth=0.6096
+TrackWidth=0.8128
 ViaDiameter=0.889
 ViaDrill=0.635
 uViaDiameter=0.508

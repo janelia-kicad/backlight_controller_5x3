@@ -14,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 2600 2100 0    60   Input ~ 0
-SIGNAL
+CHANNEL
 Wire Wire Line
 	2600 2100 2650 2100
 Text Label 2650 2100 0    60   ~ 0
-SIGNAL
+CHANNEL
 $Comp
 L power:GND #PWR?
 U 1 1 5B82A8CE
@@ -49,19 +49,19 @@ Wire Wire Line
 Wire Wire Line
 	3600 2350 3600 2400
 Text Label 3650 1850 0    60   ~ 0
-SIGNAL
-Text Label 4250 2100 2    60   ~ 0
-SIGNAL
-Text Label 4850 2100 0    60   ~ 0
 CHANNEL
+Text Label 4250 2100 2    60   ~ 0
+CHANNEL
+Text Label 4850 2100 0    60   ~ 0
+OUTPUT
 Wire Wire Line
 	4250 2100 4300 2100
 Text HLabel 5900 2100 2    60   Output ~ 0
-CHANNEL
+OUTPUT
 Wire Wire Line
 	4800 2100 4850 2100
 Text Label 5850 2100 2    60   ~ 0
-CHANNEL
+OUTPUT
 Wire Wire Line
 	5850 2100 5900 2100
 $Comp

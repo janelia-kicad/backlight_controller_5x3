@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "6.0.0-rc1-unknown-51473d9~66~ubuntu18.04.1")
+    (host_version "6.0.0-rc1-unknown-7c11d03~66~ubuntu18.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -68,28 +68,33 @@
       (place HPS4 80645 -124460 back 270 (PN BTS3256))
     )
     (component smart_vision_controller_5x3:DB9F
-      (place J1 120650 -92710 front 0 (PN DB9F))
+      (place J3 120650 -92710 front 0 (PN DB9F))
     )
     (component smart_vision_controller_5x3:DB9M
-      (place J2 120650 -118110 front 0 (PN DB9M))
+      (place J4 120650 -118110 front 0 (PN DB9M))
     )
     (component "smart_vision_controller_5x3:M12-5_RCPT_F"
-      (place J3 152400 -92710 front 0 (PN "M12-5_RCPT_F"))
-      (place J4 152400 -118110 front 0 (PN "M12-5_RCPT_F"))
-    )
-    (component "smart_vision_controller_5x3:LED_555-3XXX_G"
-      (place L1 93345 -92710 front 0 (PN LED_5V_GRN))
-      (place L2 95885 -92710 front 0 (PN LED_5V_GRN))
-      (place L3 98425 -92710 front 0 (PN LED_5V_GRN))
-      (place L4 100965 -92710 front 0 (PN LED_5V_GRN))
-      (place L5 93345 -118110 front 0 (PN LED_5V_GRN))
-      (place L6 95885 -118110 front 0 (PN LED_5V_GRN))
-      (place L7 98425 -118110 front 0 (PN LED_5V_GRN))
-      (place L8 100965 -118110 front 0 (PN LED_5V_GRN))
+      (place J1 152400 -92710 front 0 (PN "M12-5_RCPT_F"))
+      (place J2 152400 -118110 front 0 (PN "M12-5_RCPT_F"))
     )
     (component smart_vision_controller_5x3:SOIC_20
       (place U1 111760 -105410 back 0 (PN SN74ABT541BDWR))
       (place U2 143510 -105410 back 0 (PN SN74ABT541BDWR))
+    )
+    (component "smart_vision_controller_5x3:LED_555-3XXX_R"
+      (place L1 166370 -105410 front 0 (PN LED_24V_RED))
+      (place L3 95885 -86995 front 0 (PN LED_5V_GRN))
+      (place L5 100965 -86995 front 0 (PN LED_5V_GRN))
+      (place L8 98425 -123825 front 0 (PN LED_5V_GRN))
+      (place L9 100965 -123825 front 0 (PN LED_5V_GRN))
+      (place L10 141605 -86995 front 0 (PN LED_5V_GRN))
+    )
+    (component "smart_vision_controller_5x3:LED_555-3XXX_G"
+      (place L2 93345 -86995 front 0 (PN LED_5V_GRN))
+      (place L4 98425 -86995 front 0 (PN LED_5V_GRN))
+      (place L6 93345 -123825 front 0 (PN LED_5V_GRN))
+      (place L7 95885 -123825 front 0 (PN LED_5V_GRN))
+      (place L11 141605 -123825 front 0 (PN LED_5V_GRN))
     )
   )
   (library
@@ -300,16 +305,6 @@
       (pin Oval[A]Pad_1500x2500_um 1 -1767.8 1767.8)
       (pin Oval[A]Pad_1500x2500_um 5 0 0)
     )
-    (image "smart_vision_controller_5x3:LED_555-3XXX_G"
-      (outline (path signal 228.6  -1270 -3810  -1270 3810))
-      (outline (path signal 228.6  1270 -3810  -1270 -3810))
-      (outline (path signal 228.6  1270 3810  1270 -3810))
-      (outline (path signal 228.6  -1270 3810  1270 3810))
-      (outline (path signal 228.6  0 0  0 1016))
-      (outline (path signal 228.6  -508 508  508 508))
-      (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
-      (pin Oval[A]Pad_1524x2032_um 1 0 2540)
-    )
     (image smart_vision_controller_5x3:SOIC_20
       (outline (path signal 381  3750 6500  -3750 6500))
       (outline (path signal 381  3750 -6500  3750 6500))
@@ -339,6 +334,26 @@
       (pin Rect[T]Pad_2000x600_um 18 4650 3175)
       (pin Rect[T]Pad_2000x600_um 19 4650 4445)
       (pin Rect[T]Pad_2000x600_um 20 4650 5715)
+    )
+    (image "smart_vision_controller_5x3:LED_555-3XXX_R"
+      (outline (path signal 228.6  -508 508  508 508))
+      (outline (path signal 228.6  0 0  0 1016))
+      (outline (path signal 228.6  -1270 3810  1270 3810))
+      (outline (path signal 228.6  1270 3810  1270 -3810))
+      (outline (path signal 228.6  1270 -3810  -1270 -3810))
+      (outline (path signal 228.6  -1270 -3810  -1270 3810))
+      (pin Oval[A]Pad_1524x2032_um 1 0 2540)
+      (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
+    )
+    (image "smart_vision_controller_5x3:LED_555-3XXX_G"
+      (outline (path signal 228.6  -1270 -3810  -1270 3810))
+      (outline (path signal 228.6  1270 -3810  -1270 -3810))
+      (outline (path signal 228.6  1270 3810  1270 -3810))
+      (outline (path signal 228.6  -1270 3810  1270 3810))
+      (outline (path signal 228.6  0 0  0 1016))
+      (outline (path signal 228.6  -508 508  508 508))
+      (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
+      (pin Oval[A]Pad_1524x2032_um 1 0 2540)
     )
     (padstack Round[A]Pad_1930.4_um
       (shape (circle F.Cu 1930.4))
@@ -466,132 +481,132 @@
     )
     (net GND
       (pins P2-2 P1-6 P1-5 P1-4 MDB1-GND C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 HPS1-5 HPS2-5
-        HPS3-5 HPS4-5 J2-1 J2-3 J2-5 J2-7 J2-9 J3-3 J4-3 L1-2 L2-2 L3-2 L4-2 L5-2
-        L6-2 L7-2 L8-2 U1-10 U1-19 U2-10 U2-19)
+        HPS3-5 HPS4-5 J4-1 J4-3 J4-5 J4-7 J4-9 J1-3 J2-3 U1-10 U1-19 U2-10 U2-19 L1-2
+        L2-2 L3-2 L4-2 L5-2 L6-2 L7-2 L8-2 L9-2 L10-2 L11-2)
     )
     (net VDD
       (pins MDB1-VDD D1-1 C3-1 C4-1 C5-1 C6-1 HPS1-1 HPS2-1 HPS3-1 HPS4-1)
     )
     (net VAA
-      (pins P2-1 P1-3 P1-2 P1-1 D1-2 D1-2@1 J1-5 J1-3 J1-1 J1-9 J1-7 J3-1 J3-5 J4-1
-        J4-5)
-    )
-    (net /channel_0/FAULT
-      (pins HPS1-2 R1-1)
+      (pins P2-1 P1-3 P1-2 P1-1 D1-2 D1-2@1 J3-5 J3-3 J3-1 J3-9 J3-7 J1-1 J1-5 J2-1
+        J2-5 L1-1)
     )
     (net /CHANNEL_0
-      (pins HPS1-6 J1-2)
+      (pins MDB1-2 U1-2)
     )
     (net /CHANNEL_1
-      (pins HPS2-6 J1-4)
-    )
-    (net /channel_1/FAULT
-      (pins HPS2-2 R2-1)
-    )
-    (net /channel_2/FAULT
-      (pins HPS3-2 R3-1)
+      (pins MDB1-6 U1-3)
     )
     (net /CHANNEL_2
-      (pins HPS3-6 J1-6)
-    )
-    (net /CHANNEL_3
-      (pins HPS4-6 J1-8)
-    )
-    (net /channel_3/FAULT
-      (pins HPS4-2 R4-1)
-    )
-    (net /CHANNEL_11
-      (pins R8-1 J2-8)
-    )
-    (net /CHANNEL_10
-      (pins J2-6 R7-1)
-    )
-    (net /CHANNEL_9
-      (pins J2-4 R6-1)
-    )
-    (net /CHANNEL_8
-      (pins J2-2 R5-1)
-    )
-    (net /IR
-      (pins J3-4 U2-14)
-    )
-    (net /VISIBLE
-      (pins J4-4 U2-13)
-    )
-    (net /S_0
-      (pins L1-1 R1-2 U1-18)
-    )
-    (net /S_1
-      (pins L2-1 R2-2 U1-17)
-    )
-    (net /S_2
-      (pins L3-1 R3-2 U1-16)
-    )
-    (net /S_3
-      (pins L4-1 R4-2 U1-15)
-    )
-    (net /S_8
-      (pins L5-1 R5-2 U2-18)
-    )
-    (net /S_9
-      (pins L6-1 R6-2 U2-17)
-    )
-    (net /S_10
-      (pins L7-1 R7-2 U2-16)
-    )
-    (net /S_11
-      (pins R8-2 L8-1 U2-15)
-    )
-    (net /SIGNAL_3
-      (pins MDB1-30 U1-5)
-    )
-    (net /SIGNAL_2
       (pins MDB1-29 U1-4)
     )
-    (net /SIGNAL_4
-      (pins MDB1-35 U1-6)
+    (net /CHANNEL_3
+      (pins MDB1-30 U1-5)
     )
-    (net /SIGNAL_5
-      (pins MDB1-36 U1-7)
-    )
-    (net /SIGNAL_7
-      (pins MDB1-23 U1-9)
-    )
-    (net /SIGNAL_6
-      (pins MDB1-22 U1-8)
-    )
-    (net /SIGNAL_15
-      (pins MDB1-21 U2-9)
-    )
-    (net /SIGNAL_14
-      (pins MDB1-20 U2-8)
-    )
-    (net /SIGNAL_13
-      (pins MDB1-19 U2-7)
-    )
-    (net /SIGNAL_12
-      (pins MDB1-18 U2-6)
-    )
-    (net /SIGNAL_11
+    (net /CHANNEL_11
       (pins MDB1-17 U2-5)
     )
-    (net /SIGNAL_10
+    (net /CHANNEL_10
       (pins MDB1-16 U2-4)
     )
-    (net /SIGNAL_9
+    (net /CHANNEL_9
       (pins MDB1-15 U2-3)
     )
-    (net /SIGNAL_8
+    (net /CHANNEL_8
       (pins MDB1-14 U2-2)
     )
     (net /~ENABLE
       (pins MDB1-52 U1-1 U2-1)
     )
-    (net /SIGNAL_1
-      (pins MDB1-6 U1-3)
+    (net /FANS
+      (pins HPS1-6 J3-2)
     )
-    (net /SIGNAL_0
-      (pins MDB1-2 U1-2)
+    (net /output_0/FAULT
+      (pins HPS1-2 R1-1)
+    )
+    (net /WHITE_LIGHT
+      (pins HPS2-6 J3-4)
+    )
+    (net /output_1/FAULT
+      (pins HPS2-2 R2-1)
+    )
+    (net /BUZZER
+      (pins HPS3-6 J3-6)
+    )
+    (net /output_2/FAULT
+      (pins HPS3-2 R3-1)
+    )
+    (net /OUTPUT_3
+      (pins HPS4-6 J3-8)
+    )
+    (net /output_3/FAULT
+      (pins HPS4-2 R4-1)
+    )
+    (net /C_12
+      (pins J1-4 U2-14 L10-1)
+    )
+    (net /C_13
+      (pins J2-4 U2-13 L11-1)
+    )
+    (net /VISIBLE_LIGHT_INDICATOR
+      (pins J4-2 R5-1)
+    )
+    (net /WHITE_LIGHT_INDICATOR
+      (pins J4-4 R6-1)
+    )
+    (net /BUZZER_INDICATOR
+      (pins J4-6 R7-1)
+    )
+    (net /CAMERA_TRIGGER
+      (pins R8-1 J4-8)
+    )
+    (net /C_0
+      (pins R1-2 U1-18 L2-1)
+    )
+    (net /C_1
+      (pins R2-2 U1-17 L3-1)
+    )
+    (net /C_2
+      (pins R3-2 U1-16 L4-1)
+    )
+    (net /C_3
+      (pins R4-2 U1-15 L5-1)
+    )
+    (net /C_8
+      (pins R5-2 U2-18 L6-1)
+    )
+    (net /C_9
+      (pins R6-2 U2-17 L7-1)
+    )
+    (net /C_10
+      (pins R7-2 U2-16 L8-1)
+    )
+    (net /C_11
+      (pins R8-2 U2-15 L9-1)
+    )
+    (net /CHANNEL_4
+      (pins MDB1-35 U1-6)
+    )
+    (net /CHANNEL_5
+      (pins MDB1-36 U1-7)
+    )
+    (net /CHANNEL_7
+      (pins MDB1-23 U1-9)
+    )
+    (net /CHANNEL_6
+      (pins MDB1-22 U1-8)
+    )
+    (net /CHANNEL_15
+      (pins MDB1-21 U2-9)
+    )
+    (net /CHANNEL_14
+      (pins MDB1-20 U2-8)
+    )
+    (net /CHANNEL_13
+      (pins MDB1-19 U2-7)
+    )
+    (net /CHANNEL_12
+      (pins MDB1-18 U2-6)
     )
     (class kicad_default ""
       (circuit
@@ -607,17 +622,17 @@
         (use_via Via[0-1]_889:635_um)
       )
       (rule
-        (width 406.4)
+        (width 812.8)
         (clearance 101.7)
       )
     )
-    (class LEDPOWER /CHANNEL_10 /CHANNEL_11 /CHANNEL_8 /CHANNEL_9 /IR /S_0
-      /S_1 /S_10 /S_11 /S_2 /S_3 /S_8 /S_9 /VISIBLE
+    (class LEDPOWER /BUZZER_INDICATOR /CAMERA_TRIGGER /C_0 /C_1 /C_10 /C_11
+      /C_12 /C_13 /C_2 /C_3 /C_8 /C_9 /VISIBLE_LIGHT_INDICATOR /WHITE_LIGHT_INDICATOR
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
       (rule
-        (width 609.6)
+        (width 812.8)
         (clearance 254.1)
       )
     )
@@ -630,10 +645,10 @@
         (clearance 254.1)
       )
     )
-    (class SIGNAL /SIGNAL_0 /SIGNAL_1 /SIGNAL_10 /SIGNAL_11 /SIGNAL_12 /SIGNAL_13
-      /SIGNAL_14 /SIGNAL_15 /SIGNAL_2 /SIGNAL_3 /SIGNAL_4 /SIGNAL_5 /SIGNAL_6
-      /SIGNAL_7 /SIGNAL_8 /SIGNAL_9 /channel_0/FAULT /channel_1/FAULT /channel_2/FAULT
-      /channel_3/FAULT /~ENABLE
+    (class SIGNAL /CHANNEL_0 /CHANNEL_1 /CHANNEL_10 /CHANNEL_11 /CHANNEL_12
+      /CHANNEL_13 /CHANNEL_14 /CHANNEL_15 /CHANNEL_2 /CHANNEL_3 /CHANNEL_4
+      /CHANNEL_5 /CHANNEL_6 /CHANNEL_7 /CHANNEL_8 /CHANNEL_9 /output_0/FAULT
+      /output_1/FAULT /output_2/FAULT /output_3/FAULT /~ENABLE
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -642,7 +657,7 @@
         (clearance 101.7)
       )
     )
-    (class SUPERPOWER /CHANNEL_0 /CHANNEL_1 /CHANNEL_2 /CHANNEL_3 VAA
+    (class SUPERPOWER /BUZZER /FANS /OUTPUT_3 /WHITE_LIGHT VAA
       (circuit
         (use_via Via[0-1]_1625.6:1117.6_um)
       )

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/smart_vision_controller_5x3/smart_vision_controller_5x3.sch</source>
-    <date>Mon 27 Aug 2018 02:29:31 PM EDT</date>
+    <date>Mon 27 Aug 2018 03:36:00 PM EDT</date>
     <tool>Eeschema 6.0.0-rc1-unknown-7c11d03~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -17,130 +17,130 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/channel_0/" tstamps="/589EF960/">
+    <sheet number="2" name="/output_0/" tstamps="/589EF960/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_channel.sch</source>
+        <source>high_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/channel_1/" tstamps="/5B80F89F/">
+    <sheet number="3" name="/output_1/" tstamps="/5B80F89F/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_channel.sch</source>
+        <source>high_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/channel_2/" tstamps="/5B8112F3/">
+    <sheet number="4" name="/output_2/" tstamps="/5B8112F3/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_channel.sch</source>
+        <source>high_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/channel_3/" tstamps="/5B8112FB/">
+    <sheet number="5" name="/output_3/" tstamps="/5B8112FB/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_channel.sch</source>
+        <source>high_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/channel_8/" tstamps="/5B7F5357/">
+    <sheet number="6" name="/output_8/" tstamps="/5B7F5357/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_channel.sch</source>
+        <source>low_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/channel_9/" tstamps="/5B7F535F/">
+    <sheet number="7" name="/output_9/" tstamps="/5B7F535F/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_channel.sch</source>
+        <source>low_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/channel_10/" tstamps="/5B7F5367/">
+    <sheet number="8" name="/output_10/" tstamps="/5B7F5367/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_channel.sch</source>
+        <source>low_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="9" name="/channel_11/" tstamps="/5B7F536F/">
+    <sheet number="9" name="/output_11/" tstamps="/5B7F536F/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_channel.sch</source>
+        <source>low_power_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="10" name="/channel_ir/" tstamps="/5B84A38D/">
+    <sheet number="10" name="/output_ir/" tstamps="/5B84A38D/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>backlight_channel.sch</source>
+        <source>backlight_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="11" name="/channel_visible/" tstamps="/5B8777C4/">
+    <sheet number="11" name="/output_visible/" tstamps="/5B8777C4/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>backlight_channel.sch</source>
+        <source>backlight_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -317,7 +317,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/channel_0/" tstamps="/589EF960/"/>
+      <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R1">
@@ -329,7 +329,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/channel_0/" tstamps="/589EF960/"/>
+      <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C3">
@@ -341,7 +341,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/channel_0/" tstamps="/589EF960/"/>
+      <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L2">
@@ -353,7 +353,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_0/" tstamps="/589EF960/"/>
+      <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS2">
@@ -365,7 +365,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/channel_1/" tstamps="/5B80F89F/"/>
+      <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R2">
@@ -377,7 +377,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/channel_1/" tstamps="/5B80F89F/"/>
+      <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C4">
@@ -389,7 +389,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/channel_1/" tstamps="/5B80F89F/"/>
+      <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L3">
@@ -401,7 +401,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_1/" tstamps="/5B80F89F/"/>
+      <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS3">
@@ -413,7 +413,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/channel_2/" tstamps="/5B8112F3/"/>
+      <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R3">
@@ -425,7 +425,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/channel_2/" tstamps="/5B8112F3/"/>
+      <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C5">
@@ -437,7 +437,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/channel_2/" tstamps="/5B8112F3/"/>
+      <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L4">
@@ -449,7 +449,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_2/" tstamps="/5B8112F3/"/>
+      <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS4">
@@ -461,7 +461,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/channel_3/" tstamps="/5B8112FB/"/>
+      <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R4">
@@ -473,7 +473,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/channel_3/" tstamps="/5B8112FB/"/>
+      <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C6">
@@ -485,7 +485,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/channel_3/" tstamps="/5B8112FB/"/>
+      <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L5">
@@ -497,7 +497,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_3/" tstamps="/5B8112FB/"/>
+      <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="R5">
@@ -509,7 +509,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
-      <sheetpath names="/channel_8/" tstamps="/5B7F5357/"/>
+      <sheetpath names="/output_8/" tstamps="/5B7F5357/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L6">
@@ -521,7 +521,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_8/" tstamps="/5B7F5357/"/>
+      <sheetpath names="/output_8/" tstamps="/5B7F5357/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R6">
@@ -533,7 +533,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
-      <sheetpath names="/channel_9/" tstamps="/5B7F535F/"/>
+      <sheetpath names="/output_9/" tstamps="/5B7F535F/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L7">
@@ -545,7 +545,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_9/" tstamps="/5B7F535F/"/>
+      <sheetpath names="/output_9/" tstamps="/5B7F535F/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R7">
@@ -557,7 +557,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
-      <sheetpath names="/channel_10/" tstamps="/5B7F5367/"/>
+      <sheetpath names="/output_10/" tstamps="/5B7F5367/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L8">
@@ -569,7 +569,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_10/" tstamps="/5B7F5367/"/>
+      <sheetpath names="/output_10/" tstamps="/5B7F5367/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R8">
@@ -581,7 +581,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
-      <sheetpath names="/channel_11/" tstamps="/5B7F536F/"/>
+      <sheetpath names="/output_11/" tstamps="/5B7F536F/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L9">
@@ -593,7 +593,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_11/" tstamps="/5B7F536F/"/>
+      <sheetpath names="/output_11/" tstamps="/5B7F536F/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="L10">
@@ -605,7 +605,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_ir/" tstamps="/5B84A38D/"/>
+      <sheetpath names="/output_ir/" tstamps="/5B84A38D/"/>
       <tstamp>5B8B52AE</tstamp>
     </comp>
     <comp ref="L11">
@@ -617,7 +617,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/channel_visible/" tstamps="/5B8777C4/"/>
+      <sheetpath names="/output_visible/" tstamps="/5B8777C4/"/>
       <tstamp>5B8B52AE</tstamp>
     </comp>
   </components>
@@ -983,7 +983,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/CHANNEL_3">
+    <net code="1" name="/OUTPUT_3">
       <node ref="J3" pin="8"/>
       <node ref="HPS4" pin="6"/>
     </net>
@@ -1026,19 +1026,19 @@
       <node ref="U2" pin="19"/>
       <node ref="U2" pin="10"/>
     </net>
-    <net code="3" name="/CHANNEL_1">
+    <net code="3" name="/WHITE_LIGHT">
       <node ref="HPS2" pin="6"/>
       <node ref="J3" pin="4"/>
     </net>
-    <net code="4" name="/CHANNEL_2">
+    <net code="4" name="/BUZZER">
       <node ref="HPS3" pin="6"/>
       <node ref="J3" pin="6"/>
     </net>
-    <net code="5" name="/CHANNEL_0">
+    <net code="5" name="/FANS">
       <node ref="HPS1" pin="6"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="6" name="/SIGNAL_15">
+    <net code="6" name="/CHANNEL_15">
       <node ref="U2" pin="9"/>
       <node ref="MDB1" pin="21"/>
     </net>
@@ -1048,19 +1048,19 @@
     <net code="8" name="Net-(U2-Pad11)">
       <node ref="U2" pin="11"/>
     </net>
-    <net code="9" name="/CHANNEL_10">
+    <net code="9" name="/BUZZER_INDICATOR">
       <node ref="J4" pin="6"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="10" name="/CHANNEL_8">
+    <net code="10" name="/VISIBLE_LIGHT_INDICATOR">
       <node ref="J4" pin="2"/>
       <node ref="R5" pin="1"/>
     </net>
-    <net code="11" name="/CHANNEL_11">
+    <net code="11" name="/CAMERA_TRIGGER">
       <node ref="J4" pin="8"/>
       <node ref="R8" pin="1"/>
     </net>
-    <net code="12" name="/CHANNEL_9">
+    <net code="12" name="/WHITE_LIGHT_INDICATOR">
       <node ref="J4" pin="4"/>
       <node ref="R6" pin="1"/>
     </net>
@@ -1076,36 +1076,36 @@
       <node ref="D1" pin="1"/>
       <node ref="HPS4" pin="1"/>
     </net>
-    <net code="14" name="/SIGNAL_6">
+    <net code="14" name="/CHANNEL_6">
       <node ref="U1" pin="8"/>
       <node ref="MDB1" pin="22"/>
     </net>
-    <net code="15" name="/SIGNAL_7">
+    <net code="15" name="/CHANNEL_7">
       <node ref="MDB1" pin="23"/>
       <node ref="U1" pin="9"/>
     </net>
-    <net code="16" name="/SIGNAL_3">
+    <net code="16" name="/CHANNEL_3">
       <node ref="MDB1" pin="30"/>
       <node ref="U1" pin="5"/>
     </net>
-    <net code="17" name="/SIGNAL_2">
+    <net code="17" name="/CHANNEL_2">
       <node ref="U1" pin="4"/>
       <node ref="MDB1" pin="29"/>
     </net>
-    <net code="18" name="/SIGNAL_1">
+    <net code="18" name="/CHANNEL_1">
       <node ref="U1" pin="3"/>
       <node ref="MDB1" pin="6"/>
     </net>
-    <net code="19" name="/SIGNAL_0">
+    <net code="19" name="/CHANNEL_0">
       <node ref="U1" pin="2"/>
       <node ref="MDB1" pin="2"/>
     </net>
-    <net code="20" name="/S_0">
+    <net code="20" name="/C_0">
       <node ref="L2" pin="1"/>
       <node ref="R1" pin="2"/>
       <node ref="U1" pin="18"/>
     </net>
-    <net code="21" name="/SIGNAL_5">
+    <net code="21" name="/CHANNEL_5">
       <node ref="U1" pin="7"/>
       <node ref="MDB1" pin="36"/>
     </net>
@@ -1126,41 +1126,41 @@
       <node ref="P1" pin="2"/>
       <node ref="P1" pin="3"/>
     </net>
-    <net code="23" name="/S_3">
+    <net code="23" name="/C_3">
       <node ref="L5" pin="1"/>
       <node ref="R4" pin="2"/>
       <node ref="U1" pin="15"/>
     </net>
-    <net code="24" name="/S_2">
+    <net code="24" name="/C_2">
       <node ref="L4" pin="1"/>
       <node ref="U1" pin="16"/>
       <node ref="R3" pin="2"/>
     </net>
-    <net code="25" name="/S_1">
+    <net code="25" name="/C_1">
       <node ref="R2" pin="2"/>
       <node ref="U1" pin="17"/>
       <node ref="L3" pin="1"/>
     </net>
-    <net code="26" name="/SIGNAL_4">
+    <net code="26" name="/CHANNEL_4">
       <node ref="U1" pin="6"/>
       <node ref="MDB1" pin="35"/>
     </net>
-    <net code="27" name="/S_11">
+    <net code="27" name="/C_11">
       <node ref="R8" pin="2"/>
       <node ref="L9" pin="1"/>
       <node ref="U2" pin="15"/>
     </net>
-    <net code="28" name="/S_10">
+    <net code="28" name="/C_10">
       <node ref="L8" pin="1"/>
       <node ref="R7" pin="2"/>
       <node ref="U2" pin="16"/>
     </net>
-    <net code="29" name="/S_9">
+    <net code="29" name="/C_9">
       <node ref="U2" pin="17"/>
       <node ref="L7" pin="1"/>
       <node ref="R6" pin="2"/>
     </net>
-    <net code="30" name="/S_8">
+    <net code="30" name="/C_8">
       <node ref="L6" pin="1"/>
       <node ref="R5" pin="2"/>
       <node ref="U2" pin="18"/>
@@ -1177,21 +1177,21 @@
     <net code="34" name="Net-(U1-Pad14)">
       <node ref="U1" pin="14"/>
     </net>
-    <net code="35" name="/SIGNAL_8">
+    <net code="35" name="/CHANNEL_8">
       <node ref="U2" pin="2"/>
       <node ref="MDB1" pin="14"/>
     </net>
-    <net code="36" name="/CHANNEL_VISIBLE">
+    <net code="36" name="/C_13">
       <node ref="U2" pin="13"/>
       <node ref="J2" pin="4"/>
       <node ref="L11" pin="1"/>
     </net>
-    <net code="37" name="/CHANNEL_IR">
+    <net code="37" name="/C_12">
       <node ref="U2" pin="14"/>
       <node ref="J1" pin="4"/>
       <node ref="L10" pin="1"/>
     </net>
-    <net code="38" name="/SIGNAL_9">
+    <net code="38" name="/CHANNEL_9">
       <node ref="MDB1" pin="15"/>
       <node ref="U2" pin="3"/>
     </net>
@@ -1207,23 +1207,23 @@
       <node ref="MDB1" pin="52"/>
       <node ref="U2" pin="1"/>
     </net>
-    <net code="41" name="/SIGNAL_10">
+    <net code="41" name="/CHANNEL_10">
       <node ref="U2" pin="4"/>
       <node ref="MDB1" pin="16"/>
     </net>
-    <net code="42" name="/SIGNAL_11">
+    <net code="42" name="/CHANNEL_11">
       <node ref="U2" pin="5"/>
       <node ref="MDB1" pin="17"/>
     </net>
-    <net code="43" name="/SIGNAL_12">
+    <net code="43" name="/CHANNEL_12">
       <node ref="U2" pin="6"/>
       <node ref="MDB1" pin="18"/>
     </net>
-    <net code="44" name="/SIGNAL_13">
+    <net code="44" name="/CHANNEL_13">
       <node ref="U2" pin="7"/>
       <node ref="MDB1" pin="19"/>
     </net>
-    <net code="45" name="/SIGNAL_14">
+    <net code="45" name="/CHANNEL_14">
       <node ref="U2" pin="8"/>
       <node ref="MDB1" pin="20"/>
     </net>
@@ -1326,28 +1326,28 @@
     <net code="78" name="Net-(HPS1-Pad4)">
       <node ref="HPS1" pin="4"/>
     </net>
-    <net code="79" name="/channel_0/FAULT">
+    <net code="79" name="/output_0/FAULT">
       <node ref="HPS1" pin="2"/>
       <node ref="R1" pin="1"/>
     </net>
     <net code="80" name="Net-(HPS2-Pad4)">
       <node ref="HPS2" pin="4"/>
     </net>
-    <net code="81" name="/channel_1/FAULT">
+    <net code="81" name="/output_1/FAULT">
       <node ref="R2" pin="1"/>
       <node ref="HPS2" pin="2"/>
     </net>
     <net code="82" name="Net-(HPS3-Pad4)">
       <node ref="HPS3" pin="4"/>
     </net>
-    <net code="83" name="/channel_2/FAULT">
+    <net code="83" name="/output_2/FAULT">
       <node ref="R3" pin="1"/>
       <node ref="HPS3" pin="2"/>
     </net>
     <net code="84" name="Net-(HPS4-Pad4)">
       <node ref="HPS4" pin="4"/>
     </net>
-    <net code="85" name="/channel_3/FAULT">
+    <net code="85" name="/output_3/FAULT">
       <node ref="HPS4" pin="2"/>
       <node ref="R4" pin="1"/>
     </net>

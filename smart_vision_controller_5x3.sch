@@ -275,21 +275,21 @@ Wire Wire Line
 Wire Wire Line
 	1400 4700 1350 4700
 Text Label 1350 4000 2    60   ~ 0
-SIGNAL_0
+CHANNEL_0
 Text Label 1350 4100 2    60   ~ 0
-SIGNAL_1
+CHANNEL_1
 Text Label 1350 4200 2    60   ~ 0
-SIGNAL_2
+CHANNEL_2
 Text Label 1350 4300 2    60   ~ 0
-SIGNAL_3
+CHANNEL_3
 Text Label 1350 4400 2    60   ~ 0
-SIGNAL_4
+CHANNEL_4
 Text Label 1350 4500 2    60   ~ 0
-SIGNAL_5
+CHANNEL_5
 Text Label 1350 4600 2    60   ~ 0
-SIGNAL_6
+CHANNEL_6
 Text Label 1350 4700 2    60   ~ 0
-SIGNAL_7
+CHANNEL_7
 Wire Wire Line
 	2100 4000 2200 4000
 Wire Wire Line
@@ -299,13 +299,13 @@ Wire Wire Line
 Wire Wire Line
 	2100 4300 2200 4300
 Text Label 2200 4000 0    60   ~ 0
-S_0
+C_0
 Text Label 2200 4100 0    60   ~ 0
-S_1
+C_1
 Text Label 2200 4200 0    60   ~ 0
-S_2
+C_2
 Text Label 2200 4300 0    60   ~ 0
-S_3
+C_3
 $Comp
 L power:GND #PWR010
 U 1 1 5B6DEC45
@@ -414,7 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 4150 4000 4150
 Text Label 4000 4150 2    60   ~ 0
-CHANNEL_IR
+IR_BACKLIGHT
 $Comp
 L smart_vision_controller_5x3:M12-5_RCPT_F J2
 U 1 1 5B6F70FC
@@ -468,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 5100 4000 5100
 Text Label 4000 5100 2    60   ~ 0
-CHANNEL_VISIBLE
+VISIBLE_BACKLIGHT
 $Comp
 L smart_vision_controller_5x3:MINI_FIT_JR_02X03_M_RA P1
 U 1 1 5B802C5A
@@ -551,10 +551,10 @@ $EndComp
 $Sheet
 S 7050 700  1250 300 
 U 589EF960
-F0 "channel_0" 60
-F1 "high_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 850 60 
-F3 "CHANNEL" I R 8300 850 60 
+F0 "output_0" 60
+F1 "high_power_output.sch" 60
+F2 "CHANNEL" I L 7050 850 60 
+F3 "OUTPUT" I R 8300 850 60 
 $EndSheet
 Wire Wire Line
 	4400 6200 4400 6250
@@ -569,25 +569,25 @@ Wire Wire Line
 Wire Wire Line
 	8300 850  8350 850 
 Text Label 7000 850  2    60   ~ 0
-S_0
+C_0
 Text Label 8350 850  0    60   ~ 0
-CHANNEL_0
+FANS
 Wire Wire Line
 	1400 1200 1350 1200
 Wire Wire Line
 	1400 1600 1350 1600
 Text Label 1350 1200 2    60   ~ 0
-SIGNAL_0
+CHANNEL_0
 Text Label 1350 1600 2    60   ~ 0
-SIGNAL_1
+CHANNEL_1
 Wire Wire Line
 	1400 2900 1350 2900
 Wire Wire Line
 	1400 3000 1350 3000
 Text Label 1350 2900 2    60   ~ 0
-SIGNAL_2
+CHANNEL_2
 Text Label 1350 3000 2    60   ~ 0
-SIGNAL_3
+CHANNEL_3
 Wire Wire Line
 	4300 1200 4350 1200
 Wire Wire Line
@@ -597,61 +597,61 @@ Wire Wire Line
 Wire Wire Line
 	4300 3000 4350 3000
 Text Label 4350 3000 0    60   ~ 0
-SIGNAL_4
+CHANNEL_4
 Text Label 4350 2900 0    60   ~ 0
-SIGNAL_5
+CHANNEL_5
 Text Label 4350 1300 0    60   ~ 0
-SIGNAL_6
+CHANNEL_6
 Text Label 4350 1200 0    60   ~ 0
-SIGNAL_7
+CHANNEL_7
 $Sheet
 S 7050 1350 1250 300 
 U 5B80F89F
-F0 "channel_1" 60
-F1 "high_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 1500 60 
-F3 "CHANNEL" I R 8300 1500 60 
+F0 "output_1" 60
+F1 "high_power_output.sch" 60
+F2 "CHANNEL" I L 7050 1500 60 
+F3 "OUTPUT" I R 8300 1500 60 
 $EndSheet
 Wire Wire Line
 	7050 1500 7000 1500
 Wire Wire Line
 	8300 1500 8350 1500
 Text Label 7000 1500 2    60   ~ 0
-S_1
+C_1
 Text Label 8350 1500 0    60   ~ 0
-CHANNEL_1
+WHITE_LIGHT
 $Sheet
 S 7050 1950 1250 300 
 U 5B8112F3
-F0 "channel_2" 60
-F1 "high_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 2100 60 
-F3 "CHANNEL" I R 8300 2100 60 
+F0 "output_2" 60
+F1 "high_power_output.sch" 60
+F2 "CHANNEL" I L 7050 2100 60 
+F3 "OUTPUT" I R 8300 2100 60 
 $EndSheet
 Wire Wire Line
 	7050 2100 7000 2100
 Wire Wire Line
 	8300 2100 8350 2100
 Text Label 7000 2100 2    60   ~ 0
-S_2
+C_2
 Text Label 8350 2100 0    60   ~ 0
-CHANNEL_2
+BUZZER
 $Sheet
 S 7050 2600 1250 300 
 U 5B8112FB
-F0 "channel_3" 60
-F1 "high_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 2750 60 
-F3 "CHANNEL" I R 8300 2750 60 
+F0 "output_3" 60
+F1 "high_power_output.sch" 60
+F2 "CHANNEL" I L 7050 2750 60 
+F3 "OUTPUT" I R 8300 2750 60 
 $EndSheet
 Wire Wire Line
 	7050 2750 7000 2750
 Wire Wire Line
 	8300 2750 8350 2750
 Text Label 7000 2750 2    60   ~ 0
-S_3
+C_3
 Text Label 8350 2750 0    60   ~ 0
-CHANNEL_3
+OUTPUT_3
 $Comp
 L power:VAA #PWR026
 U 1 1 5B816DEE
@@ -696,13 +696,13 @@ Wire Wire Line
 Wire Wire Line
 	5950 2000 5850 2000
 Text Label 5850 1600 2    60   ~ 0
-CHANNEL_0
+FANS
 Text Label 5850 1500 2    60   ~ 0
-CHANNEL_2
+BUZZER
 Text Label 5850 1900 2    60   ~ 0
-CHANNEL_3
+OUTPUT_3
 Text Label 5850 2000 2    60   ~ 0
-CHANNEL_1
+WHITE_LIGHT
 $Comp
 L power:GND #PWR027
 U 1 1 5B829D65
@@ -747,13 +747,13 @@ Wire Wire Line
 Wire Wire Line
 	5950 4650 5850 4650
 Text Label 5850 4150 2    60   ~ 0
-CHANNEL_9
+WHITE_LIGHT_INDICATOR
 Text Label 5850 4250 2    60   ~ 0
-CHANNEL_11
+CAMERA_TRIGGER
 Text Label 5850 4550 2    60   ~ 0
-CHANNEL_8
+VISIBLE_LIGHT_INDICATOR
 Text Label 5850 4650 2    60   ~ 0
-CHANNEL_10
+BUZZER_INDICATOR
 $Comp
 L smart_vision_controller_5x3:SN74ABT541BDWR U2
 U 1 1 5B842894
@@ -815,9 +815,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 6700 1350 6700
 Text Label 1350 6000 2    60   ~ 0
-SIGNAL_8
+CHANNEL_8
 Text Label 1350 6100 2    60   ~ 0
-SIGNAL_9
+CHANNEL_9
 Wire Wire Line
 	2100 6000 2200 6000
 Wire Wire Line
@@ -831,17 +831,17 @@ Wire Wire Line
 Wire Wire Line
 	2100 6500 2200 6500
 Text Label 2200 6000 0    60   ~ 0
-S_8
+C_8
 Text Label 2200 6100 0    60   ~ 0
-S_9
+C_9
 Text Label 2200 6200 0    60   ~ 0
-S_10
+C_10
 Text Label 2200 6300 0    60   ~ 0
-S_11
+C_11
 Text Label 2200 6400 0    60   ~ 0
-S_IR
+C_12
 Text Label 2200 6500 0    60   ~ 0
-S_VISIBLE
+C_13
 $Comp
 L power:GND #PWR012
 U 1 1 5B8428CA
@@ -898,17 +898,17 @@ Wire Wire Line
 Wire Wire Line
 	650  6500 650  6550
 Text Label 1350 6200 2    60   ~ 0
-SIGNAL_10
+CHANNEL_10
 Text Label 1350 6300 2    60   ~ 0
-SIGNAL_11
+CHANNEL_11
 Text Label 1350 6400 2    60   ~ 0
-SIGNAL_12
+CHANNEL_12
 Text Label 1350 6500 2    60   ~ 0
-SIGNAL_13
+CHANNEL_13
 Text Label 1350 6600 2    60   ~ 0
-SIGNAL_14
+CHANNEL_14
 Text Label 1350 6700 2    60   ~ 0
-SIGNAL_15
+CHANNEL_15
 Wire Wire Line
 	4300 1400 4350 1400
 Wire Wire Line
@@ -926,21 +926,21 @@ Wire Wire Line
 Wire Wire Line
 	4300 2100 4350 2100
 Text Label 4350 1400 0    60   ~ 0
-SIGNAL_15
+CHANNEL_15
 Text Label 4350 1500 0    60   ~ 0
-SIGNAL_14
+CHANNEL_14
 Text Label 4350 1600 0    60   ~ 0
-SIGNAL_13
+CHANNEL_13
 Text Label 4350 1700 0    60   ~ 0
-SIGNAL_12
+CHANNEL_12
 Text Label 4350 1800 0    60   ~ 0
-SIGNAL_11
+CHANNEL_11
 Text Label 4350 1900 0    60   ~ 0
-SIGNAL_10
+CHANNEL_10
 Text Label 4350 2000 0    60   ~ 0
-SIGNAL_9
+CHANNEL_9
 Text Label 4350 2100 0    60   ~ 0
-SIGNAL_8
+CHANNEL_8
 NoConn ~ 2100 4400
 NoConn ~ 2100 4500
 NoConn ~ 2100 4600
@@ -950,67 +950,67 @@ NoConn ~ 2100 6700
 $Sheet
 S 7050 3250 1250 300 
 U 5B7F5357
-F0 "channel_8" 60
-F1 "low_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 3400 60 
-F3 "CHANNEL" O R 8300 3400 60 
+F0 "output_8" 60
+F1 "low_power_output.sch" 60
+F2 "CHANNEL" I L 7050 3400 60 
+F3 "OUTPUT" O R 8300 3400 60 
 $EndSheet
 Wire Wire Line
 	7050 3400 7000 3400
 Wire Wire Line
 	8300 3400 8350 3400
 Text Label 7000 3400 2    60   ~ 0
-S_8
+C_8
 Text Label 8350 3400 0    60   ~ 0
-CHANNEL_8
+VISIBLE_LIGHT_INDICATOR
 $Sheet
 S 7050 3900 1250 300 
 U 5B7F535F
-F0 "channel_9" 60
-F1 "low_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 4050 60 
-F3 "CHANNEL" O R 8300 4050 60 
+F0 "output_9" 60
+F1 "low_power_output.sch" 60
+F2 "CHANNEL" I L 7050 4050 60 
+F3 "OUTPUT" O R 8300 4050 60 
 $EndSheet
 Wire Wire Line
 	7050 4050 7000 4050
 Wire Wire Line
 	8300 4050 8350 4050
 Text Label 7000 4050 2    60   ~ 0
-S_9
+C_9
 Text Label 8350 4050 0    60   ~ 0
-CHANNEL_9
+WHITE_LIGHT_INDICATOR
 $Sheet
 S 7050 4500 1250 300 
 U 5B7F5367
-F0 "channel_10" 60
-F1 "low_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 4650 60 
-F3 "CHANNEL" O R 8300 4650 60 
+F0 "output_10" 60
+F1 "low_power_output.sch" 60
+F2 "CHANNEL" I L 7050 4650 60 
+F3 "OUTPUT" O R 8300 4650 60 
 $EndSheet
 Wire Wire Line
 	7050 4650 7000 4650
 Wire Wire Line
 	8300 4650 8350 4650
 Text Label 7000 4650 2    60   ~ 0
-S_10
+C_10
 Text Label 8350 4650 0    60   ~ 0
-CHANNEL_10
+BUZZER_INDICATOR
 $Sheet
 S 7050 5150 1250 300 
 U 5B7F536F
-F0 "channel_11" 60
-F1 "low_power_channel.sch" 60
-F2 "SIGNAL" I L 7050 5300 60 
-F3 "CHANNEL" O R 8300 5300 60 
+F0 "output_11" 60
+F1 "low_power_output.sch" 60
+F2 "CHANNEL" I L 7050 5300 60 
+F3 "OUTPUT" O R 8300 5300 60 
 $EndSheet
 Wire Wire Line
 	7050 5300 7000 5300
 Wire Wire Line
 	8300 5300 8350 5300
 Text Label 7000 5300 2    60   ~ 0
-S_11
+C_11
 Text Label 8350 5300 0    60   ~ 0
-CHANNEL_11
+CAMERA_TRIGGER
 $Comp
 L power:VAA #PWR013
 U 1 1 5B81DD55
@@ -1098,33 +1098,33 @@ Wire Wire Line
 $Sheet
 S 7050 5750 1250 300 
 U 5B84A38D
-F0 "channel_ir" 60
-F1 "backlight_channel.sch" 60
-F2 "SIGNAL" I L 7050 5900 60 
-F3 "CHANNEL" O R 8300 5900 60 
+F0 "output_ir" 60
+F1 "backlight_output.sch" 60
+F2 "CHANNEL" I L 7050 5900 60 
+F3 "OUTPUT" O R 8300 5900 60 
 $EndSheet
 Wire Wire Line
 	7050 5900 7000 5900
 Wire Wire Line
 	8300 5900 8350 5900
 Text Label 7000 5900 2    60   ~ 0
-S_IR
+C_12
 Text Label 8350 5900 0    60   ~ 0
-CHANNEL_IR
+IR_BACKLIGHT
 $Sheet
 S 7050 6350 1250 300 
 U 5B8777C4
-F0 "channel_visible" 60
-F1 "backlight_channel.sch" 60
-F2 "SIGNAL" I L 7050 6500 60 
-F3 "CHANNEL" O R 8300 6500 60 
+F0 "output_visible" 60
+F1 "backlight_output.sch" 60
+F2 "CHANNEL" I L 7050 6500 60 
+F3 "OUTPUT" O R 8300 6500 60 
 $EndSheet
 Wire Wire Line
 	7050 6500 7000 6500
 Wire Wire Line
 	8300 6500 8350 6500
 Text Label 7000 6500 2    60   ~ 0
-S_VISIBLE
+C_13
 Text Label 8350 6500 0    60   ~ 0
-CHANNEL_VISIBLE
+VISIBLE_BACKLIGHT
 $EndSCHEMATC
