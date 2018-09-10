@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/polidorop/git/kicad/smart_vision_controller_5x3/smart_vision_controller_5x3.sch</source>
+    <source>/home/polidorop/git/kicad/sleep_rig_controller_5x3/sleep_rig_controller_5x3.sch</source>
     <date>Tue 28 Aug 2018 01:05:59 PM EDT</date>
     <tool>Eeschema 6.0.0-rc1-unknown-d9d0051~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>smart_vision_controller_5x3</title>
+        <title>sleep_rig_controller_5x3</title>
         <company>Janelia</company>
         <rev>1.0</rev>
         <date/>
-        <source>smart_vision_controller_5x3.sch</source>
+        <source>sleep_rig_controller_5x3.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -151,478 +151,478 @@
   <components>
     <comp ref="MDB1">
       <value>MODULAR_DEVICE_BASE_5x3_MALE</value>
-      <footprint>smart_vision_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE</footprint>
+      <footprint>sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE</footprint>
       <fields>
         <field name="Description">25 Positions Header Breakaway Connector 0.1in</field>
         <field name="PartCount">2</field>
         <field name="PartNumber">S1011E-25-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="MODULAR_DEVICE_BASE_5x3_MALE" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="MODULAR_DEVICE_BASE_5x3_MALE" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B83C9</tstamp>
     </comp>
     <comp ref="J3">
       <value>DB9F</value>
-      <footprint>smart_vision_controller_5x3:DB9F</footprint>
+      <footprint>sleep_rig_controller_5x3:DB9F</footprint>
       <fields>
         <field name="Description"> CONN D-SUB RCPT 9POS VERT SOLDER</field>
         <field name="PartNumber">626-1052-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="DB9F" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="DB9F" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6DA342</tstamp>
     </comp>
     <comp ref="J4">
       <value>DB9M</value>
-      <footprint>smart_vision_controller_5x3:DB9M</footprint>
+      <footprint>sleep_rig_controller_5x3:DB9M</footprint>
       <fields>
         <field name="Description">CONN D-SUB PLUG 9POS VERT SOLDER</field>
         <field name="PartNumber">626-1798-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="DB9M" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="DB9M" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6DA3F3</tstamp>
     </comp>
     <comp ref="U1">
       <value>SN74ABT541BDWR</value>
-      <footprint>smart_vision_controller_5x3:SOIC_20</footprint>
+      <footprint>sleep_rig_controller_5x3:SOIC_20</footprint>
       <fields>
         <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC</field>
         <field name="PartNumber">296-14668-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="SN74ABT541BDWR" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="SN74ABT541BDWR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6DA5A5</tstamp>
     </comp>
     <comp ref="C1">
       <value>0.1uF</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="0.1uF" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6F0679</tstamp>
     </comp>
     <comp ref="J1">
       <value>M12-5_RCPT_F</value>
-      <footprint>smart_vision_controller_5x3:M12-5_RCPT_F</footprint>
+      <footprint>sleep_rig_controller_5x3:M12-5_RCPT_F</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN RCPT FMALE 5POS GOLD SOLDER</field>
         <field name="PartNumber">277-10962-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="M12-5_RCPT_F" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="sleep_rig_controller_5x3" part="M12-5_RCPT_F" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6F2CD4</tstamp>
     </comp>
     <comp ref="J2">
       <value>M12-5_RCPT_F</value>
-      <footprint>smart_vision_controller_5x3:M12-5_RCPT_F</footprint>
+      <footprint>sleep_rig_controller_5x3:M12-5_RCPT_F</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN RCPT FMALE 5POS GOLD SOLDER</field>
         <field name="PartNumber">277-10962-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="M12-5_RCPT_F" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="sleep_rig_controller_5x3" part="M12-5_RCPT_F" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6F70FC</tstamp>
     </comp>
     <comp ref="P1">
       <value>MINI_FIT_JR_02X03_M_RA</value>
-      <footprint>smart_vision_controller_5x3:MINI-FIT-JR_02X03_M_RA</footprint>
+      <footprint>sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA</footprint>
       <fields>
         <field name="Description">CONN HEADER 6POS 4.2MM R/A TIN</field>
         <field name="PartNumber">WM1353-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="MINI_FIT_JR_02X03_M_RA" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="MINI_FIT_JR_02X03_M_RA" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B802C5A</tstamp>
     </comp>
     <comp ref="D1">
       <value>diode_schottky_45V_10A</value>
-      <footprint>smart_vision_controller_5x3:CFP15</footprint>
+      <footprint>sleep_rig_controller_5x3:CFP15</footprint>
       <fields>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="diode_schottky_45V_10A" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="diode_schottky_45V_10A" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8110B6</tstamp>
     </comp>
     <comp ref="U2">
       <value>SN74ABT541BDWR</value>
-      <footprint>smart_vision_controller_5x3:SOIC_20</footprint>
+      <footprint>sleep_rig_controller_5x3:SOIC_20</footprint>
       <fields>
         <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC</field>
         <field name="PartNumber">296-14668-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="SN74ABT541BDWR" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="SN74ABT541BDWR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B842894</tstamp>
     </comp>
     <comp ref="C2">
       <value>0.1uF</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="0.1uF" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8428D5</tstamp>
     </comp>
     <comp ref="P2">
       <value>PWR_JACK_2.5x5.5</value>
-      <footprint>smart_vision_controller_5x3:DCJACK_2PIN_HIGHCURRENT</footprint>
+      <footprint>sleep_rig_controller_5x3:DCJACK_2PIN_HIGHCURRENT</footprint>
       <fields>
         <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
         <field name="PartNumber">CP-063BH-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="PWR_JACK_2.5x5.5" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="PWR_JACK_2.5x5.5" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B84A460</tstamp>
     </comp>
     <comp ref="L1">
       <value>LED_24V_RED</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_R</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_R</footprint>
       <fields>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
         <field name="PartNumber">350-1723-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_24V_RED" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_24V_RED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B862B18</tstamp>
     </comp>
     <comp ref="HPS1">
       <value>BTS3256</value>
-      <footprint>smart_vision_controller_5x3:PG-TO252-5-11</footprint>
+      <footprint>sleep_rig_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
         <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
         <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R1">
       <value>5.9k</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P5.90KAACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="5.9k" description=""/>
       <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="0.1uF" description=""/>
       <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L2">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_0/" tstamps="/589EF960/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS2">
       <value>BTS3256</value>
-      <footprint>smart_vision_controller_5x3:PG-TO252-5-11</footprint>
+      <footprint>sleep_rig_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
         <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
         <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R2">
       <value>5.9k</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P5.90KAACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="5.9k" description=""/>
       <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="0.1uF" description=""/>
       <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L3">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_1/" tstamps="/5B80F89F/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS3">
       <value>BTS3256</value>
-      <footprint>smart_vision_controller_5x3:PG-TO252-5-11</footprint>
+      <footprint>sleep_rig_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
         <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
         <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R3">
       <value>5.9k</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P5.90KAACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="5.9k" description=""/>
       <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C5">
       <value>0.1uF</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="0.1uF" description=""/>
       <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L4">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_2/" tstamps="/5B8112F3/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS4">
       <value>BTS3256</value>
-      <footprint>smart_vision_controller_5x3:PG-TO252-5-11</footprint>
+      <footprint>sleep_rig_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
         <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
         <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="BTS3256" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R4">
       <value>5.9k</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P5.90KAACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="5.9k" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="5.9k" description=""/>
       <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="0.1uF" description=""/>
       <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L5">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_3/" tstamps="/5B8112FB/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="R5">
       <value>35.7</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 35.7 OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P35.7AACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="35.7" description=""/>
       <sheetpath names="/output_8/" tstamps="/5B7F5357/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L6">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_8/" tstamps="/5B7F5357/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R6">
       <value>35.7</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 35.7 OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P35.7AACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="35.7" description=""/>
       <sheetpath names="/output_9/" tstamps="/5B7F535F/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L7">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_9/" tstamps="/5B7F535F/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R7">
       <value>35.7</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 35.7 OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P35.7AACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="35.7" description=""/>
       <sheetpath names="/output_10/" tstamps="/5B7F5367/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L8">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_10/" tstamps="/5B7F5367/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R8">
       <value>35.7</value>
-      <footprint>smart_vision_controller_5x3:SM1210</footprint>
+      <footprint>sleep_rig_controller_5x3:SM1210</footprint>
       <fields>
         <field name="Description">RES SMD 35.7 OHM 1% 1/2W 1210</field>
         <field name="PartNumber">P35.7AACT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="35.7" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="35.7" description=""/>
       <sheetpath names="/output_11/" tstamps="/5B7F536F/"/>
       <tstamp>5B80C1E1</tstamp>
     </comp>
     <comp ref="L9">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_11/" tstamps="/5B7F536F/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="L10">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_ir/" tstamps="/5B84A38D/"/>
       <tstamp>5B8B52AE</tstamp>
     </comp>
     <comp ref="L11">
       <value>LED_5V_GRN</value>
-      <footprint>smart_vision_controller_5x3:LED_555-3XXX_G</footprint>
+      <footprint>sleep_rig_controller_5x3:LED_555-3XXX_G</footprint>
       <fields>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="smart_vision_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="sleep_rig_controller_5x3" part="LED_5V_GRN" description=""/>
       <sheetpath names="/output_visible/" tstamps="/5B8777C4/"/>
       <tstamp>5B8B52AE</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="smart_vision_controller_5x3" part="0.1uF">
+    <libpart lib="sleep_rig_controller_5x3" part="0.1uF">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -631,7 +631,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">0.1uF</field>
-        <field name="Footprint">smart_vision_controller_5x3:SM1210</field>
+        <field name="Footprint">sleep_rig_controller_5x3:SM1210</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
@@ -641,7 +641,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="35.7">
+    <libpart lib="sleep_rig_controller_5x3" part="35.7">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -652,7 +652,7 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">35.7</field>
-        <field name="Footprint">smart_vision_controller_5x3:SM1210</field>
+        <field name="Footprint">sleep_rig_controller_5x3:SM1210</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">P35.7AACT-ND</field>
         <field name="Description">RES SMD 35.7 OHM 1% 1/2W 1210</field>
@@ -662,7 +662,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="5.9k">
+    <libpart lib="sleep_rig_controller_5x3" part="5.9k">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -673,7 +673,7 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">5.9k</field>
-        <field name="Footprint">smart_vision_controller_5x3:SM1210</field>
+        <field name="Footprint">sleep_rig_controller_5x3:SM1210</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">P5.90KAACT-ND</field>
         <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
@@ -683,11 +683,11 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="BTS3256">
+    <libpart lib="sleep_rig_controller_5x3" part="BTS3256">
       <fields>
         <field name="Reference">HPS</field>
         <field name="Value">BTS3256</field>
-        <field name="Footprint">smart_vision_controller_5x3:PG-TO252-5-11</field>
+        <field name="Footprint">sleep_rig_controller_5x3:PG-TO252-5-11</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
         <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
@@ -700,14 +700,14 @@
         <pin num="6" name="DRAIN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="DB9F">
+    <libpart lib="sleep_rig_controller_5x3" part="DB9F">
       <footprints>
         <fp>DB*M*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">DB9F</field>
-        <field name="Footprint">smart_vision_controller_5x3:DB9F</field>
+        <field name="Footprint">sleep_rig_controller_5x3:DB9F</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">626-1052-ND</field>
         <field name="Description"> CONN D-SUB RCPT 9POS VERT SOLDER</field>
@@ -724,14 +724,14 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="DB9M">
+    <libpart lib="sleep_rig_controller_5x3" part="DB9M">
       <footprints>
         <fp>DB*M*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">DB9M</field>
-        <field name="Footprint">smart_vision_controller_5x3:DB9M</field>
+        <field name="Footprint">sleep_rig_controller_5x3:DB9M</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">626-1798-ND</field>
         <field name="Description">CONN D-SUB PLUG 9POS VERT SOLDER</field>
@@ -748,7 +748,7 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="LED_24V_RED">
+    <libpart lib="sleep_rig_controller_5x3" part="LED_24V_RED">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -761,7 +761,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LED_24V_RED</field>
-        <field name="Footprint">smart_vision_controller_5x3:LED_555-3XXX_R</field>
+        <field name="Footprint">sleep_rig_controller_5x3:LED_555-3XXX_R</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
@@ -771,7 +771,7 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="LED_5V_GRN">
+    <libpart lib="sleep_rig_controller_5x3" part="LED_5V_GRN">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -784,7 +784,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LED_5V_GRN</field>
-        <field name="Footprint">smart_vision_controller_5x3:LED_555-3XXX_G</field>
+        <field name="Footprint">sleep_rig_controller_5x3:LED_555-3XXX_G</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">350-1726-ND</field>
         <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
@@ -794,7 +794,7 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="M12-5_RCPT_F">
+    <libpart lib="sleep_rig_controller_5x3" part="M12-5_RCPT_F">
       <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -803,7 +803,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">M12-5_RCPT_F</field>
-        <field name="Footprint">smart_vision_controller_5x3:M12-5_RCPT_F</field>
+        <field name="Footprint">sleep_rig_controller_5x3:M12-5_RCPT_F</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">277-10962-ND</field>
         <field name="Description">CONN RCPT FMALE 5POS GOLD SOLDER</field>
@@ -816,7 +816,7 @@
         <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="MINI_FIT_JR_02X03_M_RA">
+    <libpart lib="sleep_rig_controller_5x3" part="MINI_FIT_JR_02X03_M_RA">
       <footprints>
         <fp>Pin_Header_Straight_2X05</fp>
         <fp>Pin_Header_Angled_2X05</fp>
@@ -826,7 +826,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">MINI_FIT_JR_02X03_M_RA</field>
-        <field name="Footprint">smart_vision_controller_5x3:MINI-FIT-JR_02X03_M_RA</field>
+        <field name="Footprint">sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">WM1353-ND</field>
         <field name="Description">CONN HEADER 6POS 4.2MM R/A TIN</field>
@@ -840,11 +840,11 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="MODULAR_DEVICE_BASE_5x3_MALE">
+    <libpart lib="sleep_rig_controller_5x3" part="MODULAR_DEVICE_BASE_5x3_MALE">
       <fields>
         <field name="Reference">MDB</field>
         <field name="Value">MODULAR_DEVICE_BASE_5x3_MALE</field>
-        <field name="Footprint">smart_vision_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE</field>
+        <field name="Footprint">sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S1011E-25-ND</field>
         <field name="Description">25 Positions Header Breakaway Connector 0.1in</field>
@@ -903,7 +903,7 @@
         <pin num="VEE" name="VEE_(+4-5VDC)" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="PWR_JACK_2.5x5.5">
+    <libpart lib="sleep_rig_controller_5x3" part="PWR_JACK_2.5x5.5">
       <footprints>
         <fp>Pin_Header_Straight_1X02</fp>
         <fp>Pin_Header_Angled_1X02</fp>
@@ -913,7 +913,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">PWR_JACK_2.5x5.5</field>
-        <field name="Footprint">smart_vision_controller_5x3:DCJACK_2PIN_HIGHCURRENT</field>
+        <field name="Footprint">sleep_rig_controller_5x3:DCJACK_2PIN_HIGHCURRENT</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">CP-063BH-ND</field>
         <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
@@ -923,11 +923,11 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="SN74ABT541BDWR">
+    <libpart lib="sleep_rig_controller_5x3" part="SN74ABT541BDWR">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74ABT541BDWR</field>
-        <field name="Footprint">smart_vision_controller_5x3:SOIC_20</field>
+        <field name="Footprint">sleep_rig_controller_5x3:SOIC_20</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">296-14668-1-ND</field>
         <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC</field>
@@ -955,7 +955,7 @@
         <pin num="20" name="Vcc" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="smart_vision_controller_5x3" part="diode_schottky_45V_10A">
+    <libpart lib="sleep_rig_controller_5x3" part="diode_schottky_45V_10A">
       <footprints>
         <fp>Diode_*</fp>
         <fp>D-Pak_TO252AA</fp>
@@ -966,7 +966,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">diode_schottky_45V_10A</field>
-        <field name="Footprint">smart_vision_controller_5x3:CFP15</field>
+        <field name="Footprint">sleep_rig_controller_5x3:CFP15</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
@@ -978,8 +978,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="smart_vision_controller_5x3">
-      <uri>/home/polidorop/git/kicad/smart_vision_controller_5x3/smart_vision_controller_5x3.lib</uri>
+    <library logical="sleep_rig_controller_5x3">
+      <uri>/home/polidorop/git/kicad/sleep_rig_controller_5x3/sleep_rig_controller_5x3.lib</uri>
     </library>
   </libraries>
   <nets>

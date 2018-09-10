@@ -1,9 +1,9 @@
 * Header                                                           :noexport:
 
-  #+MACRO: name smart_vision_controller_5x3
+  #+MACRO: name sleep_rig_controller_5x3
   #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
-  #+MACRO: url https://github.com/janelia-kicad/smart_vision_controller_5x3
+  #+MACRO: url https://github.com/janelia-kicad/sleep_rig_controller_5x3
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 

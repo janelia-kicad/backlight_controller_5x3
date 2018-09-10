@@ -2,10 +2,10 @@
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
-- Name :: smart_vision_controller_5x3
+- Name :: sleep_rig_controller_5x3
 - Version :: 1.0
 - License :: Open-Source Hardware
-- URL :: https://github.com/janelia-kicad/smart_vision_controller_5x3
+- URL :: https://github.com/janelia-kicad/sleep_rig_controller_5x3
 - Author :: Peter Polidoro
 - Email :: peterpolidoro@gmail.com
 
@@ -17,7 +17,7 @@ This...
 
 * Schematic
 
-[[file:./schematic/smart_vision_controller_5x3.pdf][./schematic/smart_vision_controller_5x3.pdf]]
+[[file:./schematic/sleep_rig_controller_5x3.pdf][./schematic/sleep_rig_controller_5x3.pdf]]
 
 [[file:./schematic/images/schematic00.png]]
 
@@ -45,7 +45,7 @@ This...
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./gerbers/smart_vision_controller_5x3_v1.0.zip][./gerbers/smart_vision_controller_5x3_v1.0.zip]]
+[[file:./gerbers/sleep_rig_controller_5x3_v1.0.zip][./gerbers/sleep_rig_controller_5x3_v1.0.zip]]
 
 [[file:./gerbers/images/gerbers00.png]]
 

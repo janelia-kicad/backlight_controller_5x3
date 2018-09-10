@@ -25,7 +25,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=smart_vision_controller_5x3.net
+LastNetListRead=sleep_rig_controller_5x3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
