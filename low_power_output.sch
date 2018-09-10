@@ -23,24 +23,24 @@ $Comp
 L power:GND #PWR?
 U 1 1 5B82A8CE
 P 3600 2400
-AR Path="/589EF960/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F339C/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F3C2D/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F3C35/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F446A/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F4472/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F447A/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/589F4482/5B82A8CE" Ref="#PWR?"  Part="1"
-AR Path="/5B7F5357/5B82A8CE" Ref="#PWR048"  Part="1"
-AR Path="/5B7F535F/5B82A8CE" Ref="#PWR049"  Part="1"
-AR Path="/5B7F5367/5B82A8CE" Ref="#PWR050"  Part="1"
-AR Path="/5B7F536F/5B82A8CE" Ref="#PWR051"  Part="1"
+AR Path="/589EF960/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F339C/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F3C2D/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F3C35/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F446A/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F4472/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F447A/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/589F4482/5B82A8CE" Ref="#PWR?"  Part="1" 
+AR Path="/5B7F5357/5B82A8CE" Ref="#PWR048"  Part="1" 
+AR Path="/5B7F535F/5B82A8CE" Ref="#PWR049"  Part="1" 
+AR Path="/5B7F5367/5B82A8CE" Ref="#PWR050"  Part="1" 
+AR Path="/5B7F536F/5B82A8CE" Ref="#PWR051"  Part="1" 
 F 0 "#PWR051" H 600 -100 50  0001 C CNN
 F 1 "GND" H 3605 2227 50  0000 C CNN
 F 2 "" H 600 150 50  0001 C CNN
 F 3 "" H 600 150 50  0001 C CNN
 	1    3600 2400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 1950 3600 1850
@@ -68,10 +68,10 @@ $Comp
 L sleep_rig_controller_5x3:35.7 R5
 U 1 1 5B80C1E1
 P 4550 2100
-AR Path="/5B7F5357/5B80C1E1" Ref="R5"  Part="1"
-AR Path="/5B7F535F/5B80C1E1" Ref="R6"  Part="1"
-AR Path="/5B7F5367/5B80C1E1" Ref="R7"  Part="1"
-AR Path="/5B7F536F/5B80C1E1" Ref="R8"  Part="1"
+AR Path="/5B7F5357/5B80C1E1" Ref="R5"  Part="1" 
+AR Path="/5B7F535F/5B80C1E1" Ref="R6"  Part="1" 
+AR Path="/5B7F5367/5B80C1E1" Ref="R7"  Part="1" 
+AR Path="/5B7F536F/5B80C1E1" Ref="R8"  Part="1" 
 F 0 "R8" V 4450 2100 40  0000 C CNN
 F 1 "35.7" V 4550 2100 40  0000 C CNN
 F 2 "sleep_rig_controller_5x3:SM1210" V 4480 2100 30  0001 C CNN
@@ -80,16 +80,16 @@ F 4 "digikey" V 4730 2200 60  0001 C CNN "Vendor"
 F 5 "P35.7AACT-ND" V 4830 2300 60  0001 C CNN "PartNumber"
 F 6 "RES SMD 35.7 OHM 1% 1/2W 1210" V 4930 2400 60  0001 C CNN "Description"
 	1    4550 2100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L sleep_rig_controller_5x3:LED_5V_GRN L6
 U 1 1 5B8B5179
 P 3600 2150
-AR Path="/5B7F5357/5B8B5179" Ref="L6"  Part="1"
-AR Path="/5B7F535F/5B8B5179" Ref="L7"  Part="1"
-AR Path="/5B7F5367/5B8B5179" Ref="L8"  Part="1"
-AR Path="/5B7F536F/5B8B5179" Ref="L9"  Part="1"
+AR Path="/5B7F5357/5B8B5179" Ref="L6"  Part="1" 
+AR Path="/5B7F535F/5B8B5179" Ref="L7"  Part="1" 
+AR Path="/5B7F5367/5B8B5179" Ref="L8"  Part="1" 
+AR Path="/5B7F536F/5B8B5179" Ref="L9"  Part="1" 
 F 0 "L9" V 3554 2228 50  0000 L CNN
 F 1 "LED_5V_GRN" V 3645 2228 50  0000 L CNN
 F 2 "sleep_rig_controller_5x3:LED_555-3XXX_G" H 3500 2150 60  0001 C CNN
@@ -98,6 +98,6 @@ F 4 "digikey" H 3700 2350 60  0001 C CNN "Vendor"
 F 5 "350-1726-ND" H 3800 2450 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 5V VERTICAL GREEN PC MNT" H 3900 2550 60  0001 C CNN "Description"
 	1    3600 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
