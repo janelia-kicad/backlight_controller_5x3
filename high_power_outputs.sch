@@ -27,7 +27,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 2500 6050 2500
 Text Label 6050 2500 0    60   ~ 0
-FANS
+OUTPUT_0
 $Sheet
 S 4750 3000 1250 300 
 U 5B99F37A
@@ -41,7 +41,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3150 6050 3150
 Text Label 6050 3150 0    60   ~ 0
-WHITE_LIGHT
+OUTPUT_1
 $Sheet
 S 4750 3600 1250 300 
 U 5B99F382
@@ -55,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 6050 3750
 Text Label 6050 3750 0    60   ~ 0
-BUZZER
+OUTPUT_2
 $Sheet
 S 4750 4250 1250 300 
 U 5B99F38A
@@ -116,13 +116,13 @@ Wire Wire Line
 Wire Wire Line
 	7800 3700 7700 3700
 Text Label 7700 3300 2    60   ~ 0
-FANS
+OUTPUT_0
 Text Label 7700 3200 2    60   ~ 0
-BUZZER
+OUTPUT_2
 Text Label 7700 3600 2    60   ~ 0
 OUTPUT_3
 Text Label 7700 3700 2    60   ~ 0
-WHITE_LIGHT
+OUTPUT_1
 Text HLabel 4700 2500 0    60   Input ~ 0
 channel_0
 Text HLabel 4700 3150 0    60   Input ~ 0
