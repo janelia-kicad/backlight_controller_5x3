@@ -521,36 +521,6 @@
     (net /~ENABLE
       (pins MDB1-52 U1-1 U2-1)
     )
-    (net /C_12
-      (pins U2-14 J7-4 L14-1)
-    )
-    (net /C_13
-      (pins U2-13 J8-4 L15-1)
-    )
-    (net /C_0
-      (pins R1-2 U1-18 L2-1)
-    )
-    (net /C_1
-      (pins R2-2 U1-17 L3-1)
-    )
-    (net /C_2
-      (pins R3-2 U1-16 L4-1)
-    )
-    (net /C_3
-      (pins R4-2 U1-15 L5-1)
-    )
-    (net /C_8
-      (pins U2-18 L10-1 J3-4)
-    )
-    (net /C_9
-      (pins U2-17 L11-1 J4-4)
-    )
-    (net /C_10
-      (pins U2-16 J5-4 L12-1)
-    )
-    (net /C_11
-      (pins U2-15 J6-4 L13-1)
-    )
     (net /CHANNEL_4
       (pins MDB1-35 U1-6)
     )
@@ -575,59 +545,89 @@
     (net /CHANNEL_12
       (pins MDB1-18 U2-6)
     )
-    (net /high_power_outputs/OUTPUT_3
-      (pins HPS4-6 J1-8)
-    )
-    (net /C_14
-      (pins U2-12 J9-4 L16-1)
-    )
-    (net /C_15
-      (pins U2-11 J10-4 L17-1)
-    )
-    (net /C_4
-      (pins R5-2 U1-14 L6-1)
-    )
-    (net /C_5
-      (pins R6-2 U1-13 L7-1)
-    )
-    (net /C_6
-      (pins R7-2 U1-12 L8-1)
-    )
-    (net /C_7
-      (pins R8-2 U1-11 L9-1)
-    )
-    (net /high_power_outputs/OUTPUT_0
+    (net /backlight_5x3/high_power_outputs/OUTPUT_0
       (pins HPS1-6 J1-2)
     )
-    (net /high_power_outputs/OUTPUT_1
-      (pins HPS2-6 J1-4)
-    )
-    (net /high_power_outputs/OUTPUT_2
-      (pins HPS3-6 J1-6)
-    )
-    (net /low_power_outputs/OUTPUT_3
-      (pins R8-1 J2-8)
-    )
-    (net /low_power_outputs/OUTPUT_2
-      (pins R7-1 J2-6)
-    )
-    (net /low_power_outputs/OUTPUT_1
-      (pins R6-1 J2-4)
-    )
-    (net /low_power_outputs/OUTPUT_0
-      (pins R5-1 J2-2)
-    )
-    (net /high_power_outputs/high_power_output_0/FAULT
+    (net /backlight_5x3/high_power_outputs/high_power_output_0/FAULT
       (pins HPS1-2 R1-1)
     )
-    (net /high_power_outputs/high_power_output_1/FAULT
+    (net /backlight_5x3/high_power_outputs/OUTPUT_1
+      (pins HPS2-6 J1-4)
+    )
+    (net /backlight_5x3/high_power_outputs/high_power_output_1/FAULT
       (pins HPS2-2 R2-1)
     )
-    (net /high_power_outputs/high_power_output_2/FAULT
+    (net /backlight_5x3/high_power_outputs/OUTPUT_2
+      (pins HPS3-6 J1-6)
+    )
+    (net /backlight_5x3/high_power_outputs/high_power_output_2/FAULT
       (pins HPS3-2 R3-1)
     )
-    (net /high_power_outputs/high_power_output_3/FAULT
+    (net /backlight_5x3/high_power_outputs/OUTPUT_3
+      (pins HPS4-6 J1-8)
+    )
+    (net /backlight_5x3/high_power_outputs/high_power_output_3/FAULT
       (pins HPS4-2 R4-1)
+    )
+    (net /backlight_5x3/low_power_outputs/OUTPUT_3
+      (pins R8-1 J2-8)
+    )
+    (net /backlight_5x3/low_power_outputs/OUTPUT_2
+      (pins R7-1 J2-6)
+    )
+    (net /backlight_5x3/low_power_outputs/OUTPUT_1
+      (pins R6-1 J2-4)
+    )
+    (net /backlight_5x3/low_power_outputs/OUTPUT_0
+      (pins R5-1 J2-2)
+    )
+    (net /backlight_5x3/C_8
+      (pins U2-18 L10-1 J3-4)
+    )
+    (net /backlight_5x3/C_9
+      (pins U2-17 L11-1 J4-4)
+    )
+    (net /backlight_5x3/C_10
+      (pins U2-16 J5-4 L12-1)
+    )
+    (net /backlight_5x3/C_11
+      (pins U2-15 J6-4 L13-1)
+    )
+    (net /backlight_5x3/C_12
+      (pins U2-14 J7-4 L14-1)
+    )
+    (net /backlight_5x3/C_13
+      (pins U2-13 J8-4 L15-1)
+    )
+    (net /backlight_5x3/C_14
+      (pins U2-12 J9-4 L16-1)
+    )
+    (net /backlight_5x3/C_15
+      (pins U2-11 J10-4 L17-1)
+    )
+    (net /backlight_5x3/C_0
+      (pins R1-2 U1-18 L2-1)
+    )
+    (net /backlight_5x3/C_1
+      (pins R2-2 U1-17 L3-1)
+    )
+    (net /backlight_5x3/C_2
+      (pins R3-2 U1-16 L4-1)
+    )
+    (net /backlight_5x3/C_3
+      (pins R4-2 U1-15 L5-1)
+    )
+    (net /backlight_5x3/C_4
+      (pins R5-2 U1-14 L6-1)
+    )
+    (net /backlight_5x3/C_5
+      (pins R6-2 U1-13 L7-1)
+    )
+    (net /backlight_5x3/C_6
+      (pins R7-2 U1-12 L8-1)
+    )
+    (net /backlight_5x3/C_7
+      (pins R8-2 U1-11 L9-1)
     )
     (class kicad_default ""
       (circuit
@@ -647,8 +647,8 @@
         (clearance 101.7)
       )
     )
-    (class LEDPOWER /low_power_outputs/OUTPUT_0 /low_power_outputs/OUTPUT_1
-      /low_power_outputs/OUTPUT_2 /low_power_outputs/OUTPUT_3
+    (class LEDPOWER /backlight_5x3/low_power_outputs/OUTPUT_0 /backlight_5x3/low_power_outputs/OUTPUT_1
+      /backlight_5x3/low_power_outputs/OUTPUT_2 /backlight_5x3/low_power_outputs/OUTPUT_3
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -668,11 +668,13 @@
     )
     (class SIGNAL /CHANNEL_0 /CHANNEL_1 /CHANNEL_10 /CHANNEL_11 /CHANNEL_12
       /CHANNEL_13 /CHANNEL_14 /CHANNEL_15 /CHANNEL_2 /CHANNEL_3 /CHANNEL_4
-      /CHANNEL_5 /CHANNEL_6 /CHANNEL_7 /CHANNEL_8 /CHANNEL_9 /C_0 /C_1 /C_10
-      /C_11 /C_12 /C_13 /C_14 /C_15 /C_2 /C_3 /C_4 /C_5 /C_6 /C_7 /C_8 /C_9
-      /high_power_outputs/high_power_output_0/FAULT /high_power_outputs/high_power_output_1/FAULT
-      /high_power_outputs/high_power_output_2/FAULT /high_power_outputs/high_power_output_3/FAULT
-      /~ENABLE
+      /CHANNEL_5 /CHANNEL_6 /CHANNEL_7 /CHANNEL_8 /CHANNEL_9 /backlight_5x3/C_0
+      /backlight_5x3/C_1 /backlight_5x3/C_10 /backlight_5x3/C_11 /backlight_5x3/C_12
+      /backlight_5x3/C_13 /backlight_5x3/C_14 /backlight_5x3/C_15 /backlight_5x3/C_2
+      /backlight_5x3/C_3 /backlight_5x3/C_4 /backlight_5x3/C_5 /backlight_5x3/C_6
+      /backlight_5x3/C_7 /backlight_5x3/C_8 /backlight_5x3/C_9 /backlight_5x3/high_power_outputs/high_power_output_0/FAULT
+      /backlight_5x3/high_power_outputs/high_power_output_1/FAULT /backlight_5x3/high_power_outputs/high_power_output_2/FAULT
+      /backlight_5x3/high_power_outputs/high_power_output_3/FAULT /~ENABLE
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -681,8 +683,9 @@
         (clearance 101.7)
       )
     )
-    (class SUPERPOWER /high_power_outputs/OUTPUT_0 /high_power_outputs/OUTPUT_1
-      /high_power_outputs/OUTPUT_2 /high_power_outputs/OUTPUT_3 VAA
+    (class SUPERPOWER /backlight_5x3/high_power_outputs/OUTPUT_0 /backlight_5x3/high_power_outputs/OUTPUT_1
+      /backlight_5x3/high_power_outputs/OUTPUT_2 /backlight_5x3/high_power_outputs/OUTPUT_3
+      VAA
       (circuit
         (use_via Via[0-1]_1625.6:1117.6_um)
       )

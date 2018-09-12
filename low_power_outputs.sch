@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:backlight_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -18,8 +19,9 @@ L power:GND #PWR?
 U 1 1 5B9B87CB
 P 8050 3950
 AR Path="/5B9B87CB" Ref="#PWR?"  Part="1" 
-AR Path="/5B9B1B37/5B9B87CB" Ref="#PWR041"  Part="1" 
-F 0 "#PWR?" H 8050 3700 50  0001 C CNN
+AR Path="/5B9B1B37/5B9B87CB" Ref="#PWR?"  Part="1" 
+AR Path="/5B99EA03/5B9A0F86/5B9B87CB" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 8050 3700 50  0001 C CNN
 F 1 "GND" H 8050 3800 50  0000 C CNN
 F 2 "" H 8050 3950 50  0001 C CNN
 F 3 "" H 8050 3950 50  0001 C CNN
@@ -131,10 +133,10 @@ channel_2
 Text HLabel 4250 4500 0    60   Input ~ 0
 channel_3
 $Comp
-L backlight_controller_5x3:DB9M_SMD J?
+L backlight_controller_5x3:DB9M_SMD J2
 U 1 1 5B9A7195
 P 8400 3500
-F 0 "J?" H 8579 3546 50  0000 L CNN
+F 0 "J2" H 8579 3546 50  0000 L CNN
 F 1 "DB9M_SMD" H 8579 3455 50  0000 L CNN
 F 2 "footprints:DB9M_SMD" H 8400 3500 50  0001 C CNN
 F 3 "" H 8400 3500 50  0001 C CNN
