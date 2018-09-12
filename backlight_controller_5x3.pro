@@ -1,4 +1,4 @@
-update=Mon 27 Aug 2018 04:25:22 PM EDT
+update=Wed 12 Sep 2018 04:43:18 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -56,7 +56,8 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgesAndCourtyardsLineWidth=0.2286
+EdgeCutLineWidth=0.2286
+CourtyardLineWidth=0.05
 OthersLineWidth=0.381
 OthersTextSizeV=1
 OthersTextSizeH=1
@@ -64,7 +65,7 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
-SolderMaskMinWidth=0
+SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Netclasses]

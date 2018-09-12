@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "6.0.0-rc1-unknown-7c11d03~66~ubuntu18.04.1")
+    (host_version "6.0.0-rc1-unknown-4a57541~66~ubuntu18.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -34,67 +34,78 @@
   )
   (placement
     (component backlight_controller_5x3:SM1210
-      (place R8 133350 -111125 back 180 (PN 35.7))
-      (place C1 111760 -113665 back 180 (PN 0.1uF))
-      (place C2 143510 -113665 back 180 (PN 0.1uF))
-      (place C3 77470 -86360 back 270 (PN 0.1uF))
-      (place C4 77470 -99060 back 270 (PN 0.1uF))
-      (place C5 77470 -111760 back 270 (PN 0.1uF))
-      (place C6 77470 -124460 back 270 (PN 0.1uF))
-      (place R1 73025 -85725 back 0 (PN 5.9k))
-      (place R2 73025 -99060 back 0 (PN 5.9k))
-      (place R3 73025 -111760 back 0 (PN 5.9k))
-      (place R4 73025 -124460 back 0 (PN 5.9k))
-      (place R5 133350 -99695 back 180 (PN 35.7))
-      (place R6 133350 -103505 back 180 (PN 35.7))
-      (place R7 133350 -107315 back 180 (PN 35.7))
-    )
-    (component backlight_controller_5x3:DCJACK_2PIN_HIGHCURRENT
-      (place P2 190500 -118110 front 270 (PN PWR_JACK_2.5x5.5))
+      (place R8 113665 -111125 back 180 (PN 140))
+      (place C1 130810 -114300 back 180 (PN 0.1uF))
+      (place C2 156210 -97155 back 0 (PN 0.1uF))
+      (place C3 96520 -87630 back 90 (PN 0.1uF))
+      (place C4 96520 -96520 back 90 (PN 0.1uF))
+      (place C5 96520 -105410 back 90 (PN 0.1uF))
+      (place C6 96520 -114300 back 90 (PN 0.1uF))
+      (place R1 100965 -87630 back 180 (PN 5.9k))
+      (place R2 100965 -96520 back 180 (PN 5.9k))
+      (place R3 100965 -105410 back 180 (PN 5.9k))
+      (place R4 100965 -114300 back 180 (PN 5.9k))
+      (place R5 113665 -99695 back 180 (PN 140))
+      (place R6 113665 -103505 back 180 (PN 140))
+      (place R7 113665 -107315 back 180 (PN 140))
     )
     (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
-      (place P1 187960 -92710 front 90 (PN MINI_FIT_JR_02X03_M_RA))
+      (place P1 187960 -105410 front 90 (PN MINI_FIT_JR_02X03_M_RA))
     )
     (component backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
       (place MDB1 91440 -105410 front 0 (PN MODULAR_DEVICE_BASE_5x3_MALE))
     )
     (component backlight_controller_5x3:CFP15
-      (place D1 81915 -79375 back 270 (PN diode_schottky_45V_10A))
+      (place D1 73660 -88650 back 180 (PN diode_schottky_45V_10A))
     )
     (component "backlight_controller_5x3:PG-TO252-5-11"
-      (place HPS1 80645 -86360 back 270 (PN BTS3256))
-      (place HPS2 80645 -99060 back 270 (PN BTS3256))
-      (place HPS3 80645 -111760 back 270 (PN BTS3256))
-      (place HPS4 80645 -124460 back 270 (PN BTS3256))
-    )
-    (component backlight_controller_5x3:DB9F
-      (place J3 120650 -92710 front 0 (PN DB9F))
-    )
-    (component backlight_controller_5x3:DB9M
-      (place J4 120650 -118110 front 0 (PN DB9M))
-    )
-    (component "backlight_controller_5x3:M12-5_RCPT_F"
-      (place J1 152400 -92710 front 0 (PN "M12-5_RCPT_F"))
-      (place J2 152400 -118110 front 0 (PN "M12-5_RCPT_F"))
+      (place HPS1 93345 -87630 back 90 (PN BTS3256))
+      (place HPS2 93345 -96520 back 90 (PN BTS3256))
+      (place HPS3 93345 -105410 back 90 (PN BTS3256))
+      (place HPS4 93345 -114300 back 90 (PN BTS3256))
     )
     (component backlight_controller_5x3:SOIC_20
-      (place U1 111760 -105410 back 0 (PN SN74ABT541BDWR))
-      (place U2 143510 -105410 back 0 (PN SN74ABT541BDWR))
+      (place U1 130556 -105664 back 0 (PN SN74ABT541BDWR))
+      (place U2 156210 -105410 back 180 (PN SN74ABT541BDWR))
     )
     (component "backlight_controller_5x3:LED_555-3XXX_R"
-      (place L1 166370 -105410 front 0 (PN LED_24V_RED))
-      (place L3 95885 -86995 front 0 (PN LED_5V_GRN))
-      (place L5 100965 -86995 front 0 (PN LED_5V_GRN))
-      (place L8 98425 -123825 front 0 (PN LED_5V_GRN))
-      (place L9 100965 -123825 front 0 (PN LED_5V_GRN))
-      (place L10 141605 -86995 front 0 (PN LED_5V_GRN))
+      (place L1 189230 -116205 front 0 (PN LED_24V_RED))
+      (place L3 81280 -125730 front 0 (PN LED_5V_GRN))
+      (place L5 86360 -125730 front 0 (PN LED_5V_GRN))
+      (place L8 104140 -125730 front 0 (PN LED_5V_GRN))
+      (place L9 106680 -125730 front 0 (PN LED_5V_GRN))
+      (place L10 121285 -78740 front 90 (PN LED_5V_GRN))
+      (place L13 140335 -132080 front 90 (PN LED_5V_GRN))
+      (place L15 159385 -132080 front 90 (PN LED_5V_GRN))
+      (place L17 178435 -132080 front 90 (PN LED_5V_GRN))
     )
     (component "backlight_controller_5x3:LED_555-3XXX_G"
-      (place L2 93345 -86995 front 0 (PN LED_5V_GRN))
-      (place L4 98425 -86995 front 0 (PN LED_5V_GRN))
-      (place L6 93345 -123825 front 0 (PN LED_5V_GRN))
-      (place L7 95885 -123825 front 0 (PN LED_5V_GRN))
-      (place L11 141605 -123825 front 0 (PN LED_5V_GRN))
+      (place L2 78740 -125730 front 0 (PN LED_5V_GRN))
+      (place L4 83820 -125730 front 0 (PN LED_5V_GRN))
+      (place L6 99060 -125730 front 0 (PN LED_5V_GRN))
+      (place L7 101600 -125730 front 0 (PN LED_5V_GRN))
+      (place L11 121285 -132080 front 90 (PN LED_5V_GRN))
+      (place L12 140335 -78740 front 90 (PN LED_5V_GRN))
+      (place L14 159385 -78740 front 90 (PN LED_5V_GRN))
+      (place L16 178435 -78740 front 90 (PN LED_5V_GRN))
+    )
+    (component footprints:DB9F_SMD
+      (place J1 82550 -105410 front 90 (PN DB9F_SMD))
+    )
+    (component footprints:DB9M_SMD
+      (place J2 102870 -105410 front 90 (PN DB9M_SMD))
+    )
+    (component "backlight_controller_5x3:M12-5_RCPT_F"
+      (place J3 121285 -89535 front 0 (PN "M12-5_RCPT_F"))
+      (place J6 140335 -121285 front 0 (PN "M12-5_RCPT_F"))
+      (place J8 159385 -121285 front 0 (PN "M12-5_RCPT_F"))
+      (place J10 178435 -121285 front 0 (PN "M12-5_RCPT_F"))
+    )
+    (component "backlight_controller_5x3:M12-5_RCPT_F::1"
+      (place J4 121285 -121285 front 0 (PN "M12-5_RCPT_F"))
+      (place J5 140335 -89535 front 0 (PN "M12-5_RCPT_F"))
+      (place J7 159385 -89535 front 0 (PN "M12-5_RCPT_F"))
+      (place J9 178435 -89535 front 0 (PN "M12-5_RCPT_F"))
     )
   )
   (library
@@ -107,17 +118,6 @@
       (outline (path signal 127  -762 1397  -2286 1397))
       (pin Rect[T]Pad_1270x2540_um 2 1524 0)
       (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
-    )
-    (image backlight_controller_5x3:DCJACK_2PIN_HIGHCURRENT
-      (outline (path signal 381  -5080 0  5080 0))
-      (outline (path signal 381  -5080 -13335  -5080 0))
-      (outline (path signal 381  5080 -13335  5080 0))
-      (outline (path signal 381  -5080 -13335  5080 -13335))
-      (pin Oval[A]Pad_3556x5080_um @1 4495.8 -5003.8)
-      (pin Oval[A]Pad_3556x5080_um @2 -4495.8 -5003.8)
-      (pin Oval[A]Pad_5080x4064_um 1 0 -11988.8)
-      (pin "Oval[A][0,-508]Pad_3556x4572_um" 2 0 -5994.4)
-      (pin Round[A]Pad_1930.4_um @3 0 -2997.2)
     )
     (image "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
       (outline (path signal 400  6900 6200  6900 -6600))
@@ -251,60 +251,6 @@
       (pin Rect[T]Pad_800x2200_um 4 1140 0)
       (pin Rect[T]Pad_800x2200_um 5 2280 0)
     )
-    (image backlight_controller_5x3:DB9F
-      (outline (path signal 381  -15400 6275  -15400 -6275))
-      (outline (path signal 381  -15400 -6275  15400 -6275))
-      (outline (path signal 381  15400 -6275  15400 6275))
-      (outline (path signal 381  15400 6275  -15400 6275))
-      (pin Oval[A]Pad_5000x6000_um @1 -12495 0)
-      (pin Oval[A]Pad_5000x6000_um @2 12492 0)
-      (pin Oval[A]Pad_1600x2200_um 5 -5540 1420)
-      (pin Oval[A]Pad_1600x2200_um 4 -2770 1420)
-      (pin Oval[A]Pad_1600x2200_um 3 0 1420)
-      (pin Oval[A]Pad_1600x2200_um 2 2770 1420)
-      (pin Rect[A]Pad_1600x2200_um 1 5540 1420)
-      (pin Oval[A]Pad_1600x2200_um 9 -4155 -1420)
-      (pin Oval[A]Pad_1600x2200_um 8 -1385 -1420)
-      (pin Oval[A]Pad_1600x2200_um 7 1385 -1420)
-      (pin Oval[A]Pad_1600x2200_um 6 4155 -1420)
-    )
-    (image backlight_controller_5x3:DB9M
-      (outline (path signal 381  -15400 6275  -15400 -6275))
-      (outline (path signal 381  -15400 -6275  15400 -6275))
-      (outline (path signal 381  15400 -6275  15400 6275))
-      (outline (path signal 381  15400 6275  -15400 6275))
-      (pin Oval[A]Pad_5000x6000_um @1 -12495 0)
-      (pin Oval[A]Pad_5000x6000_um @2 12492 0)
-      (pin Rect[A]Pad_1600x2200_um 1 -5540 1420)
-      (pin Oval[A]Pad_1600x2200_um 2 -2770 1420)
-      (pin Oval[A]Pad_1600x2200_um 3 0 1420)
-      (pin Oval[A]Pad_1600x2200_um 4 2770 1420)
-      (pin Oval[A]Pad_1600x2200_um 5 5540 1420)
-      (pin Oval[A]Pad_1600x2200_um 6 -4155 -1420)
-      (pin Oval[A]Pad_1600x2200_um 7 -1385 -1420)
-      (pin Oval[A]Pad_1600x2200_um 8 1385 -1420)
-      (pin Oval[A]Pad_1600x2200_um 9 4155 -1420)
-    )
-    (image "backlight_controller_5x3:M12-5_RCPT_F"
-      (outline (path signal 400  8900 0  8820.59 -1186.25  8583.78 -2351.34  8193.78 -3474.47
-            7657.57 -4535.59  6984.72 -5515.77  6187.21 -6397.53  5279.3 -7165.12
-            4277.18 -7804.85  3198.73 -8305.31  2063.2 -8657.55  890.852 -8855.3
-            -297.393 -8895.03  -1480.33 -8776.02  -2636.85 -8500.41  -3746.32 -8073.11
-            -4788.93 -7501.74  -5746.09 -6796.51  -6600.7 -5969.98  -7337.53 -5036.93
-            -7943.42 -4013.99  -8407.56 -2919.42  -8721.66 -1772.76  -8880.12 -594.454
-            -8880.12 594.454  -8721.66 1772.76  -8407.56 2919.42  -7943.42 4013.99
-            -7337.53 5036.93  -6600.7 5969.98  -5746.09 6796.51  -4788.93 7501.74
-            -3746.32 8073.11  -2636.85 8500.41  -1480.33 8776.02  -297.393 8895.03
-            890.852 8855.3  2063.2 8657.55  3198.73 8305.31  4277.18 7804.85
-            5279.3 7165.12  6187.21 6397.53  6984.72 5515.77  7657.57 4535.59
-            8193.78 3474.47  8583.78 2351.34  8820.59 1186.25  8900 0))
-      (pin Round[A]Pad_3000_um @1 0 7000)
-      (pin Oval[A]Pad_1500x2500_um 4 -1767.8 -1767.8)
-      (pin Oval[A]Pad_1500x2500_um 3 1767.8 -1767.8)
-      (pin Oval[A]Pad_1500x2500_um 2 1767.8 1767.8)
-      (pin Oval[A]Pad_1500x2500_um 1 -1767.8 1767.8)
-      (pin Oval[A]Pad_1500x2500_um 5 0 0)
-    )
     (image backlight_controller_5x3:SOIC_20
       (outline (path signal 381  3750 6500  -3750 6500))
       (outline (path signal 381  3750 -6500  3750 6500))
@@ -355,9 +301,87 @@
       (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
       (pin Oval[A]Pad_1524x2032_um 1 0 2540)
     )
-    (padstack Round[A]Pad_1930.4_um
-      (shape (circle F.Cu 1930.4))
-      (shape (circle B.Cu 1930.4))
+    (image footprints:DB9F_SMD
+      (outline (path signal 381  15560 6250  -15560 6250))
+      (outline (path signal 381  15560 -6250  15560 6250))
+      (outline (path signal 381  -15560 -6250  15560 -6250))
+      (outline (path signal 381  -15560 6250  -15560 -6250))
+      (pin Rect[T]Pad_1000x7480_um 6 4110 -4260)
+      (pin Rect[T]Pad_1000x7480_um 7 1370 -4260)
+      (pin Rect[T]Pad_1000x7480_um 8 -1370 -4260)
+      (pin Rect[T]Pad_1000x7480_um 9 -4110 -4260)
+      (pin Rect[T]Pad_1000x7480_um 1 5480 4260)
+      (pin Rect[T]Pad_1000x7480_um 2 2740 4260)
+      (pin Rect[T]Pad_1000x7480_um 3 0 4260)
+      (pin Rect[T]Pad_1000x7480_um 4 -2740 4260)
+      (pin Rect[T]Pad_1000x7480_um 5 -5480 4260)
+      (pin Rect[T]Pad_3400x16000_um @1 14200 0)
+      (pin Rect[T]Pad_3400x16000_um @2 -14200 0)
+      (pin Round[A]Pad_2200_um @3 -12500 3100)
+      (pin Round[A]Pad_2200_um @4 12500 3100)
+    )
+    (image footprints:DB9M_SMD
+      (outline (path signal 381  15560 6250  -15560 6250))
+      (outline (path signal 381  15560 -6250  15560 6250))
+      (outline (path signal 381  -15560 -6250  15560 -6250))
+      (outline (path signal 381  -15560 6250  -15560 -6250))
+      (pin Rect[T]Pad_1000x7480_um 9 4110 -4260)
+      (pin Rect[T]Pad_1000x7480_um 8 1370 -4260)
+      (pin Rect[T]Pad_1000x7480_um 7 -1370 -4260)
+      (pin Rect[T]Pad_1000x7480_um 6 -4110 -4260)
+      (pin Rect[T]Pad_1000x7480_um 5 5480 4260)
+      (pin Rect[T]Pad_1000x7480_um 4 2740 4260)
+      (pin Rect[T]Pad_1000x7480_um 3 0 4260)
+      (pin Rect[T]Pad_1000x7480_um 2 -2740 4260)
+      (pin Rect[T]Pad_1000x7480_um 1 -5480 4260)
+      (pin Rect[T]Pad_3400x16000_um @1 14200 0)
+      (pin Rect[T]Pad_3400x16000_um @2 -14200 0)
+      (pin Round[A]Pad_2200_um @3 -12500 3100)
+      (pin Round[A]Pad_2200_um @4 12500 3100)
+    )
+    (image "backlight_controller_5x3:M12-5_RCPT_F"
+      (outline (path signal 400  8900 0  8820.59 -1186.25  8583.78 -2351.34  8193.78 -3474.47
+            7657.57 -4535.59  6984.72 -5515.77  6187.21 -6397.53  5279.3 -7165.12
+            4277.18 -7804.85  3198.73 -8305.31  2063.2 -8657.55  890.852 -8855.3
+            -297.393 -8895.03  -1480.33 -8776.02  -2636.85 -8500.41  -3746.32 -8073.11
+            -4788.93 -7501.74  -5746.09 -6796.51  -6600.7 -5969.98  -7337.53 -5036.93
+            -7943.42 -4013.99  -8407.56 -2919.42  -8721.66 -1772.76  -8880.12 -594.454
+            -8880.12 594.454  -8721.66 1772.76  -8407.56 2919.42  -7943.42 4013.99
+            -7337.53 5036.93  -6600.7 5969.98  -5746.09 6796.51  -4788.93 7501.74
+            -3746.32 8073.11  -2636.85 8500.41  -1480.33 8776.02  -297.393 8895.03
+            890.852 8855.3  2063.2 8657.55  3198.73 8305.31  4277.18 7804.85
+            5279.3 7165.12  6187.21 6397.53  6984.72 5515.77  7657.57 4535.59
+            8193.78 3474.47  8583.78 2351.34  8820.59 1186.25  8900 0))
+      (pin Round[A]Pad_3000_um @1 0 7000)
+      (pin Oval[A]Pad_1500x2500_um 4 -1767.8 -1767.8)
+      (pin Oval[A]Pad_1500x2500_um 3 1767.8 -1767.8)
+      (pin Oval[A]Pad_1500x2500_um 2 1767.8 1767.8)
+      (pin Oval[A]Pad_1500x2500_um 1 -1767.8 1767.8)
+      (pin Oval[A]Pad_1500x2500_um 5 0 0)
+    )
+    (image "backlight_controller_5x3:M12-5_RCPT_F::1"
+      (outline (path signal 400  8900 0  8820.59 -1186.25  8583.78 -2351.34  8193.78 -3474.47
+            7657.57 -4535.59  6984.72 -5515.77  6187.21 -6397.53  5279.3 -7165.12
+            4277.18 -7804.85  3198.73 -8305.31  2063.2 -8657.55  890.852 -8855.3
+            -297.393 -8895.03  -1480.33 -8776.02  -2636.85 -8500.41  -3746.32 -8073.11
+            -4788.93 -7501.74  -5746.09 -6796.51  -6600.7 -5969.98  -7337.53 -5036.93
+            -7943.42 -4013.99  -8407.56 -2919.42  -8721.66 -1772.76  -8880.12 -594.454
+            -8880.12 594.454  -8721.66 1772.76  -8407.56 2919.42  -7943.42 4013.99
+            -7337.53 5036.93  -6600.7 5969.98  -5746.09 6796.51  -4788.93 7501.74
+            -3746.32 8073.11  -2636.85 8500.41  -1480.33 8776.02  -297.393 8895.03
+            890.852 8855.3  2063.2 8657.55  3198.73 8305.31  4277.18 7804.85
+            5279.3 7165.12  6187.21 6397.53  6984.72 5515.77  7657.57 4535.59
+            8193.78 3474.47  8583.78 2351.34  8820.59 1186.25  8900 0))
+      (pin Oval[A]Pad_1500x2500_um 5 0 0)
+      (pin Oval[A]Pad_1500x2500_um 1 -1767.8 1767.8)
+      (pin Oval[A]Pad_1500x2500_um 2 1767.8 1767.8)
+      (pin Oval[A]Pad_1500x2500_um 3 1767.8 -1767.8)
+      (pin Oval[A]Pad_1500x2500_um 4 -1767.8 -1767.8)
+      (pin Round[A]Pad_3000_um @1 0 7000)
+    )
+    (padstack Round[A]Pad_2200_um
+      (shape (circle F.Cu 2200))
+      (shape (circle B.Cu 2200))
       (attach off)
     )
     (padstack Round[A]Pad_3000_um
@@ -385,11 +409,6 @@
       (shape (path B.Cu 1524  0 -254  0 254))
       (attach off)
     )
-    (padstack Oval[A]Pad_1600x2200_um
-      (shape (path F.Cu 1600  0 -300  0 300))
-      (shape (path B.Cu 1600  0 -300  0 300))
-      (attach off)
-    )
     (padstack Oval[A]Pad_1854.2x2540_um
       (shape (path F.Cu 1854.2  0 -342.9  0 342.9))
       (shape (path B.Cu 1854.2  0 -342.9  0 342.9))
@@ -400,26 +419,6 @@
       (shape (path B.Cu 3000  0 -500  0 500))
       (attach off)
     )
-    (padstack "Oval[A][0,-508]Pad_3556x4572_um"
-      (shape (path F.Cu 3556  0 -1016  0 0))
-      (shape (path B.Cu 3556  0 -1016  0 0))
-      (attach off)
-    )
-    (padstack Oval[A]Pad_3556x5080_um
-      (shape (path F.Cu 3556  0 -762  0 762))
-      (shape (path B.Cu 3556  0 -762  0 762))
-      (attach off)
-    )
-    (padstack Oval[A]Pad_5080x4064_um
-      (shape (path F.Cu 4064  -508 0  508 0))
-      (shape (path B.Cu 4064  -508 0  508 0))
-      (attach off)
-    )
-    (padstack Oval[A]Pad_5000x6000_um
-      (shape (path F.Cu 5000  0 -500  0 500))
-      (shape (path B.Cu 5000  0 -500  0 500))
-      (attach off)
-    )
     (padstack Rect[T]Pad_2000x600_um
       (shape (rect F.Cu -1000 -300 1000 300))
       (attach off)
@@ -427,6 +426,10 @@
     (padstack Rect[A]Pad_3000x4000_um
       (shape (rect F.Cu -1500 -2000 1500 2000))
       (shape (rect B.Cu -1500 -2000 1500 2000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3400x16000_um
+      (shape (rect F.Cu -1700 -8000 1700 8000))
       (attach off)
     )
     (padstack Rect[T]Pad_3800x4960_um
@@ -441,13 +444,12 @@
       (shape (rect F.Cu -400 -1100 400 1100))
       (attach off)
     )
-    (padstack Rect[T]Pad_1270x2540_um
-      (shape (rect F.Cu -635 -1270 635 1270))
+    (padstack Rect[T]Pad_1000x7480_um
+      (shape (rect F.Cu -500 -3740 500 3740))
       (attach off)
     )
-    (padstack Rect[A]Pad_1600x2200_um
-      (shape (rect F.Cu -800 -1100 800 1100))
-      (shape (rect B.Cu -800 -1100 800 1100))
+    (padstack Rect[T]Pad_1270x2540_um
+      (shape (rect F.Cu -635 -1270 635 1270))
       (attach off)
     )
     (padstack Rect[T]Pad_1600x1440_um
@@ -480,16 +482,17 @@
       (pins MDB1-VEE C1-1 C2-1 U1-20 U2-20)
     )
     (net GND
-      (pins P2-2 P1-6 P1-5 P1-4 MDB1-GND C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 HPS1-5 HPS2-5
-        HPS3-5 HPS4-5 J4-1 J4-3 J4-5 J4-7 J4-9 J1-3 J2-3 U1-10 U1-19 U2-10 U2-19 L1-2
-        L2-2 L3-2 L4-2 L5-2 L6-2 L7-2 L8-2 L9-2 L10-2 L11-2)
+      (pins P1-6 P1-5 P1-4 MDB1-GND C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 HPS1-5 HPS2-5 HPS3-5
+        HPS4-5 U1-10 U1-19 U2-10 U2-19 L1-2 L2-2 L3-2 L4-2 L5-2 L6-2 L7-2 L8-2 L9-2
+        L10-2 L11-2 J2-9 J2-7 J2-5 J2-3 J2-1 J3-3 J4-3 J5-3 J6-3 J7-3 J8-3 J9-3 J10-3
+        L12-2 L13-2 L14-2 L15-2 L16-2 L17-2)
     )
     (net VDD
       (pins MDB1-VDD D1-1 C3-1 C4-1 C5-1 C6-1 HPS1-1 HPS2-1 HPS3-1 HPS4-1)
     )
     (net VAA
-      (pins P2-1 P1-3 P1-2 P1-1 D1-2 D1-2@1 J3-5 J3-3 J3-1 J3-9 J3-7 J1-1 J1-5 J2-1
-        J2-5 L1-1)
+      (pins P1-3 P1-2 P1-1 D1-2 D1-2@1 L1-1 J1-7 J1-9 J1-1 J1-3 J1-5 J3-1 J3-5 J4-5
+        J4-1 J5-5 J5-1 J6-1 J6-5 J7-5 J7-1 J8-1 J8-5 J9-5 J9-1 J10-1 J10-5)
     )
     (net /CHANNEL_0
       (pins MDB1-2 U1-2)
@@ -518,47 +521,11 @@
     (net /~ENABLE
       (pins MDB1-52 U1-1 U2-1)
     )
-    (net /FANS
-      (pins HPS1-6 J3-2)
-    )
-    (net /output_0/FAULT
-      (pins HPS1-2 R1-1)
-    )
-    (net /WHITE_LIGHT
-      (pins HPS2-6 J3-4)
-    )
-    (net /output_1/FAULT
-      (pins HPS2-2 R2-1)
-    )
-    (net /BUZZER
-      (pins HPS3-6 J3-6)
-    )
-    (net /output_2/FAULT
-      (pins HPS3-2 R3-1)
-    )
-    (net /OUTPUT_3
-      (pins HPS4-6 J3-8)
-    )
-    (net /output_3/FAULT
-      (pins HPS4-2 R4-1)
-    )
     (net /C_12
-      (pins J1-4 U2-14 L10-1)
+      (pins U2-14 J7-4 L14-1)
     )
     (net /C_13
-      (pins J2-4 U2-13 L11-1)
-    )
-    (net /VISIBLE_LIGHT_INDICATOR
-      (pins J4-2 R5-1)
-    )
-    (net /WHITE_LIGHT_INDICATOR
-      (pins J4-4 R6-1)
-    )
-    (net /BUZZER_INDICATOR
-      (pins J4-6 R7-1)
-    )
-    (net /CAMERA_TRIGGER
-      (pins R8-1 J4-8)
+      (pins U2-13 J8-4 L15-1)
     )
     (net /C_0
       (pins R1-2 U1-18 L2-1)
@@ -573,16 +540,16 @@
       (pins R4-2 U1-15 L5-1)
     )
     (net /C_8
-      (pins R5-2 U2-18 L6-1)
+      (pins U2-18 L10-1 J3-4)
     )
     (net /C_9
-      (pins R6-2 U2-17 L7-1)
+      (pins U2-17 L11-1 J4-4)
     )
     (net /C_10
-      (pins R7-2 U2-16 L8-1)
+      (pins U2-16 J5-4 L12-1)
     )
     (net /C_11
-      (pins R8-2 U2-15 L9-1)
+      (pins U2-15 J6-4 L13-1)
     )
     (net /CHANNEL_4
       (pins MDB1-35 U1-6)
@@ -608,6 +575,60 @@
     (net /CHANNEL_12
       (pins MDB1-18 U2-6)
     )
+    (net /high_power_outputs/OUTPUT_3
+      (pins HPS4-6 J1-8)
+    )
+    (net /C_14
+      (pins U2-12 J9-4 L16-1)
+    )
+    (net /C_15
+      (pins U2-11 J10-4 L17-1)
+    )
+    (net /C_4
+      (pins R5-2 U1-14 L6-1)
+    )
+    (net /C_5
+      (pins R6-2 U1-13 L7-1)
+    )
+    (net /C_6
+      (pins R7-2 U1-12 L8-1)
+    )
+    (net /C_7
+      (pins R8-2 U1-11 L9-1)
+    )
+    (net /high_power_outputs/OUTPUT_0
+      (pins HPS1-6 J1-2)
+    )
+    (net /high_power_outputs/OUTPUT_1
+      (pins HPS2-6 J1-4)
+    )
+    (net /high_power_outputs/OUTPUT_2
+      (pins HPS3-6 J1-6)
+    )
+    (net /low_power_outputs/OUTPUT_3
+      (pins R8-1 J2-8)
+    )
+    (net /low_power_outputs/OUTPUT_2
+      (pins R7-1 J2-6)
+    )
+    (net /low_power_outputs/OUTPUT_1
+      (pins R6-1 J2-4)
+    )
+    (net /low_power_outputs/OUTPUT_0
+      (pins R5-1 J2-2)
+    )
+    (net /high_power_outputs/high_power_output_0/FAULT
+      (pins HPS1-2 R1-1)
+    )
+    (net /high_power_outputs/high_power_output_1/FAULT
+      (pins HPS2-2 R2-1)
+    )
+    (net /high_power_outputs/high_power_output_2/FAULT
+      (pins HPS3-2 R3-1)
+    )
+    (net /high_power_outputs/high_power_output_3/FAULT
+      (pins HPS4-2 R4-1)
+    )
     (class kicad_default ""
       (circuit
         (use_via Via[0-1]_889:635_um)
@@ -626,8 +647,8 @@
         (clearance 101.7)
       )
     )
-    (class LEDPOWER /BUZZER_INDICATOR /CAMERA_TRIGGER /C_0 /C_1 /C_10 /C_11
-      /C_12 /C_13 /C_2 /C_3 /C_8 /C_9 /VISIBLE_LIGHT_INDICATOR /WHITE_LIGHT_INDICATOR
+    (class LEDPOWER /low_power_outputs/OUTPUT_0 /low_power_outputs/OUTPUT_1
+      /low_power_outputs/OUTPUT_2 /low_power_outputs/OUTPUT_3
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -647,8 +668,11 @@
     )
     (class SIGNAL /CHANNEL_0 /CHANNEL_1 /CHANNEL_10 /CHANNEL_11 /CHANNEL_12
       /CHANNEL_13 /CHANNEL_14 /CHANNEL_15 /CHANNEL_2 /CHANNEL_3 /CHANNEL_4
-      /CHANNEL_5 /CHANNEL_6 /CHANNEL_7 /CHANNEL_8 /CHANNEL_9 /output_0/FAULT
-      /output_1/FAULT /output_2/FAULT /output_3/FAULT /~ENABLE
+      /CHANNEL_5 /CHANNEL_6 /CHANNEL_7 /CHANNEL_8 /CHANNEL_9 /C_0 /C_1 /C_10
+      /C_11 /C_12 /C_13 /C_14 /C_15 /C_2 /C_3 /C_4 /C_5 /C_6 /C_7 /C_8 /C_9
+      /high_power_outputs/high_power_output_0/FAULT /high_power_outputs/high_power_output_1/FAULT
+      /high_power_outputs/high_power_output_2/FAULT /high_power_outputs/high_power_output_3/FAULT
+      /~ENABLE
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -657,7 +681,8 @@
         (clearance 101.7)
       )
     )
-    (class SUPERPOWER /BUZZER /FANS /OUTPUT_3 /WHITE_LIGHT VAA
+    (class SUPERPOWER /high_power_outputs/OUTPUT_0 /high_power_outputs/OUTPUT_1
+      /high_power_outputs/OUTPUT_2 /high_power_outputs/OUTPUT_3 VAA
       (circuit
         (use_via Via[0-1]_1625.6:1117.6_um)
       )

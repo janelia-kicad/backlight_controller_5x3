@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:backlight_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 20
+Sheet 7 21
 Title ""
 Date ""
 Rev ""
@@ -20,7 +19,7 @@ U 1 1 5B9B87CB
 P 8050 3950
 AR Path="/5B9B87CB" Ref="#PWR?"  Part="1" 
 AR Path="/5B9B1B37/5B9B87CB" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 8050 3700 50  0001 C CNN
+F 0 "#PWR?" H 8050 3700 50  0001 C CNN
 F 1 "GND" H 8050 3800 50  0000 C CNN
 F 2 "" H 8050 3950 50  0001 C CNN
 F 3 "" H 8050 3950 50  0001 C CNN
@@ -70,7 +69,7 @@ OUTPUT_2
 $Sheet
 S 4300 2450 1250 300 
 U 5B9B87E5
-F0 "visible_light_indicator" 60
+F0 "low_power_output_0" 60
 F1 "low_power_output.sch" 60
 F2 "CHANNEL" I L 4300 2600 60 
 F3 "OUTPUT" O R 5550 2600 60 
@@ -84,7 +83,7 @@ OUTPUT_0
 $Sheet
 S 4300 3100 1250 300 
 U 5B9B87ED
-F0 "white_light_indicator" 60
+F0 "low_power_output_1" 60
 F1 "low_power_output.sch" 60
 F2 "CHANNEL" I L 4300 3250 60 
 F3 "OUTPUT" O R 5550 3250 60 
@@ -98,7 +97,7 @@ OUTPUT_1
 $Sheet
 S 4300 3700 1250 300 
 U 5B9B87F5
-F0 "buzzer_indicator" 60
+F0 "low_power_output_2" 60
 F1 "low_power_output.sch" 60
 F2 "CHANNEL" I L 4300 3850 60 
 F3 "OUTPUT" O R 5550 3850 60 
@@ -112,7 +111,7 @@ OUTPUT_2
 $Sheet
 S 4300 4350 1250 300 
 U 5B9B87FD
-F0 "camera_trigger" 60
+F0 "low_power_output_3" 60
 F1 "low_power_output.sch" 60
 F2 "CHANNEL" I L 4300 4500 60 
 F3 "OUTPUT" O R 5550 4500 60 
@@ -132,10 +131,10 @@ channel_2
 Text HLabel 4250 4500 0    60   Input ~ 0
 channel_3
 $Comp
-L backlight_controller_5x3:DB9M_SMD J2
+L backlight_controller_5x3:DB9M_SMD J?
 U 1 1 5B9A7195
 P 8400 3500
-F 0 "J2" H 8579 3546 50  0000 L CNN
+F 0 "J?" H 8579 3546 50  0000 L CNN
 F 1 "DB9M_SMD" H 8579 3455 50  0000 L CNN
 F 2 "footprints:DB9M_SMD" H 8400 3500 50  0001 C CNN
 F 3 "" H 8400 3500 50  0001 C CNN

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:backlight_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 20
+Sheet 3 21
 Title ""
 Date ""
 Rev ""
@@ -17,7 +16,7 @@ $EndDescr
 $Sheet
 S 4750 2350 1250 300 
 U 5B99F372
-F0 "fans" 60
+F0 "high_power_output_0" 60
 F1 "high_power_output.sch" 60
 F2 "CHANNEL" I L 4750 2500 60 
 F3 "OUTPUT" I R 6000 2500 60 
@@ -31,7 +30,7 @@ OUTPUT_0
 $Sheet
 S 4750 3000 1250 300 
 U 5B99F37A
-F0 "white_light" 60
+F0 "high_power_output_1" 60
 F1 "high_power_output.sch" 60
 F2 "CHANNEL" I L 4750 3150 60 
 F3 "OUTPUT" I R 6000 3150 60 
@@ -45,7 +44,7 @@ OUTPUT_1
 $Sheet
 S 4750 3600 1250 300 
 U 5B99F382
-F0 "buzzer" 60
+F0 "high_power_output_2" 60
 F1 "high_power_output.sch" 60
 F2 "CHANNEL" I L 4750 3750 60 
 F3 "OUTPUT" I R 6000 3750 60 
@@ -59,7 +58,7 @@ OUTPUT_2
 $Sheet
 S 4750 4250 1250 300 
 U 5B99F38A
-F0 "output_3" 60
+F0 "high_power_output_3" 60
 F1 "high_power_output.sch" 60
 F2 "CHANNEL" I L 4750 4400 60 
 F3 "OUTPUT" I R 6000 4400 60 
@@ -76,7 +75,8 @@ U 1 1 5B99F394
 P 7750 3050
 AR Path="/5B99F394" Ref="#PWR?"  Part="1" 
 AR Path="/5B9970BA/5B99F394" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 7750 2900 50  0001 C CNN
+AR Path="/5B99EA03/5B9A0F78/5B99F394" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7750 2900 50  0001 C CNN
 F 1 "VAA" H 7750 3200 50  0000 C CNN
 F 2 "" H 7750 3050 50  0001 C CNN
 F 3 "" H 7750 3050 50  0001 C CNN
@@ -132,10 +132,10 @@ channel_2
 Text HLabel 4700 4400 0    60   Input ~ 0
 channel_3
 $Comp
-L backlight_controller_5x3:DB9F_SMD J1
+L backlight_controller_5x3:DB9F_SMD J?
 U 1 1 5B9A6B5D
 P 8100 3500
-F 0 "J1" H 8280 3546 50  0000 L CNN
+F 0 "J?" H 8280 3546 50  0000 L CNN
 F 1 "DB9F_SMD" H 8280 3455 50  0000 L CNN
 F 2 "footprints:DB9F_SMD" H 8000 3950 50  0001 C CNN
 F 3 "" H 8100 3500 50  0001 C CNN
