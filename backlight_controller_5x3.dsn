@@ -1,4 +1,4 @@
-(pcb /home/polidorop/git/kicad/sleep_rig_controller_5x3/sleep_rig_controller_5x3.dsn
+(pcb /home/polidorop/git/kicad/backlight_controller_5x3/backlight_controller_5x3.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -33,7 +33,7 @@
     )
   )
   (placement
-    (component sleep_rig_controller_5x3:SM1210
+    (component backlight_controller_5x3:SM1210
       (place R8 133350 -111125 back 180 (PN 35.7))
       (place C1 111760 -113665 back 180 (PN 0.1uF))
       (place C2 143510 -113665 back 180 (PN 0.1uF))
@@ -49,39 +49,39 @@
       (place R6 133350 -103505 back 180 (PN 35.7))
       (place R7 133350 -107315 back 180 (PN 35.7))
     )
-    (component sleep_rig_controller_5x3:DCJACK_2PIN_HIGHCURRENT
+    (component backlight_controller_5x3:DCJACK_2PIN_HIGHCURRENT
       (place P2 190500 -118110 front 270 (PN PWR_JACK_2.5x5.5))
     )
-    (component "sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA"
+    (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
       (place P1 187960 -92710 front 90 (PN MINI_FIT_JR_02X03_M_RA))
     )
-    (component sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
+    (component backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
       (place MDB1 91440 -105410 front 0 (PN MODULAR_DEVICE_BASE_5x3_MALE))
     )
-    (component sleep_rig_controller_5x3:CFP15
+    (component backlight_controller_5x3:CFP15
       (place D1 81915 -79375 back 270 (PN diode_schottky_45V_10A))
     )
-    (component "sleep_rig_controller_5x3:PG-TO252-5-11"
+    (component "backlight_controller_5x3:PG-TO252-5-11"
       (place HPS1 80645 -86360 back 270 (PN BTS3256))
       (place HPS2 80645 -99060 back 270 (PN BTS3256))
       (place HPS3 80645 -111760 back 270 (PN BTS3256))
       (place HPS4 80645 -124460 back 270 (PN BTS3256))
     )
-    (component sleep_rig_controller_5x3:DB9F
+    (component backlight_controller_5x3:DB9F
       (place J3 120650 -92710 front 0 (PN DB9F))
     )
-    (component sleep_rig_controller_5x3:DB9M
+    (component backlight_controller_5x3:DB9M
       (place J4 120650 -118110 front 0 (PN DB9M))
     )
-    (component "sleep_rig_controller_5x3:M12-5_RCPT_F"
+    (component "backlight_controller_5x3:M12-5_RCPT_F"
       (place J1 152400 -92710 front 0 (PN "M12-5_RCPT_F"))
       (place J2 152400 -118110 front 0 (PN "M12-5_RCPT_F"))
     )
-    (component sleep_rig_controller_5x3:SOIC_20
+    (component backlight_controller_5x3:SOIC_20
       (place U1 111760 -105410 back 0 (PN SN74ABT541BDWR))
       (place U2 143510 -105410 back 0 (PN SN74ABT541BDWR))
     )
-    (component "sleep_rig_controller_5x3:LED_555-3XXX_R"
+    (component "backlight_controller_5x3:LED_555-3XXX_R"
       (place L1 166370 -105410 front 0 (PN LED_24V_RED))
       (place L3 95885 -86995 front 0 (PN LED_5V_GRN))
       (place L5 100965 -86995 front 0 (PN LED_5V_GRN))
@@ -89,7 +89,7 @@
       (place L9 100965 -123825 front 0 (PN LED_5V_GRN))
       (place L10 141605 -86995 front 0 (PN LED_5V_GRN))
     )
-    (component "sleep_rig_controller_5x3:LED_555-3XXX_G"
+    (component "backlight_controller_5x3:LED_555-3XXX_G"
       (place L2 93345 -86995 front 0 (PN LED_5V_GRN))
       (place L4 98425 -86995 front 0 (PN LED_5V_GRN))
       (place L6 93345 -123825 front 0 (PN LED_5V_GRN))
@@ -98,7 +98,7 @@
     )
   )
   (library
-    (image sleep_rig_controller_5x3:SM1210
+    (image backlight_controller_5x3:SM1210
       (outline (path signal 127  2286 1397  762 1397))
       (outline (path signal 127  2286 -1397  2286 1397))
       (outline (path signal 127  762 -1397  2286 -1397))
@@ -108,7 +108,7 @@
       (pin Rect[T]Pad_1270x2540_um 2 1524 0)
       (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
     )
-    (image sleep_rig_controller_5x3:DCJACK_2PIN_HIGHCURRENT
+    (image backlight_controller_5x3:DCJACK_2PIN_HIGHCURRENT
       (outline (path signal 381  -5080 0  5080 0))
       (outline (path signal 381  -5080 -13335  -5080 0))
       (outline (path signal 381  5080 -13335  5080 0))
@@ -119,7 +119,7 @@
       (pin "Oval[A][0,-508]Pad_3556x4572_um" 2 0 -5994.4)
       (pin Round[A]Pad_1930.4_um @3 0 -2997.2)
     )
-    (image "sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA"
+    (image "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
       (outline (path signal 400  6900 6200  6900 -6600))
       (outline (path signal 400  -6900 6200  -6900 -6600))
       (outline (path signal 400  -6900 6200  6900 6200))
@@ -133,7 +133,7 @@
       (pin Round[A]Pad_4000_um @1 -4200 0)
       (pin Round[A]Pad_4000_um @2 4200 0)
     )
-    (image sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
+    (image backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
       (outline (path signal 228.6  76200 -30480  76120.2 -31111.7  75885.8 -31703.7  75511.6 -32218.8
             75021 -32624.6  74444.9 -32895.7  73819.5 -33015  73184.1 -32975
             72578.5 -32778.3  72040.9 -32437.1  71605.1 -31973  71298.4 -31415
@@ -229,7 +229,7 @@
       (pin Oval[A]Pad_1854.2x2540_um A10 -13970 30480)
       (pin Oval[A]Pad_1854.2x2540_um GND -16510 30480)
     )
-    (image sleep_rig_controller_5x3:CFP15
+    (image backlight_controller_5x3:CFP15
       (outline (path signal 228.6  -2300 -3750  -2300 3750))
       (outline (path signal 228.6  2300 -3750  -2300 -3750))
       (outline (path signal 228.6  2300 3750  2300 -3750))
@@ -238,7 +238,7 @@
       (pin Rect[T]Pad_1600x1440_um 2@1 -1065 2780)
       (pin Rect[T]Pad_3800x4960_um 1 0 -1020)
     )
-    (image "sleep_rig_controller_5x3:PG-TO252-5-11"
+    (image "backlight_controller_5x3:PG-TO252-5-11"
       (outline (path signal 381  223.607 2600  139.417 2425.18  -49.757 2382  -201.463 2502.98
             -201.463 2697.02  -49.757 2818  139.417 2774.82  223.606 2600))
       (outline (path signal 381  -3250 8190  3250 8190))
@@ -251,7 +251,7 @@
       (pin Rect[T]Pad_800x2200_um 4 1140 0)
       (pin Rect[T]Pad_800x2200_um 5 2280 0)
     )
-    (image sleep_rig_controller_5x3:DB9F
+    (image backlight_controller_5x3:DB9F
       (outline (path signal 381  -15400 6275  -15400 -6275))
       (outline (path signal 381  -15400 -6275  15400 -6275))
       (outline (path signal 381  15400 -6275  15400 6275))
@@ -268,7 +268,7 @@
       (pin Oval[A]Pad_1600x2200_um 7 1385 -1420)
       (pin Oval[A]Pad_1600x2200_um 6 4155 -1420)
     )
-    (image sleep_rig_controller_5x3:DB9M
+    (image backlight_controller_5x3:DB9M
       (outline (path signal 381  -15400 6275  -15400 -6275))
       (outline (path signal 381  -15400 -6275  15400 -6275))
       (outline (path signal 381  15400 -6275  15400 6275))
@@ -285,7 +285,7 @@
       (pin Oval[A]Pad_1600x2200_um 8 1385 -1420)
       (pin Oval[A]Pad_1600x2200_um 9 4155 -1420)
     )
-    (image "sleep_rig_controller_5x3:M12-5_RCPT_F"
+    (image "backlight_controller_5x3:M12-5_RCPT_F"
       (outline (path signal 400  8900 0  8820.59 -1186.25  8583.78 -2351.34  8193.78 -3474.47
             7657.57 -4535.59  6984.72 -5515.77  6187.21 -6397.53  5279.3 -7165.12
             4277.18 -7804.85  3198.73 -8305.31  2063.2 -8657.55  890.852 -8855.3
@@ -305,7 +305,7 @@
       (pin Oval[A]Pad_1500x2500_um 1 -1767.8 1767.8)
       (pin Oval[A]Pad_1500x2500_um 5 0 0)
     )
-    (image sleep_rig_controller_5x3:SOIC_20
+    (image backlight_controller_5x3:SOIC_20
       (outline (path signal 381  3750 6500  -3750 6500))
       (outline (path signal 381  3750 -6500  3750 6500))
       (outline (path signal 381  -3750 -6500  3750 -6500))
@@ -335,7 +335,7 @@
       (pin Rect[T]Pad_2000x600_um 19 4650 4445)
       (pin Rect[T]Pad_2000x600_um 20 4650 5715)
     )
-    (image "sleep_rig_controller_5x3:LED_555-3XXX_R"
+    (image "backlight_controller_5x3:LED_555-3XXX_R"
       (outline (path signal 228.6  -508 508  508 508))
       (outline (path signal 228.6  0 0  0 1016))
       (outline (path signal 228.6  -1270 3810  1270 3810))
@@ -345,7 +345,7 @@
       (pin Oval[A]Pad_1524x2032_um 1 0 2540)
       (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
     )
-    (image "sleep_rig_controller_5x3:LED_555-3XXX_G"
+    (image "backlight_controller_5x3:LED_555-3XXX_G"
       (outline (path signal 228.6  -1270 -3810  -1270 3810))
       (outline (path signal 228.6  1270 -3810  -1270 -3810))
       (outline (path signal 228.6  1270 3810  1270 -3810))

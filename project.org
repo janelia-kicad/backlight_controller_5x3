@@ -1,9 +1,9 @@
 * Header                                                           :noexport:
 
-  #+MACRO: name sleep_rig_controller_5x3
+  #+MACRO: name backlight_controller_5x3
   #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
-  #+MACRO: url https://github.com/janelia-kicad/sleep_rig_controller_5x3
+  #+MACRO: url https://github.com/janelia-kicad/backlight_controller_5x3
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 

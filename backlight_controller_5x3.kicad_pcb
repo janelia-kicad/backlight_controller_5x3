@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title sleep_rig_controller_5x3)
+    (title backlight_controller_5x3)
     (rev 1.0)
   )
 
@@ -249,7 +249,7 @@
     (add_net VAA)
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B8027AC)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B8027AC)
     (at 133.35 111.125)
     (tags "CMS SM")
     (path /5B7F536F/5B80C1E1)
@@ -277,7 +277,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:DCJACK_2PIN_HIGHCURRENT (layer F.Cu) (tedit 5B804A55) (tstamp 5B803486)
+  (module backlight_controller_5x3:DCJACK_2PIN_HIGHCURRENT (layer F.Cu) (tedit 5B804A55) (tstamp 5B803486)
     (at 190.5 118.11 270)
     (path /5B84A460)
     (fp_text reference P2 (at -6.985 2.54) (layer F.SilkS)
@@ -299,7 +299,7 @@
     (pad "" thru_hole circle (at 0 2.9972 270) (size 1.9304 1.9304) (drill 1.6002) (layers *.Cu *.Mask))
   )
 
-  (module sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA (layer F.Cu) (tedit 5B8042FD) (tstamp 5B80353B)
+  (module backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA (layer F.Cu) (tedit 5B8042FD) (tstamp 5B80353B)
     (at 187.96 92.71 90)
     (path /5B802C5A)
     (fp_text reference P1 (at -8.255 0 180) (layer F.SilkS)
@@ -328,7 +328,7 @@
     (pad "" thru_hole circle (at 4.2 0 90) (size 4 4) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE (layer F.Cu) (tedit 59284569) (tstamp 589B7BA4)
+  (module backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE (layer F.Cu) (tedit 59284569) (tstamp 589B7BA4)
     (at 91.44 105.41)
     (path /589B83C9)
     (fp_text reference MDB1 (at 0 0) (layer F.SilkS) hide
@@ -429,7 +429,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:CFP15 (layer B.Cu) (tedit 5B8021BC) (tstamp 5B802643)
+  (module backlight_controller_5x3:CFP15 (layer B.Cu) (tedit 5B8021BC) (tstamp 5B802643)
     (at 81.915 79.375 90)
     (path /5B8110B6)
     (fp_text reference D1 (at 0 -4.6 90) (layer B.SilkS)
@@ -450,7 +450,7 @@
       (net 3 VDD) (solder_mask_margin 0.1) (clearance 0.1))
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B8025FC)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B8025FC)
     (at 111.76 113.665)
     (tags "CMS SM")
     (path /5B6F0679)
@@ -478,7 +478,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802608)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802608)
     (at 143.51 113.665)
     (tags "CMS SM")
     (path /5B8428D5)
@@ -506,7 +506,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802614)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802614)
     (at 77.47 86.36 90)
     (tags "CMS SM")
     (path /589EF960/5B7FBCA9)
@@ -534,7 +534,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802620)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802620)
     (at 77.47 99.06 90)
     (tags "CMS SM")
     (path /5B80F89F/5B7FBCA9)
@@ -562,7 +562,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B80262C)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B80262C)
     (at 77.47 111.76 90)
     (tags "CMS SM")
     (path /5B8112F3/5B7FBCA9)
@@ -590,7 +590,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802638)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802638)
     (at 77.47 124.46 90)
     (tags "CMS SM")
     (path /5B8112FB/5B7FBCA9)
@@ -618,7 +618,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B802651)
+  (module backlight_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B802651)
     (at 80.645 86.36 90)
     (path /589EF960/5B7FABE5)
     (fp_text reference HPS1 (at -4.445 5.1) (layer B.SilkS)
@@ -643,7 +643,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B806581)
+  (module backlight_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B806581)
     (at 80.645 99.06 90)
     (path /5B80F89F/5B7FABE5)
     (fp_text reference HPS2 (at -4.445 5.1) (layer B.SilkS)
@@ -668,7 +668,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B80266D)
+  (module backlight_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B80266D)
     (at 80.645 111.76 90)
     (path /5B8112F3/5B7FABE5)
     (fp_text reference HPS3 (at -4.445 5.1) (layer B.SilkS)
@@ -693,7 +693,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B80267B)
+  (module backlight_controller_5x3:PG-TO252-5-11 (layer B.Cu) (tedit 589CB526) (tstamp 5B80267B)
     (at 80.645 124.46 90)
     (path /5B8112FB/5B7FABE5)
     (fp_text reference HPS4 (at -4.445 5.08) (layer B.SilkS)
@@ -718,7 +718,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:DB9F (layer F.Cu) (tedit 59C00892) (tstamp 5B80268F)
+  (module backlight_controller_5x3:DB9F (layer F.Cu) (tedit 59C00892) (tstamp 5B80268F)
     (at 120.65 92.71)
     (path /5B6DA342)
     (fp_text reference J3 (at 0 7.62) (layer F.SilkS)
@@ -756,7 +756,7 @@
       (net 18 /BUZZER))
   )
 
-  (module sleep_rig_controller_5x3:DB9M (layer F.Cu) (tedit 59C00610) (tstamp 5B8026A3)
+  (module backlight_controller_5x3:DB9M (layer F.Cu) (tedit 59C00610) (tstamp 5B8026A3)
     (at 120.65 118.11)
     (path /5B6DA3F3)
     (fp_text reference J4 (at 0 -7.62) (layer F.SilkS)
@@ -794,7 +794,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:M12-5_RCPT_F (layer F.Cu) (tedit 5B7F20B2) (tstamp 5B8026B0)
+  (module backlight_controller_5x3:M12-5_RCPT_F (layer F.Cu) (tedit 5B7F20B2) (tstamp 5B8026B0)
     (at 152.4 92.71)
     (path /5B6F2CD4)
     (fp_text reference J1 (at 0 10.16) (layer F.SilkS)
@@ -818,7 +818,7 @@
       (net 4 VAA))
   )
 
-  (module sleep_rig_controller_5x3:M12-5_RCPT_F (layer F.Cu) (tedit 5B7F20B2) (tstamp 5B8026BD)
+  (module backlight_controller_5x3:M12-5_RCPT_F (layer F.Cu) (tedit 5B7F20B2) (tstamp 5B8026BD)
     (at 152.4 118.11)
     (path /5B6F70FC)
     (fp_text reference J2 (at 0 -10.16) (layer F.SilkS)
@@ -842,7 +842,7 @@
       (net 4 VAA))
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802758)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802758)
     (at 73.025 85.725 180)
     (tags "CMS SM")
     (path /589EF960/5B7FB15D)
@@ -870,7 +870,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802764)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802764)
     (at 73.025 99.06 180)
     (tags "CMS SM")
     (path /5B80F89F/5B7FB15D)
@@ -898,7 +898,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802770)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802770)
     (at 73.025 111.76 180)
     (tags "CMS SM")
     (path /5B8112F3/5B7FB15D)
@@ -926,7 +926,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B80277C)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B80277C)
     (at 73.025 124.46 180)
     (tags "CMS SM")
     (path /5B8112FB/5B7FB15D)
@@ -954,7 +954,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802788)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802788)
     (at 133.35 99.695)
     (tags "CMS SM")
     (path /5B7F5357/5B80C1E1)
@@ -982,7 +982,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802794)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B802794)
     (at 133.35 103.505)
     (tags "CMS SM")
     (path /5B7F535F/5B80C1E1)
@@ -1010,7 +1010,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B8027A0)
+  (module backlight_controller_5x3:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5B8027A0)
     (at 133.35 107.315)
     (tags "CMS SM")
     (path /5B7F5367/5B80C1E1)
@@ -1038,7 +1038,7 @@
     )
   )
 
-  (module sleep_rig_controller_5x3:SOIC_20 (layer B.Cu) (tedit 589DDCF6) (tstamp 5B8027C9)
+  (module backlight_controller_5x3:SOIC_20 (layer B.Cu) (tedit 589DDCF6) (tstamp 5B8027C9)
     (at 111.76 105.41 180)
     (path /5B6DA5A5)
     (fp_text reference U1 (at 0 7.62 180) (layer B.SilkS)
@@ -1094,7 +1094,7 @@
       (net 1 VEE) (solder_mask_margin 0.07) (clearance 0.07))
   )
 
-  (module sleep_rig_controller_5x3:SOIC_20 (layer B.Cu) (tedit 589DDCF6) (tstamp 5B8027E6)
+  (module backlight_controller_5x3:SOIC_20 (layer B.Cu) (tedit 589DDCF6) (tstamp 5B8027E6)
     (at 143.51 105.41 180)
     (path /5B842894)
     (fp_text reference U2 (at 0 7.62 180) (layer B.SilkS)
@@ -1150,7 +1150,7 @@
       (net 1 VEE) (solder_mask_margin 0.07) (clearance 0.07))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_R (layer F.Cu) (tedit 589E3149) (tstamp 5B84423F)
+  (module backlight_controller_5x3:LED_555-3XXX_R (layer F.Cu) (tedit 589E3149) (tstamp 5B84423F)
     (at 166.37 105.41)
     (path /5B862B18)
     (fp_text reference L1 (at 0 -4.445 180) (layer F.SilkS)
@@ -1174,7 +1174,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C65)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C65)
     (at 93.345 86.995)
     (path /589EF960/5B8B4D74)
     (fp_text reference L2 (at -1.905 0 90) (layer F.SilkS)
@@ -1198,7 +1198,7 @@
       (net 28 /C_0))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C71)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C71)
     (at 95.885 86.995)
     (path /5B80F89F/5B8B4D74)
     (fp_text reference L3 (at 0 4.5) (layer F.SilkS) hide
@@ -1222,7 +1222,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C7D)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C7D)
     (at 98.425 86.995)
     (path /5B8112F3/5B8B4D74)
     (fp_text reference L4 (at 0 4.5) (layer F.SilkS) hide
@@ -1246,7 +1246,7 @@
       (net 30 /C_2))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C89)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C89)
     (at 100.965 86.995)
     (path /5B8112FB/5B8B4D74)
     (fp_text reference L5 (at 1.905 0 90) (layer F.SilkS)
@@ -1270,7 +1270,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C95)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844C95)
     (at 93.345 123.825)
     (path /5B7F5357/5B8B5179)
     (fp_text reference L6 (at -1.905 0 90) (layer F.SilkS)
@@ -1294,7 +1294,7 @@
       (net 32 /C_8))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CA1)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CA1)
     (at 95.885 123.825)
     (path /5B7F535F/5B8B5179)
     (fp_text reference L7 (at 0 4.5) (layer F.SilkS) hide
@@ -1318,7 +1318,7 @@
       (net 33 /C_9))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CAD)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CAD)
     (at 98.425 123.825)
     (path /5B7F5367/5B8B5179)
     (fp_text reference L8 (at 0 4.5) (layer F.SilkS) hide
@@ -1342,7 +1342,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CB9)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CB9)
     (at 100.965 123.825)
     (path /5B7F536F/5B8B5179)
     (fp_text reference L9 (at 1.905 0 90) (layer F.SilkS)
@@ -1366,7 +1366,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CC5)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CC5)
     (at 141.605 86.995)
     (path /5B84A38D/5B8B52AE)
     (fp_text reference L10 (at 1.905 0 90) (layer F.SilkS)
@@ -1390,7 +1390,7 @@
       (net 2 GND))
   )
 
-  (module sleep_rig_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CD1)
+  (module backlight_controller_5x3:LED_555-3XXX_G (layer F.Cu) (tedit 589E34FE) (tstamp 5B844CD1)
     (at 141.605 123.825)
     (path /5B8777C4/5B8B52AE)
     (fp_text reference L11 (at 1.905 -0.635 90) (layer F.SilkS)
@@ -1507,7 +1507,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 102.87 133.35) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\nsleep_rig_controller\npart_number: 1270\n08/2018 ver 1.0 5x3" (at 73.66 105.41 90) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nbacklight_controller\npart_number: 1270\n08/2018 ver 1.0 5x3" (at 73.66 105.41 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
 

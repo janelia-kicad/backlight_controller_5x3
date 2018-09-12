@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:sleep_rig_controller_5x3-cache
+LIBS:backlight_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 11
-Title "sleep_rig_controller_5x3"
+Title "backlight_controller_5x3"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -15,19 +15,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5x3_MALE MDB1
+L backlight_controller_5x3:MODULAR_DEVICE_BASE_5x3_MALE MDB1
 U 1 1 589B83C9
 P 2850 1550
 F 0 "MDB1" H 2850 2547 60  0000 C CNN
 F 1 "MODULAR_DEVICE_BASE_5x3_MALE" H 2850 2441 60  0000 C CNN
-F 2 "sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE" H 1300 1500 60  0001 C CNN
+F 2 "backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE" H 1300 1500 60  0001 C CNN
 F 3 "" H 1350 3200 60  0000 C CNN
 F 4 "digikey" H 1300 1600 60  0001 C CNN "Vendor"
 F 5 "S1011E-25-ND" H 1300 1700 60  0001 C CNN "PartNumber"
 F 6 "25 Positions Header Breakaway Connector 0.1in" H 1300 1800 60  0001 C CNN "Description"
 F 7 "2" H 2600 1700 60  0001 C CNN "PartCount"
 	1    2850 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
@@ -37,8 +37,8 @@ F 0 "#FLG01" H 150 225 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 900 50  0000 C CNN
 F 2 "" H 150 150 50  0001 C CNN
 F 3 "" H 150 150 50  0001 C CNN
-	1    700  750 
-	1    0    0    -1  
+	1    700  750
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
@@ -48,17 +48,17 @@ F 0 "#FLG02" H 550 175 50  0001 C CNN
 F 1 "PWR_FLAG" H 1100 850 50  0000 C CNN
 F 2 "" H 550 100 50  0001 C CNN
 F 3 "" H 550 100 50  0001 C CNN
-	1    1100 700 
-	1    0    0    -1  
+	1    1100 700
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	1100 700  1100 800 
+	1100 700  1100 800
 Wire Wire Line
-	1100 800  1350 800 
+	1100 800  1350 800
 Wire Wire Line
-	700  750  700  900 
+	700  750  700  900
 Wire Wire Line
-	700  900  1400 900 
+	700  900  1400 900
 $Comp
 L power:GND #PWR05
 U 1 1 589B84A6
@@ -67,10 +67,10 @@ F 0 "#PWR05" H 0   -300 50  0001 C CNN
 F 1 "GND" H 705 777 50  0000 C CNN
 F 2 "" H 0   -50 50  0001 C CNN
 F 3 "" H 0   -50 50  0001 C CNN
-	1    700  950 
-	1    0    0    -1  
+	1    700  950
+	1    0    0    -1
 $EndComp
-Connection ~ 700  900 
+Connection ~ 700  900
 $Comp
 L power:VDD #PWR06
 U 1 1 589B84C6
@@ -79,12 +79,12 @@ F 0 "#PWR06" H -150 -50 50  0001 C CNN
 F 1 "VDD" H 1350 900 50  0000 C CNN
 F 2 "" H -150 100 50  0001 C CNN
 F 3 "" H -150 100 50  0001 C CNN
-	1    1350 750 
-	1    0    0    -1  
+	1    1350 750
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	1350 750  1350 800 
-Connection ~ 1350 800 
+	1350 750  1350 800
+Connection ~ 1350 800
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 589B8557
@@ -93,13 +93,13 @@ F 0 "#FLG04" H 4600 275 50  0001 C CNN
 F 1 "PWR_FLAG" H 5150 950 50  0000 C CNN
 F 2 "" H 4600 200 50  0001 C CNN
 F 3 "" H 4600 200 50  0001 C CNN
-	1    5150 800 
-	1    0    0    -1  
+	1    5150 800
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	4300 900  4850 900 
+	4300 900  4850 900
 Wire Wire Line
-	5150 900  5150 800 
+	5150 900  5150 800
 $Comp
 L power:VEE #PWR023
 U 1 1 589B8578
@@ -108,12 +108,12 @@ F 0 "#PWR023" H -50 -100 50  0001 C CNN
 F 1 "VEE" H 4850 950 50  0000 C CNN
 F 2 "" H -50 50  50  0001 C CNN
 F 3 "" H -50 50  50  0001 C CNN
-	1    4850 800 
-	1    0    0    -1  
+	1    4850 800
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	4850 800  4850 900 
-Connection ~ 4850 900 
+	4850 800  4850 900
+Connection ~ 4850 900
 NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1300
@@ -132,7 +132,7 @@ NoConn ~ 1400 2700
 NoConn ~ 1400 2800
 NoConn ~ 1400 3100
 NoConn ~ 1400 3200
-NoConn ~ 4300 800 
+NoConn ~ 4300 800
 NoConn ~ 4300 1000
 NoConn ~ 4300 1100
 NoConn ~ 4300 2200
@@ -145,11 +145,11 @@ NoConn ~ 4300 2800
 NoConn ~ 4300 3100
 NoConn ~ 4300 3200
 Wire Wire Line
-	700  900  700  950 
+	700  900  700  950
 Wire Wire Line
-	1350 800  1400 800 
+	1350 800  1400 800
 Wire Wire Line
-	4850 900  5150 900 
+	4850 900  5150 900
 $Comp
 L power:VAA #PWR015
 U 1 1 5B6D4084
@@ -159,7 +159,7 @@ F 1 "VAA" H 3750 7050 50  0000 C CNN
 F 2 "" H 3750 6900 50  0001 C CNN
 F 3 "" H 3750 6900 50  0001 C CNN
 	1    3750 6900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG03
@@ -170,7 +170,7 @@ F 1 "PWR_FLAG" H 3650 6900 50  0000 C CNN
 F 2 "" H 3650 6750 50  0001 C CNN
 F 3 "~" H 3650 6750 50  0001 C CNN
 	1    3650 6750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -181,49 +181,49 @@ F 1 "GND" H 3750 7350 50  0000 C CNN
 F 2 "" H 3750 7500 50  0001 C CNN
 F 3 "" H 3750 7500 50  0001 C CNN
 	1    3750 7500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L sleep_rig_controller_5x3:DB9F J3
+L backlight_controller_5x3:DB9F J3
 U 1 1 5B6DA342
 P 6250 1800
 F 0 "J3" H 6429 1846 50  0000 L CNN
 F 1 "DB9F" H 6429 1755 50  0000 L CNN
-F 2 "sleep_rig_controller_5x3:DB9F" H 6150 2250 50  0001 C CNN
+F 2 "backlight_controller_5x3:DB9F" H 6150 2250 50  0001 C CNN
 F 3 "" H 6250 1800 50  0001 C CNN
 F 4 "digikey" H 6350 2450 60  0001 C CNN "Vendor"
 F 5 "626-1052-ND" H 6450 2550 60  0001 C CNN "PartNumber"
 F 6 " CONN D-SUB RCPT 9POS VERT SOLDER" H 6550 2650 60  0001 C CNN "Description"
 	1    6250 1800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L sleep_rig_controller_5x3:DB9M J4
+L backlight_controller_5x3:DB9M J4
 U 1 1 5B6DA3F3
 P 6250 4350
 F 0 "J4" H 6430 4396 50  0000 L CNN
 F 1 "DB9M" H 6430 4305 50  0000 L CNN
-F 2 "sleep_rig_controller_5x3:DB9M" H 6250 4350 50  0001 C CNN
+F 2 "backlight_controller_5x3:DB9M" H 6250 4350 50  0001 C CNN
 F 3 "" H 6250 4350 50  0001 C CNN
 F 4 "digikey" H 6350 4800 60  0001 C CNN "Vendor"
 F 5 "626-1798-ND" H 6450 4700 60  0001 C CNN "PartNumber"
 F 6 "CONN D-SUB PLUG 9POS VERT SOLDER" H 6550 4600 60  0001 C CNN "Description"
 	1    6250 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L sleep_rig_controller_5x3:SN74ABT541BDWR U1
+L backlight_controller_5x3:SN74ABT541BDWR U1
 U 1 1 5B6DA5A5
 P 1750 4350
 F 0 "U1" H 1950 5000 60  0000 C CNN
 F 1 "SN74ABT541BDWR" V 1900 4350 60  0000 C CNN
-F 2 "sleep_rig_controller_5x3:SOIC_20" H 1850 4900 60  0001 C CNN
+F 2 "backlight_controller_5x3:SOIC_20" H 1850 4900 60  0001 C CNN
 F 3 "" H 1750 4350 60  0001 C CNN
 F 4 "digikey" H 1850 3550 60  0001 C CNN "Vendor"
 F 5 "296-14668-1-ND" H 1950 3650 60  0001 C CNN "PartNumber"
 F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" H 2050 3750 60  0001 C CNN "Description"
 	1    1750 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR07
@@ -234,7 +234,7 @@ F 1 "GND" H 1350 4800 50  0000 C CNN
 F 2 "" H 1350 4950 50  0001 C CNN
 F 3 "" H 1350 4950 50  0001 C CNN
 	1    1350 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1400 4900 1350 4900
@@ -257,7 +257,7 @@ F 1 "VEE" H 1750 3750 50  0000 C CNN
 F 2 "" H -3150 2850 50  0001 C CNN
 F 3 "" H -3150 2850 50  0001 C CNN
 	1    1750 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1400 4000 1350 4000
@@ -316,25 +316,25 @@ F 1 "GND" H 1750 4950 50  0000 C CNN
 F 2 "" H 1750 5100 50  0001 C CNN
 F 3 "" H 1750 5100 50  0001 C CNN
 	1    1750 5100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1750 5050 1750 5100
 Wire Wire Line
 	1750 3650 1750 3600
 $Comp
-L sleep_rig_controller_5x3:0.1uF C1
+L backlight_controller_5x3:0.1uF C1
 U 1 1 5B6F0679
 P 650 4300
 F 0 "C1" H 700 4400 40  0000 L CNN
 F 1 "0.1uF" H 650 4300 30  0000 C CNN
-F 2 "sleep_rig_controller_5x3:SM1210" H 688 4150 30  0001 C CNN
+F 2 "backlight_controller_5x3:SM1210" H 688 4150 30  0001 C CNN
 F 3 "" H 650 4300 60  0000 C CNN
 F 4 "digikey" H 750 4500 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 850 4600 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 950 4700 60  0001 C CNN "Description"
 	1    650  4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VEE #PWR01
@@ -345,7 +345,7 @@ F 1 "VEE" H 650 4200 50  0000 C CNN
 F 2 "" H -4250 3300 50  0001 C CNN
 F 3 "" H -4250 3300 50  0001 C CNN
 	1    650  4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -356,25 +356,25 @@ F 1 "GND" H 650 4400 50  0000 C CNN
 F 2 "" H 650 4550 50  0001 C CNN
 F 3 "" H 650 4550 50  0001 C CNN
 	1    650  4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	650  4050 650  4100
 Wire Wire Line
 	650  4500 650  4550
 $Comp
-L sleep_rig_controller_5x3:MINI_FIT_JR_02X03_M_RA P1
+L backlight_controller_5x3:MINI_FIT_JR_02X03_M_RA P1
 U 1 1 5B802C5A
 P 3750 7200
 F 0 "P1" H 3572 7154 50  0000 R CNN
 F 1 "MINI_FIT_JR_02X03_M_RA" H 3572 7245 50  0000 R CNN
-F 2 "sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA" H 3750 6000 60  0001 C CNN
+F 2 "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA" H 3750 6000 60  0001 C CNN
 F 3 "" H 3750 6000 60  0001 C CNN
 F 4 "digikey" H 3850 7600 60  0001 C CNN "Vendor"
 F 5 "WM1353-ND" H 3950 7700 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 6POS 4.2MM R/A TIN" H 4050 7800 60  0001 C CNN "Description"
 	1    3750 7200
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	3650 7000 3650 6950
@@ -406,18 +406,18 @@ Wire Wire Line
 	3650 6750 3650 6950
 Connection ~ 3650 6950
 $Comp
-L sleep_rig_controller_5x3:diode_schottky_45V_10A D1
+L backlight_controller_5x3:diode_schottky_45V_10A D1
 U 1 1 5B8110B6
 P 4500 6900
 F 0 "D1" H 4500 6787 50  0000 C CNN
 F 1 "diode_schottky_45V_10A" H 4220 6820 50  0001 L CNN
-F 2 "sleep_rig_controller_5x3:CFP15" H 4350 6880 60  0001 C CNN
+F 2 "backlight_controller_5x3:CFP15" H 4350 6880 60  0001 C CNN
 F 3 "" H 4450 6980 60  0001 C CNN
 F 4 "digikey" H 4550 7080 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 4650 7180 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 4750 7280 60  0001 C CNN "Description"
 	1    4500 6900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L power:VAA #PWR021
@@ -428,7 +428,7 @@ F 1 "VAA" H 4350 7000 50  0000 C CNN
 F 2 "" H 4350 6850 50  0001 C CNN
 F 3 "" H 4350 6850 50  0001 C CNN
 	1    4350 6850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VDD #PWR022
@@ -439,15 +439,15 @@ F 1 "VDD" H 4650 7000 50  0000 C CNN
 F 2 "" H 3150 6200 50  0001 C CNN
 F 3 "" H 3150 6200 50  0001 C CNN
 	1    4650 6850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Sheet
-S 7050 700  1250 300 
+S 7050 700  1250 300
 U 589EF960
 F0 "output_0" 60
 F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 7050 850 60 
-F3 "OUTPUT" I R 8300 850 60 
+F2 "CHANNEL" I L 7050 850 60
+F3 "OUTPUT" I R 8300 850 60
 $EndSheet
 Wire Wire Line
 	4350 6850 4350 6900
@@ -458,9 +458,9 @@ Wire Wire Line
 Wire Wire Line
 	4650 6900 4650 6850
 Wire Wire Line
-	7050 850  7000 850 
+	7050 850  7000 850
 Wire Wire Line
-	8300 850  8350 850 
+	8300 850  8350 850
 Text Label 7000 850  2    60   ~ 0
 C_0
 Text Label 8350 850  0    60   ~ 0
@@ -498,12 +498,12 @@ CHANNEL_6
 Text Label 4350 1200 0    60   ~ 0
 CHANNEL_7
 $Sheet
-S 7050 1350 1250 300 
+S 7050 1350 1250 300
 U 5B80F89F
 F0 "output_1" 60
 F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 7050 1500 60 
-F3 "OUTPUT" I R 8300 1500 60 
+F2 "CHANNEL" I L 7050 1500 60
+F3 "OUTPUT" I R 8300 1500 60
 $EndSheet
 Wire Wire Line
 	7050 1500 7000 1500
@@ -514,12 +514,12 @@ C_1
 Text Label 8350 1500 0    60   ~ 0
 WHITE_LIGHT
 $Sheet
-S 7050 1950 1250 300 
+S 7050 1950 1250 300
 U 5B8112F3
 F0 "output_2" 60
 F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 7050 2100 60 
-F3 "OUTPUT" I R 8300 2100 60 
+F2 "CHANNEL" I L 7050 2100 60
+F3 "OUTPUT" I R 8300 2100 60
 $EndSheet
 Wire Wire Line
 	7050 2100 7000 2100
@@ -530,12 +530,12 @@ C_2
 Text Label 8350 2100 0    60   ~ 0
 BUZZER
 $Sheet
-S 7050 2600 1250 300 
+S 7050 2600 1250 300
 U 5B8112FB
 F0 "output_3" 60
 F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 7050 2750 60 
-F3 "OUTPUT" I R 8300 2750 60 
+F2 "CHANNEL" I L 7050 2750 60
+F3 "OUTPUT" I R 8300 2750 60
 $EndSheet
 Wire Wire Line
 	7050 2750 7000 2750
@@ -554,7 +554,7 @@ F 1 "VAA" H 5900 1500 50  0000 C CNN
 F 2 "" H 5900 1350 50  0001 C CNN
 F 3 "" H 5900 1350 50  0001 C CNN
 	1    5900 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5950 2200 5900 2200
@@ -605,7 +605,7 @@ F 1 "GND" H 5900 4650 50  0000 C CNN
 F 2 "" H 5900 4800 50  0001 C CNN
 F 3 "" H 5900 4800 50  0001 C CNN
 	1    5900 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5950 3950 5900 3950
@@ -648,18 +648,18 @@ VISIBLE_LIGHT_INDICATOR
 Text Label 5850 4650 2    60   ~ 0
 BUZZER_INDICATOR
 $Comp
-L sleep_rig_controller_5x3:SN74ABT541BDWR U2
+L backlight_controller_5x3:SN74ABT541BDWR U2
 U 1 1 5B842894
 P 1750 6350
 F 0 "U2" H 1950 7000 60  0000 C CNN
 F 1 "SN74ABT541BDWR" V 1900 6350 60  0000 C CNN
-F 2 "sleep_rig_controller_5x3:SOIC_20" H 1850 6900 60  0001 C CNN
+F 2 "backlight_controller_5x3:SOIC_20" H 1850 6900 60  0001 C CNN
 F 3 "" H 1750 6350 60  0001 C CNN
 F 4 "digikey" H 1850 5550 60  0001 C CNN "Vendor"
 F 5 "296-14668-1-ND" H 1950 5650 60  0001 C CNN "PartNumber"
 F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" H 2050 5750 60  0001 C CNN "Description"
 	1    1750 6350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR08
@@ -670,7 +670,7 @@ F 1 "GND" H 1350 6800 50  0000 C CNN
 F 2 "" H 1350 6950 50  0001 C CNN
 F 3 "" H 1350 6950 50  0001 C CNN
 	1    1350 6950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1400 6900 1350 6900
@@ -689,7 +689,7 @@ F 1 "VEE" H 1750 5750 50  0000 C CNN
 F 2 "" H -3150 4850 50  0001 C CNN
 F 3 "" H -3150 4850 50  0001 C CNN
 	1    1750 5600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1400 6000 1350 6000
@@ -744,25 +744,25 @@ F 1 "GND" H 1750 6950 50  0000 C CNN
 F 2 "" H 1750 7100 50  0001 C CNN
 F 3 "" H 1750 7100 50  0001 C CNN
 	1    1750 7100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1750 7050 1750 7100
 Wire Wire Line
 	1750 5650 1750 5600
 $Comp
-L sleep_rig_controller_5x3:0.1uF C2
+L backlight_controller_5x3:0.1uF C2
 U 1 1 5B8428D5
 P 650 6300
 F 0 "C2" H 700 6400 40  0000 L CNN
 F 1 "0.1uF" H 650 6300 30  0000 C CNN
-F 2 "sleep_rig_controller_5x3:SM1210" H 688 6150 30  0001 C CNN
+F 2 "backlight_controller_5x3:SM1210" H 688 6150 30  0001 C CNN
 F 3 "" H 650 6300 60  0000 C CNN
 F 4 "digikey" H 750 6500 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 850 6600 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 950 6700 60  0001 C CNN "Description"
 	1    650  6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VEE #PWR03
@@ -773,7 +773,7 @@ F 1 "VEE" H 650 6200 50  0000 C CNN
 F 2 "" H -4250 5300 50  0001 C CNN
 F 3 "" H -4250 5300 50  0001 C CNN
 	1    650  6050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -784,7 +784,7 @@ F 1 "GND" H 650 6400 50  0000 C CNN
 F 2 "" H 650 6550 50  0001 C CNN
 F 3 "" H 650 6550 50  0001 C CNN
 	1    650  6550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	650  6050 650  6100
@@ -841,12 +841,12 @@ NoConn ~ 2100 4700
 NoConn ~ 2100 6600
 NoConn ~ 2100 6700
 $Sheet
-S 7050 3250 1250 300 
+S 7050 3250 1250 300
 U 5B7F5357
 F0 "output_8" 60
 F1 "low_power_output.sch" 60
-F2 "CHANNEL" I L 7050 3400 60 
-F3 "OUTPUT" O R 8300 3400 60 
+F2 "CHANNEL" I L 7050 3400 60
+F3 "OUTPUT" O R 8300 3400 60
 $EndSheet
 Wire Wire Line
 	7050 3400 7000 3400
@@ -857,12 +857,12 @@ C_8
 Text Label 8350 3400 0    60   ~ 0
 VISIBLE_LIGHT_INDICATOR
 $Sheet
-S 7050 3900 1250 300 
+S 7050 3900 1250 300
 U 5B7F535F
 F0 "output_9" 60
 F1 "low_power_output.sch" 60
-F2 "CHANNEL" I L 7050 4050 60 
-F3 "OUTPUT" O R 8300 4050 60 
+F2 "CHANNEL" I L 7050 4050 60
+F3 "OUTPUT" O R 8300 4050 60
 $EndSheet
 Wire Wire Line
 	7050 4050 7000 4050
@@ -873,12 +873,12 @@ C_9
 Text Label 8350 4050 0    60   ~ 0
 WHITE_LIGHT_INDICATOR
 $Sheet
-S 7050 4500 1250 300 
+S 7050 4500 1250 300
 U 5B7F5367
 F0 "output_10" 60
 F1 "low_power_output.sch" 60
-F2 "CHANNEL" I L 7050 4650 60 
-F3 "OUTPUT" O R 8300 4650 60 
+F2 "CHANNEL" I L 7050 4650 60
+F3 "OUTPUT" O R 8300 4650 60
 $EndSheet
 Wire Wire Line
 	7050 4650 7000 4650
@@ -889,12 +889,12 @@ C_10
 Text Label 8350 4650 0    60   ~ 0
 BUZZER_INDICATOR
 $Sheet
-S 7050 5150 1250 300 
+S 7050 5150 1250 300
 U 5B7F536F
 F0 "output_11" 60
 F1 "low_power_output.sch" 60
-F2 "CHANNEL" I L 7050 5300 60 
-F3 "OUTPUT" O R 8300 5300 60 
+F2 "CHANNEL" I L 7050 5300 60
+F3 "OUTPUT" O R 8300 5300 60
 $EndSheet
 Wire Wire Line
 	7050 5300 7000 5300
@@ -905,18 +905,18 @@ C_11
 Text Label 8350 5300 0    60   ~ 0
 CAMERA_TRIGGER
 $Comp
-L sleep_rig_controller_5x3:LED_24V_RED L1
+L backlight_controller_5x3:LED_24V_RED L1
 U 1 1 5B862B18
 P 5150 7150
 F 0 "L1" V 5104 7228 50  0000 L CNN
 F 1 "LED_24V_RED" V 5195 7228 50  0000 L CNN
-F 2 "sleep_rig_controller_5x3:LED_555-3XXX_R" H 5050 7150 60  0001 C CNN
+F 2 "backlight_controller_5x3:LED_555-3XXX_R" H 5050 7150 60  0001 C CNN
 F 3 "" H 5150 7150 60  0001 C CNN
 F 4 "digikey" H 5250 7350 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 5350 7450 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 5450 7550 60  0001 C CNN "Description"
 	1    5150 7150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:VAA #PWR024
@@ -927,7 +927,7 @@ F 1 "VAA" H 5150 7050 50  0000 C CNN
 F 2 "" H 5150 6900 50  0001 C CNN
 F 3 "" H 5150 6900 50  0001 C CNN
 	1    5150 6900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -938,29 +938,29 @@ F 1 "GND" H 5150 7250 50  0000 C CNN
 F 2 "" H 5150 7400 50  0001 C CNN
 F 3 "" H 5150 7400 50  0001 C CNN
 	1    5150 7400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5150 6900 5150 6950
 Wire Wire Line
 	5150 7350 5150 7400
 $Sheet
-S 7050 5750 1250 300 
+S 7050 5750 1250 300
 U 5B84A38D
 F0 "output_ir" 60
 F1 "backlight_output.sch" 60
-F2 "CHANNEL" I L 7050 5900 60 
+F2 "CHANNEL" I L 7050 5900 60
 $EndSheet
 Wire Wire Line
 	7050 5900 7000 5900
 Text Label 7000 5900 2    60   ~ 0
 C_12
 $Sheet
-S 7050 6350 1250 300 
+S 7050 6350 1250 300
 U 5B8777C4
 F0 "output_visible" 60
 F1 "backlight_output.sch" 60
-F2 "CHANNEL" I L 7050 6500 60 
+F2 "CHANNEL" I L 7050 6500 60
 $EndSheet
 Wire Wire Line
 	7050 6500 7000 6500

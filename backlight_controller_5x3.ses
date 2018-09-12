@@ -1,9 +1,9 @@
 
-(session sleep_rig_controller_5x3.ses
-  (base_design sleep_rig_controller_5x3.dsn)
+(session backlight_controller_5x3.ses
+  (base_design backlight_controller_5x3.dsn)
   (placement
     (resolution um 10)
-    (component sleep_rig_controller_5x3:SM1210
+    (component backlight_controller_5x3:SM1210
       (place R8 1333500 -1111250 back 180)
       (place C1 1117600 -1136650 back 180)
       (place C2 1435100 -1136650 back 180)
@@ -19,39 +19,39 @@
       (place R6 1333500 -1035050 back 180)
       (place R7 1333500 -1073150 back 180)
     )
-    (component sleep_rig_controller_5x3:DCJACK_2PIN_HIGHCURRENT
+    (component backlight_controller_5x3:DCJACK_2PIN_HIGHCURRENT
       (place P2 1905000 -1181100 front 270)
     )
-    (component "sleep_rig_controller_5x3:MINI-FIT-JR_02X03_M_RA"
+    (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
       (place P1 1879600 -927100 front 90)
     )
-    (component sleep_rig_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
+    (component backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
       (place MDB1 914400 -1054100 front 0)
     )
-    (component sleep_rig_controller_5x3:CFP15
+    (component backlight_controller_5x3:CFP15
       (place D1 819150 -793750 back 270)
     )
-    (component "sleep_rig_controller_5x3:PG-TO252-5-11"
+    (component "backlight_controller_5x3:PG-TO252-5-11"
       (place HPS1 806450 -863600 back 270)
       (place HPS2 806450 -990600 back 270)
       (place HPS3 806450 -1117600 back 270)
       (place HPS4 806450 -1244600 back 270)
     )
-    (component sleep_rig_controller_5x3:DB9F
+    (component backlight_controller_5x3:DB9F
       (place J3 1206500 -927100 front 0)
     )
-    (component sleep_rig_controller_5x3:DB9M
+    (component backlight_controller_5x3:DB9M
       (place J4 1206500 -1181100 front 0)
     )
-    (component "sleep_rig_controller_5x3:M12-5_RCPT_F"
+    (component "backlight_controller_5x3:M12-5_RCPT_F"
       (place J1 1524000 -927100 front 0)
       (place J2 1524000 -1181100 front 0)
     )
-    (component sleep_rig_controller_5x3:SOIC_20
+    (component backlight_controller_5x3:SOIC_20
       (place U1 1117600 -1054100 back 0)
       (place U2 1435100 -1054100 back 0)
     )
-    (component "sleep_rig_controller_5x3:LED_555-3XXX_R"
+    (component "backlight_controller_5x3:LED_555-3XXX_R"
       (place L1 1663700 -1054100 front 0)
       (place L3 958850 -869950 front 0)
       (place L5 1009650 -869950 front 0)
@@ -59,7 +59,7 @@
       (place L9 1009650 -1238250 front 0)
       (place L10 1416050 -869950 front 0)
     )
-    (component "sleep_rig_controller_5x3:LED_555-3XXX_G"
+    (component "backlight_controller_5x3:LED_555-3XXX_G"
       (place L2 933450 -869950 front 0)
       (place L4 984250 -869950 front 0)
       (place L6 933450 -1238250 front 0)
