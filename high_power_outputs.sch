@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:backlight_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 20
+Sheet 2 20
 Title ""
 Date ""
 Rev ""
@@ -13,22 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L backlight_controller_5x3:DB9F J?
-U 1 1 5B99F36D
-P 8100 3500
-AR Path="/5B99F36D" Ref="J?"  Part="1" 
-AR Path="/5B9970BA/5B99F36D" Ref="J?"  Part="1" 
-F 0 "J?" H 8279 3546 50  0000 L CNN
-F 1 "DB9F" H 8279 3455 50  0000 L CNN
-F 2 "backlight_controller_5x3:DB9F" H 8000 3950 50  0001 C CNN
-F 3 "" H 8100 3500 50  0001 C CNN
-F 4 "digikey" H 8200 4150 60  0001 C CNN "Vendor"
-F 5 "626-1052-ND" H 8300 4250 60  0001 C CNN "PartNumber"
-F 6 " CONN D-SUB RCPT 9POS VERT SOLDER" H 8400 4350 60  0001 C CNN "Description"
-	1    8100 3500
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 4750 2350 1250 300 
 U 5B99F372
@@ -90,8 +75,8 @@ L power:VAA #PWR?
 U 1 1 5B99F394
 P 7750 3050
 AR Path="/5B99F394" Ref="#PWR?"  Part="1" 
-AR Path="/5B9970BA/5B99F394" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7750 2900 50  0001 C CNN
+AR Path="/5B9970BA/5B99F394" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 7750 2900 50  0001 C CNN
 F 1 "VAA" H 7750 3200 50  0000 C CNN
 F 2 "" H 7750 3050 50  0001 C CNN
 F 3 "" H 7750 3050 50  0001 C CNN
@@ -146,4 +131,18 @@ Text HLabel 4700 3750 0    60   Input ~ 0
 channel_2
 Text HLabel 4700 4400 0    60   Input ~ 0
 channel_3
+$Comp
+L backlight_controller_5x3:DB9F_SMD J1
+U 1 1 5B9A6B5D
+P 8100 3500
+F 0 "J1" H 8280 3546 50  0000 L CNN
+F 1 "DB9F_SMD" H 8280 3455 50  0000 L CNN
+F 2 "footprints:DB9F_SMD" H 8000 3950 50  0001 C CNN
+F 3 "" H 8100 3500 50  0001 C CNN
+F 4 "digikey" H 8200 4150 60  0001 C CNN "Vendor"
+F 5 "1195-4005-1-ND" H 8300 4250 60  0001 C CNN "PartNumber"
+F 6 "CONN D-SUB RCPT 9POS SMD SOLDER" H 8400 4350 60  0001 C CNN "Description"
+	1    8100 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
