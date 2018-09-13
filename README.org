@@ -1,4 +1,4 @@
-# Created 2018-08-28 Tue 13:30
+# Created 2018-09-13 Thu 10:50
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -11,7 +11,8 @@
 
 ** Description
 
-This...
+This board controls up to four Smart Vision backlights with IR and visible
+channels plus additional high and low power channel outputs.
 
 * Images
 
@@ -41,6 +42,20 @@ This...
 
 [[file:./schematic/images/schematic10.png]]
 
+[[file:./schematic/images/schematic11.png]]
+
+[[file:./schematic/images/schematic12.png]]
+
+[[file:./schematic/images/schematic13.png]]
+
+[[file:./schematic/images/schematic14.png]]
+
+[[file:./schematic/images/schematic15.png]]
+
+[[file:./schematic/images/schematic16.png]]
+
+[[file:./schematic/images/schematic17.png]]
+
 * Gerbers
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
@@ -55,22 +70,21 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
 ** PCB Parts
 
-| Item | Reference(s)                    | Quantity | PartNumber         | Vendor  | Description                                                               |
-|------+---------------------------------+----------+--------------------+---------+---------------------------------------------------------------------------|
-|    1 | C1 C2 C3 C4 C5 C6               |        6 | 399-13229-1-ND     | digikey | CAP CER 0.1UF 50V 10% X7R 1210                                            |
-|    2 | D1                              |        1 | 568-11697-1-ND     | digikey | DIODE SCHOTTKY 45V 10A CFP15                                              |
-|    3 | HPS1 HPS2 HPS3 HPS4             |        4 | BTS3256DAUMA1CT-ND | digikey | IC SWITCH SMART LOWSIDE TO252-5                                           |
-|    4 | J1 J2                           |        2 | 277-10962-ND       | digikey | CONN RCPT FMALE 5POS GOLD SOLDER                                          |
-|    5 | J3                              |        1 | 626-1052-ND        | digikey | CONN D-SUB RCPT 9POS VERT SOLDER                                          |
-|    6 | J4                              |        1 | 626-1798-ND        | digikey | CONN D-SUB PLUG 9POS VERT SOLDER                                          |
-|    7 | L1                              |        1 | 350-1723-ND        | digikey | LED 2MM 24V VERTICAL RED PC MNT                                           |
-|    8 | L10 L11 L2 L3 L4 L5 L6 L7 L8 L9 |       10 | 350-1726-ND        | digikey | LED 2MM 5V VERTICAL GREEN PC MNT                                          |
-|    9 | MDB1                            |        2 | S1011E-25-ND       | digikey | 25 Positions Header Breakaway Connector 0.1in                             |
-|   10 | P1                              |        1 | WM1353-ND          | digikey | CONN HEADER 6POS 4.2MM R/A TIN                                            |
-|   11 | P2                              |        1 | CP-063BH-ND        | digikey | CONN PWR JACK DC 2.5X5.5 8A T/H                                           |
-|   12 | R1 R2 R3 R4                     |        4 | P5.90KAACT-ND      | digikey | RES SMD 5.9k OHM 1% 1/2W 1210                                             |
-|   13 | R5 R6 R7 R8                     |        4 | P35.7AACT-ND       | digikey | RES SMD 35.7 OHM 1% 1/2W 1210                                             |
-|   14 | U1 U2                           |        2 | 296-14668-1-ND     | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
+| Item | Reference(s)                                            | Quantity | PartNumber         | Vendor  | Description                                                               |
+|------+---------------------------------------------------------+----------+--------------------+---------+---------------------------------------------------------------------------|
+|    1 | C1 C2 C3 C4 C5 C6                                       |        6 | 399-13229-1-ND     | digikey | CAP CER 0.1UF 50V 10% X7R 1210                                            |
+|    2 | D1                                                      |        1 | 568-11697-1-ND     | digikey | DIODE SCHOTTKY 45V 10A CFP15                                              |
+|    3 | HPS1 HPS2 HPS3 HPS4                                     |        4 | BTS3256DAUMA1CT-ND | digikey | IC SWITCH SMART LOWSIDE TO252-5                                           |
+|    4 | J1                                                      |        1 | 1195-4005-1-ND     | digikey | CONN D-SUB RCPT 9POS SMD SOLDER                                           |
+|    5 | J10 J3 J4 J5 J6 J7 J8 J9                                |        8 | 277-10962-ND       | digikey | CONN RCPT FMALE 5POS GOLD SOLDER                                          |
+|    6 | J2                                                      |        1 | 1195-4006-1-ND     | digikey | CONN D-SUB PLUG 9POS SMD SOLDER                                           |
+|    7 | L1                                                      |        1 | 350-1723-ND        | digikey | LED 2MM 24V VERTICAL RED PC MNT                                           |
+|    8 | L10 L11 L12 L13 L14 L15 L16 L17 L2 L3 L4 L5 L6 L7 L8 L9 |       16 | 350-1726-ND        | digikey | LED 2MM 5V VERTICAL GREEN PC MNT                                          |
+|    9 | MDB1                                                    |        2 | S1011E-25-ND       | digikey | 25 Positions Header Breakaway Connector 0.1in                             |
+|   10 | P1                                                      |        1 | WM1353-ND          | digikey | CONN HEADER 6POS 4.2MM R/A TIN                                            |
+|   11 | R1 R2 R3 R4                                             |        4 | P5.90KAACT-ND      | digikey | RES SMD 5.9k OHM 1% 1/2W 1210                                             |
+|   12 | R5 R6 R7 R8                                             |        4 | P140AACT-ND        | digikey | RES SMD 140 OHM 1% 1/2W 1210                                              |
+|   13 | U1 U2                                                   |        2 | 296-14668-1-ND     | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
 
 ** Supplemental Parts
 
@@ -78,8 +92,8 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |------+----------+--------------+---------+----------------------------------|
 |    1 |        1 | 1866-2122-ND | digikey | AC/DC DESKTOP ADAPTER 24V 280W   |
 |    2 |        1 | 1866-5006-ND | digikey | CORD IEC 320-C13 6FT BLACK       |
-|    3 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
-|    4 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
+|    3 |        8 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
+|    4 |        8 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
 |    5 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
 |    6 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
 |    7 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
