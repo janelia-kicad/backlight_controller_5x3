@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/backlight_controller_5x3/backlight_controller_5x3.sch</source>
-    <date>Wed 12 Sep 2018 06:16:03 PM EDT</date>
-    <tool>Eeschema 6.0.0-rc1-unknown-4a57541~66~ubuntu18.04.1</tool>
+    <date>Thu 13 Sep 2018 10:32:48 AM EDT</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-ba8647f~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>backlight_controller_5x3</title>

@@ -1,4 +1,4 @@
-update=Wed 12 Sep 2018 06:19:04 PM EDT
+update=Thu 13 Sep 2018 09:35:29 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -72,7 +72,7 @@ SolderPasteRatio=-0
 [pcbnew/Netclasses/1]
 Name=GND
 Clearance=0.1016
-TrackWidth=0.8128
+TrackWidth=1.4224
 ViaDiameter=0.889
 ViaDrill=0.635
 uViaDiameter=0.508
