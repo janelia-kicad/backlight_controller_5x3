@@ -1,4 +1,4 @@
-# Created 2018-09-13 Thu 10:50
+# Created 2018-09-13 Thu 11:11
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -55,6 +55,12 @@ channels plus additional high and low power channel outputs.
 [[file:./schematic/images/schematic16.png]]
 
 [[file:./schematic/images/schematic17.png]]
+
+[[file:./schematic/images/schematic18.png]]
+
+[[file:./schematic/images/schematic19.png]]
+
+[[file:./schematic/images/schematic20.png]]
 
 * Gerbers
 
