@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:backlight_controller_5x3-cache
-EELAYER 26 0
+EELAYER 28 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 13 21
 Title ""
 Date ""
 Rev ""
