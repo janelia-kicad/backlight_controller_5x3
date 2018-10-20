@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP M12-5_RCPT_F
+$CMP M12-5-RCPT_F_SMD
 D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
