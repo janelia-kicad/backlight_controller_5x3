@@ -1,4 +1,4 @@
-# Created 2018-10-23 Tue 12:53
+# Created 2018-10-23 Tue 13:01
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -26,7 +26,7 @@ channels plus additional high and low power channel outputs.
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./gerbers/backlight_controller_5x3_v1.0.zip][./gerbers/backlight_controller_5x3_v1.0.zip]]
+[[file:./gerbers/backlight_controller_5x3_v1.1.zip][./gerbers/backlight_controller_5x3_v1.1.zip]]
 
 [[file:./gerbers/images/*.png]]
 
