@@ -1,9 +1,9 @@
-# Created 2018-10-23 Tue 12:50
+# Created 2018-10-23 Tue 12:53
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
 - Name :: backlight_controller_5x3
-- Version :: 1.0
+- Version :: 1.1
 - License :: Open-Source Hardware
 - URL :: https://github.com/janelia-kicad/backlight_controller_5x3
 - Author :: Peter Polidoro
