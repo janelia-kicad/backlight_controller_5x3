@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "6.0.0-rc1-unknown-576a0af~66~ubuntu18.04.1")
+    (host_version "6.0.0-rc1-unknown-4b44cbe~66~ubuntu18.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -33,14 +33,32 @@
     )
   )
   (placement
+    (component "footprints:M12-5_RCPT_F_SMD"
+      (place J3 121285 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J4 121285 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J5 140335 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J6 140335 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J7 159385 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J8 159385 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J9 178435 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
+      (place J10 178435 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
+    )
     (component footprints:DB9M_SMD
       (place J2 102870 -105410 front 90 (PN DB9M_SMD))
     )
     (component footprints:DB9F_SMD
       (place J1 82550 -105410 front 90 (PN DB9F_SMD))
     )
+    (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
+      (place P1 187960 -105410 front 90 (PN MINI_FIT_JR_02X03_M_RA))
+    )
+    (component backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
+      (place MDB1 91440 -105410 front 0 (PN MODULAR_DEVICE_BASE_5x3_MALE))
+    )
+    (component backlight_controller_5x3:CFP15
+      (place D1 73660 -88650 back 180 (PN diode_schottky_45V_10A))
+    )
     (component backlight_controller_5x3:SM1210
-      (place R8 113665 -111125 back 180 (PN 140))
       (place C1 130810 -114300 back 180 (PN 0.1uF))
       (place C2 156210 -97155 back 0 (PN 0.1uF))
       (place C3 96520 -87630 back 90 (PN 0.1uF))
@@ -51,18 +69,6 @@
       (place R2 100965 -96520 back 180 (PN 5.9k))
       (place R3 100965 -105410 back 180 (PN 5.9k))
       (place R4 100965 -114300 back 180 (PN 5.9k))
-      (place R5 113665 -99695 back 180 (PN 140))
-      (place R6 113665 -103505 back 180 (PN 140))
-      (place R7 113665 -107315 back 180 (PN 140))
-    )
-    (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
-      (place P1 187960 -105410 front 90 (PN MINI_FIT_JR_02X03_M_RA))
-    )
-    (component backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
-      (place MDB1 91440 -105410 front 0 (PN MODULAR_DEVICE_BASE_5x3_MALE))
-    )
-    (component backlight_controller_5x3:CFP15
-      (place D1 73660 -88650 back 180 (PN diode_schottky_45V_10A))
     )
     (component "backlight_controller_5x3:PG-TO252-5-11"
       (place HPS1 93345 -87630 back 90 (PN BTS3256))
@@ -95,18 +101,6 @@
       (place L14 159385 -78740 front 90 (PN LED_5V_GRN))
       (place L16 178435 -78740 front 90 (PN LED_5V_GRN))
     )
-    (component "footprints:M12-5_RCPT_F_SMD"
-      (place J3 121285 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J4 121285 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J5 140335 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J6 140335 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-    )
-    (component "footprints:M12-5_RCPT_F_SMD::1"
-      (place J7 159385 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J8 159385 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J9 178435 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J10 178435 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-    )
     (component "backlight_controller_5x3:TO-236-3"
       (place U3 121285 -81280 back 180 (PN NUD3124))
       (place U4 121285 -129540 back 180 (PN NUD3124))
@@ -119,8 +113,47 @@
       (place U9 178435 -81280 back 180 (PN NUD3124))
       (place U10 178435 -129540 back 180 (PN NUD3124))
     )
+    (component footprints:SM0805
+      (place R5 113665 -99695 back 180 (PN 75))
+      (place R7 113665 -107315 back 180 (PN 75))
+    )
+    (component footprints:SM0805::1
+      (place R6 113665 -103505 back 180 (PN 75))
+      (place R8 113665 -111125 back 180 (PN 75))
+    )
   )
   (library
+    (image "footprints:M12-5_RCPT_F_SMD"
+      (outline (path signal 400  5100 0  5018.04 -910.64  4774.8 -1792.01  4378.09 -2615.79
+            3840.66 -3355.49  3179.8 -3987.34  2416.73 -4491.04  1575.99 -4850.39
+            684.59 -5053.84  -228.811 -5094.86  -1134.86 -4972.13  -2004.43 -4689.59
+            -2809.57 -4256.32  -3524.42 -3686.25  -4125.99 -2997.7  -4594.94 -2212.81
+            -4916.21 -1356.79  -5079.47 -457.16  -5079.47 457.16  -4916.21 1356.79
+            -4594.94 2212.81  -4125.99 2997.7  -3524.42 3686.25  -2809.57 4256.32
+            -2004.43 4689.59  -1134.86 4972.13  -228.811 5094.86  684.59 5053.84
+            1575.99 4850.39  2416.73 4491.04  3179.8 3987.34  3840.66 3355.49
+            4378.09 2615.79  4774.8 1792.01  5018.04 910.64  5100 0))
+      (outline (path signal 400  8000 0  7918.57 -1138.52  7675.94 -2253.86  7277.06 -3323.32
+            6730.03 -4325.13  6046 -5238.89  5238.89 -6046  4325.13 -6730.03
+            3323.32 -7277.06  2253.86 -7675.94  1138.52 -7918.57  0 -8000
+            -1138.52 -7918.57  -2253.86 -7675.94  -3323.32 -7277.06  -4325.13 -6730.03
+            -5238.89 -6046  -6046 -5238.89  -6730.03 -4325.13  -7277.06 -3323.32
+            -7675.94 -2253.86  -7918.57 -1138.52  -8000 0  -7918.57 1138.52
+            -7675.94 2253.86  -7277.06 3323.32  -6730.03 4325.13  -6046 5238.89
+            -5238.89 6046  -4325.13 6730.03  -3323.32 7277.06  -2253.86 7675.94
+            -1138.52 7918.57  0 8000  1138.52 7918.57  2253.86 7675.94  3323.32 7277.06
+            4325.13 6730.03  5238.89 6046  6046 5238.89  6730.03 4325.13
+            7277.06 3323.32  7675.94 2253.86  7918.57 1138.52  8000 0))
+      (pin Round[A]Pad_1600_um @1 4500 0)
+      (pin Round[A]Pad_2000_um @2 -4500 0)
+      (pin Rect[T]Pad_2250x7850_um @3 5675 0)
+      (pin Rect[T]Pad_2250x7850_um @4 -5675 0)
+      (pin Round[T]Pad_1500_um 4 -1770 -1770)
+      (pin Round[T]Pad_1500_um 3 1770 -1770)
+      (pin Round[T]Pad_1500_um 2 1770 1770)
+      (pin Round[T]Pad_1500_um 1 -1770 1770)
+      (pin Round[T]Pad_1500_um 5 0 0)
+    )
     (image footprints:DB9M_SMD
       (outline (path signal 381  -15560 6250  -15560 -6250))
       (outline (path signal 381  -15560 -6250  15560 -6250))
@@ -158,16 +191,6 @@
       (pin Rect[T]Pad_1000x2400_um 8 -1370 -1720)
       (pin Rect[T]Pad_1000x2400_um 7 1370 -1720)
       (pin Rect[T]Pad_1000x2400_um 6 4110 -1720)
-    )
-    (image backlight_controller_5x3:SM1210
-      (outline (path signal 127  2286 1397  762 1397))
-      (outline (path signal 127  2286 -1397  2286 1397))
-      (outline (path signal 127  762 -1397  2286 -1397))
-      (outline (path signal 127  -2286 -1397  -762 -1397))
-      (outline (path signal 127  -2286 1397  -2286 -1397))
-      (outline (path signal 127  -762 1397  -2286 1397))
-      (pin Rect[T]Pad_1270x2540_um 2 1524 0)
-      (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
     )
     (image "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
       (outline (path signal 400  6900 6200  6900 -6600))
@@ -288,6 +311,16 @@
       (pin Rect[T]Pad_1600x1440_um 2@1 -1065 2780)
       (pin Rect[T]Pad_3800x4960_um 1 0 -1020)
     )
+    (image backlight_controller_5x3:SM1210
+      (outline (path signal 127  2286 1397  762 1397))
+      (outline (path signal 127  2286 -1397  2286 1397))
+      (outline (path signal 127  762 -1397  2286 -1397))
+      (outline (path signal 127  -2286 -1397  -762 -1397))
+      (outline (path signal 127  -2286 1397  -2286 -1397))
+      (outline (path signal 127  -762 1397  -2286 1397))
+      (pin Rect[T]Pad_1270x2540_um 2 1524 0)
+      (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
+    )
     (image "backlight_controller_5x3:PG-TO252-5-11"
       (outline (path signal 381  223.607 2600  139.417 2425.18  -49.757 2382  -201.463 2502.98
             -201.463 2697.02  -49.757 2818  139.417 2774.82  223.606 2600))
@@ -351,68 +384,6 @@
       (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
       (pin Oval[A]Pad_1524x2032_um 1 0 2540)
     )
-    (image "footprints:M12-5_RCPT_F_SMD"
-      (outline (path signal 400  5100 0  5018.04 -910.64  4774.8 -1792.01  4378.09 -2615.79
-            3840.66 -3355.49  3179.8 -3987.34  2416.73 -4491.04  1575.99 -4850.39
-            684.59 -5053.84  -228.811 -5094.86  -1134.86 -4972.13  -2004.43 -4689.59
-            -2809.57 -4256.32  -3524.42 -3686.25  -4125.99 -2997.7  -4594.94 -2212.81
-            -4916.21 -1356.79  -5079.47 -457.16  -5079.47 457.16  -4916.21 1356.79
-            -4594.94 2212.81  -4125.99 2997.7  -3524.42 3686.25  -2809.57 4256.32
-            -2004.43 4689.59  -1134.86 4972.13  -228.811 5094.86  684.59 5053.84
-            1575.99 4850.39  2416.73 4491.04  3179.8 3987.34  3840.66 3355.49
-            4378.09 2615.79  4774.8 1792.01  5018.04 910.64  5100 0))
-      (outline (path signal 400  8000 0  7918.57 -1138.52  7675.94 -2253.86  7277.06 -3323.32
-            6730.03 -4325.13  6046 -5238.89  5238.89 -6046  4325.13 -6730.03
-            3323.32 -7277.06  2253.86 -7675.94  1138.52 -7918.57  0 -8000
-            -1138.52 -7918.57  -2253.86 -7675.94  -3323.32 -7277.06  -4325.13 -6730.03
-            -5238.89 -6046  -6046 -5238.89  -6730.03 -4325.13  -7277.06 -3323.32
-            -7675.94 -2253.86  -7918.57 -1138.52  -8000 0  -7918.57 1138.52
-            -7675.94 2253.86  -7277.06 3323.32  -6730.03 4325.13  -6046 5238.89
-            -5238.89 6046  -4325.13 6730.03  -3323.32 7277.06  -2253.86 7675.94
-            -1138.52 7918.57  0 8000  1138.52 7918.57  2253.86 7675.94  3323.32 7277.06
-            4325.13 6730.03  5238.89 6046  6046 5238.89  6730.03 4325.13
-            7277.06 3323.32  7675.94 2253.86  7918.57 1138.52  8000 0))
-      (pin Round[A]Pad_1600_um @1 4500 0)
-      (pin Round[A]Pad_2000_um @2 -4500 0)
-      (pin Rect[T]Pad_2250x7850_um @3 5675 0)
-      (pin Rect[T]Pad_2250x7850_um @4 -5675 0)
-      (pin Round[T]Pad_1500_um 4 -1770 -1770)
-      (pin Round[T]Pad_1500_um 3 1770 -1770)
-      (pin Round[T]Pad_1500_um 2 1770 1770)
-      (pin Round[T]Pad_1500_um 1 -1770 1770)
-      (pin Round[T]Pad_1500_um 5 0 0)
-    )
-    (image "footprints:M12-5_RCPT_F_SMD::1"
-      (outline (path signal 400  8000 0  7918.57 -1138.52  7675.94 -2253.86  7277.06 -3323.32
-            6730.03 -4325.13  6046 -5238.89  5238.89 -6046  4325.13 -6730.03
-            3323.32 -7277.06  2253.86 -7675.94  1138.52 -7918.57  0 -8000
-            -1138.52 -7918.57  -2253.86 -7675.94  -3323.32 -7277.06  -4325.13 -6730.03
-            -5238.89 -6046  -6046 -5238.89  -6730.03 -4325.13  -7277.06 -3323.32
-            -7675.94 -2253.86  -7918.57 -1138.52  -8000 0  -7918.57 1138.52
-            -7675.94 2253.86  -7277.06 3323.32  -6730.03 4325.13  -6046 5238.89
-            -5238.89 6046  -4325.13 6730.03  -3323.32 7277.06  -2253.86 7675.94
-            -1138.52 7918.57  0 8000  1138.52 7918.57  2253.86 7675.94  3323.32 7277.06
-            4325.13 6730.03  5238.89 6046  6046 5238.89  6730.03 4325.13
-            7277.06 3323.32  7675.94 2253.86  7918.57 1138.52  8000 0))
-      (outline (path signal 400  5100 0  5018.04 -910.64  4774.8 -1792.01  4378.09 -2615.79
-            3840.66 -3355.49  3179.8 -3987.34  2416.73 -4491.04  1575.99 -4850.39
-            684.59 -5053.84  -228.811 -5094.86  -1134.86 -4972.13  -2004.43 -4689.59
-            -2809.57 -4256.32  -3524.42 -3686.25  -4125.99 -2997.7  -4594.94 -2212.81
-            -4916.21 -1356.79  -5079.47 -457.16  -5079.47 457.16  -4916.21 1356.79
-            -4594.94 2212.81  -4125.99 2997.7  -3524.42 3686.25  -2809.57 4256.32
-            -2004.43 4689.59  -1134.86 4972.13  -228.811 5094.86  684.59 5053.84
-            1575.99 4850.39  2416.73 4491.04  3179.8 3987.34  3840.66 3355.49
-            4378.09 2615.79  4774.8 1792.01  5018.04 910.64  5100 0))
-      (pin Round[T]Pad_1500_um 5 0 0)
-      (pin Round[T]Pad_1500_um 1 -1770 1770)
-      (pin Round[T]Pad_1500_um 2 1770 1770)
-      (pin Round[T]Pad_1500_um 3 1770 -1770)
-      (pin Round[T]Pad_1500_um 4 -1770 -1770)
-      (pin Rect[T]Pad_2250x7850_um @1 -5675 0)
-      (pin Rect[T]Pad_2250x7850_um @2 5675 0)
-      (pin Round[A]Pad_2000_um @3 -4500 0)
-      (pin Round[A]Pad_1600_um @4 4500 0)
-    )
     (image "backlight_controller_5x3:TO-236-3"
       (outline (path signal 1000  -1000 0  1000 0))
       (pin Rect[T]Pad_800x900_um 3 0 1000)
@@ -424,6 +395,26 @@
       (pin Rect[T]Pad_800x900_um 1 -950 -1000)
       (pin Rect[T]Pad_800x900_um 2 950 -1000)
       (pin Rect[T]Pad_800x900_um 3 0 1000)
+    )
+    (image footprints:SM0805
+      (outline (path signal 127  1524 -889  635 -889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -635 889  -1524 889))
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+    )
+    (image footprints:SM0805::1
+      (outline (path signal 127  -635 889  -1524 889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  1524 -889  635 -889))
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
     )
     (padstack Round[T]Pad_1500_um
       (shape (circle F.Cu 1500))
@@ -494,6 +485,10 @@
       (shape (rect F.Cu -2900 -3200 2900 3200))
       (attach off)
     )
+    (padstack Rect[T]Pad_787.4x1600.2_um
+      (shape (rect F.Cu -393.7 -800.1 393.7 800.1))
+      (attach off)
+    )
     (padstack Rect[T]Pad_800x2200_um
       (shape (rect F.Cu -400 -1100 400 1100))
       (attach off)
@@ -540,68 +535,69 @@
       (pins MDB1-VEE C1-1 C2-1 U1-20 U2-20)
     )
     (net GND
-      (pins J2-1 J2-3 J2-5 J2-7 J2-9 P1-6 P1-5 P1-4 MDB1-GND C1-2 C2-2 C3-2 C4-2 C5-2
-        C6-2 HPS1-5 HPS2-5 HPS3-5 HPS4-5 U1-10 U1-19 U2-10 U2-19 L1-2 L2-2 L3-2 L4-2
-        L5-2 L6-2 L7-2 L8-2 L9-2 L10-2 L11-2 L12-2 L13-2 L14-2 L15-2 L16-2 L17-2 J3-3
-        J4-3 J5-3 J6-3 J7-3 J8-3 J9-3 J10-3 U3-2 U4-2 U5-2 U6-2 U7-2 U8-2 U9-2 U10-2)
+      (pins J3-3 J4-3 J5-3 J6-3 J7-3 J8-3 J9-3 J10-3 J2-1 J2-3 J2-5 J2-7 J2-9 P1-6
+        P1-5 P1-4 MDB1-GND C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 HPS1-5 HPS2-5 HPS3-5 HPS4-5
+        U1-10 U1-19 U2-10 U2-19 L1-2 L2-2 L3-2 L4-2 L5-2 L6-2 L7-2 L8-2 L9-2 L10-2
+        L11-2 L12-2 L13-2 L14-2 L15-2 L16-2 L17-2 U3-2 U4-2 U5-2 U6-2 U7-2 U8-2 U9-2
+        U10-2)
     )
     (net VDD
       (pins MDB1-VDD D1-1 C3-1 C4-1 C5-1 C6-1 HPS1-1 HPS2-1 HPS3-1 HPS4-1)
     )
     (net VAA
-      (pins J1-5 J1-3 J1-1 J1-9 J1-7 P1-3 P1-2 P1-1 D1-2 D1-2@1 L1-1 J3-1 J3-5 J4-1
-        J4-5 J5-1 J5-5 J6-1 J6-5 J7-5 J7-1 J8-5 J8-1 J9-5 J9-1 J10-5 J10-1)
+      (pins J3-1 J3-5 J4-1 J4-5 J5-1 J5-5 J6-1 J6-5 J7-1 J7-5 J8-1 J8-5 J9-1 J9-5
+        J10-1 J10-5 J1-5 J1-3 J1-1 J1-9 J1-7 P1-3 P1-2 P1-1 D1-2 D1-2@1 L1-1)
     )
     (net /CHANNEL_0
       (pins MDB1-2 U1-2)
     )
     (net /CHANNEL_1
-      (pins MDB1-6 U1-3)
+      (pins MDB1-5 U1-3)
     )
     (net /CHANNEL_2
-      (pins MDB1-29 U1-4)
+      (pins MDB1-6 U1-4)
     )
     (net /CHANNEL_3
-      (pins MDB1-30 U1-5)
+      (pins MDB1-29 U1-5)
     )
     (net /CHANNEL_11
-      (pins MDB1-17 U2-5)
+      (pins MDB1-23 U2-5)
     )
     (net /CHANNEL_10
-      (pins MDB1-16 U2-4)
+      (pins MDB1-22 U2-4)
     )
     (net /CHANNEL_9
-      (pins MDB1-15 U2-3)
+      (pins MDB1-21 U2-3)
     )
     (net /CHANNEL_8
-      (pins MDB1-14 U2-2)
+      (pins MDB1-20 U2-2)
     )
     (net /~ENABLE
       (pins MDB1-52 U1-1 U2-1)
     )
     (net /CHANNEL_4
-      (pins MDB1-35 U1-6)
+      (pins MDB1-30 U1-6)
     )
     (net /CHANNEL_5
-      (pins MDB1-36 U1-7)
+      (pins MDB1-14 U1-7)
     )
     (net /CHANNEL_7
-      (pins MDB1-23 U1-9)
+      (pins MDB1-19 U1-9)
     )
     (net /CHANNEL_6
-      (pins MDB1-22 U1-8)
+      (pins MDB1-18 U1-8)
     )
     (net /CHANNEL_15
-      (pins MDB1-21 U2-9)
+      (pins MDB1-38 U2-9)
     )
     (net /CHANNEL_14
-      (pins MDB1-20 U2-8)
+      (pins MDB1-37 U2-8)
     )
     (net /CHANNEL_13
-      (pins MDB1-19 U2-7)
+      (pins MDB1-36 U2-7)
     )
     (net /CHANNEL_12
-      (pins MDB1-18 U2-6)
+      (pins MDB1-35 U2-6)
     )
     (net /backlight_5x3/high_voltage_outputs/OUTPUT_0
       (pins J1-2 HPS1-6)
@@ -676,16 +672,16 @@
       (pins R4-2 U1-15 L5-1)
     )
     (net /backlight_5x3/C_4
-      (pins R5-2 U1-14 L6-1)
+      (pins U1-14 L6-1 R5-2)
     )
     (net /backlight_5x3/C_5
-      (pins R6-2 U1-13 L7-1)
+      (pins U1-13 L7-1 R6-2)
     )
     (net /backlight_5x3/C_6
-      (pins R7-2 U1-12 L8-1)
+      (pins U1-12 L8-1 R7-2)
     )
     (net /backlight_5x3/C_7
-      (pins R8-2 U1-11 L9-1)
+      (pins U1-11 L9-1 R8-2)
     )
     (net /backlight_5x3/backlight_outputs/ir_0/NPN
       (pins J3-2 U3-3)
@@ -761,16 +757,6 @@
       /backlight_5x3/backlight_outputs/visible_3/NPN /backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT
       /backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT /backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT
       /backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT /~ENABLE
-      "Net-(HPS1-Pad4)" "Net-(HPS2-Pad4)" "Net-(HPS3-Pad4)" "Net-(HPS4-Pad4)"
-      "Net-(J10-Pad4)" "Net-(J3-Pad4)" "Net-(J4-Pad4)" "Net-(J5-Pad4)" "Net-(J6-Pad4)"
-      "Net-(J7-Pad4)" "Net-(J8-Pad4)" "Net-(J9-Pad4)" "Net-(MDB1-Pad11)" "Net-(MDB1-Pad12)"
-      "Net-(MDB1-Pad13)" "Net-(MDB1-Pad33)" "Net-(MDB1-Pad34)" "Net-(MDB1-Pad37)"
-      "Net-(MDB1-Pad38)" "Net-(MDB1-Pad3V3)" "Net-(MDB1-Pad40)" "Net-(MDB1-Pad41)"
-      "Net-(MDB1-Pad42)" "Net-(MDB1-Pad43)" "Net-(MDB1-Pad44)" "Net-(MDB1-Pad45)"
-      "Net-(MDB1-Pad46)" "Net-(MDB1-Pad47)" "Net-(MDB1-Pad48)" "Net-(MDB1-Pad49)"
-      "Net-(MDB1-Pad5)" "Net-(MDB1-Pad50)" "Net-(MDB1-Pad51)" "Net-(MDB1-Pad53)"
-      "Net-(MDB1-Pad54)" "Net-(MDB1-Pad55)" "Net-(MDB1-PadA10)" "Net-(MDB1-PadA11)"
-      "Net-(MDB1-PadAGND)" "Net-(MDB1-PadAREF)" "Net-(MDB1-PadDAC0)" "Net-(MDB1-PadDAC1)"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -792,5 +778,27 @@
     )
   )
   (wiring
+    (wire (path B.Cu 1422.4  175160 -101210  175160 -105410  175160 -109610)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  78740 -128270  81280 -128270  83820 -128270  86360 -128270)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  99060 -128270  101600 -128270  104140 -128270  106680 -128270)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  123825 -130130  123825 -132080)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  122235 -128540  123825 -130130)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  142875 -130130  142875 -132080)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  141285 -128540  142875 -130130)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  161925 -130130  161925 -132080)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  160335 -128540  161925 -130130)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  180975 -130130  180975 -132080)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  179385 -128540  180975 -130130)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  122285 -80280  123825 -78740)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  122235 -80280  122285 -80280)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  141335 -80280  142875 -78740)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  141285 -80280  141335 -80280)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  160385 -80280  161925 -78740)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  160335 -80280  160385 -80280)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  179435 -80280  180975 -78740)(net GND)(type protect))
+    (wire (path B.Cu 1422.4  179385 -80280  179435 -80280)(net GND)(type protect))
+    (wire (path F.Cu 1625.6  180660 -101210  180660 -105410  180660 -109610)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  184715 -113665  189230 -113665)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  180660 -109610  184715 -113665)(net VAA)(type protect))
   )
 )
