@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:backlight_controller_5x3-cache
-EELAYER 28 0
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 21
 Title "backlight_controller_5x3"
 Date ""
-Rev "1.1"
+Rev "1.2"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -118,7 +117,6 @@ NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1300
 NoConn ~ 1400 1400
-NoConn ~ 1400 1500
 NoConn ~ 1400 1800
 NoConn ~ 1400 1900
 NoConn ~ 1400 2000
@@ -140,10 +138,6 @@ NoConn ~ 4300 2300
 NoConn ~ 4300 2400
 NoConn ~ 4300 2500
 NoConn ~ 4300 2600
-NoConn ~ 4300 2700
-NoConn ~ 4300 2800
-NoConn ~ 4300 3100
-NoConn ~ 4300 3200
 Wire Wire Line
 	700  900  700  950 
 Wire Wire Line
@@ -160,15 +154,15 @@ Wire Wire Line
 	1400 1600 1350 1600
 Text Label 1350 1200 2    60   ~ 0
 CHANNEL_0
-Text Label 1350 1600 2    60   ~ 0
+Text Label 1350 1500 2    60   ~ 0
 CHANNEL_1
 Wire Wire Line
 	1400 2900 1350 2900
 Wire Wire Line
 	1400 3000 1350 3000
-Text Label 1350 2900 2    60   ~ 0
+Text Label 1350 1600 2    60   ~ 0
 CHANNEL_2
-Text Label 1350 3000 2    60   ~ 0
+Text Label 1350 2900 2    60   ~ 0
 CHANNEL_3
 Wire Wire Line
 	4300 1200 4350 1200
@@ -178,45 +172,29 @@ Wire Wire Line
 	4300 2900 4350 2900
 Wire Wire Line
 	4300 3000 4350 3000
-Text Label 4350 1300 0    60   ~ 0
-CHANNEL_6
-Text Label 4350 1200 0    60   ~ 0
-CHANNEL_7
-Wire Wire Line
-	4300 1400 4350 1400
-Wire Wire Line
-	4300 1500 4350 1500
-Wire Wire Line
-	4300 1600 4350 1600
-Wire Wire Line
-	4300 1700 4350 1700
-Wire Wire Line
-	4300 1800 4350 1800
-Wire Wire Line
-	4300 1900 4350 1900
-Wire Wire Line
-	4300 2000 4350 2000
-Wire Wire Line
-	4300 2100 4350 2100
-Text Label 4350 1400 0    60   ~ 0
-CHANNEL_15
-Text Label 4350 1500 0    60   ~ 0
-CHANNEL_14
-Text Label 4350 1600 0    60   ~ 0
-CHANNEL_13
 Text Label 4350 1700 0    60   ~ 0
-CHANNEL_12
-Text Label 4350 1800 0    60   ~ 0
-CHANNEL_11
-Text Label 4350 1900 0    60   ~ 0
-CHANNEL_10
-Text Label 4350 2000 0    60   ~ 0
-CHANNEL_9
-Text Label 4350 2100 0    60   ~ 0
-CHANNEL_8
+CHANNEL_6
+Text Label 4350 1600 0    60   ~ 0
+CHANNEL_7
+Text Label 4350 2700 0    60   ~ 0
+CHANNEL_15
+Text Label 4350 2800 0    60   ~ 0
+CHANNEL_14
 Text Label 4350 2900 0    60   ~ 0
-CHANNEL_5
+CHANNEL_13
 Text Label 4350 3000 0    60   ~ 0
+CHANNEL_12
+Text Label 4350 1200 0    60   ~ 0
+CHANNEL_11
+Text Label 4350 1300 0    60   ~ 0
+CHANNEL_10
+Text Label 4350 1400 0    60   ~ 0
+CHANNEL_9
+Text Label 4350 1500 0    60   ~ 0
+CHANNEL_8
+Text Label 4350 2100 0    60   ~ 0
+CHANNEL_5
+Text Label 1350 3000 2    60   ~ 0
 CHANNEL_4
 $Sheet
 S 7400 1300 800  1800
@@ -309,4 +287,25 @@ Text Label 7350 2900 2    60   ~ 0
 CHANNEL_14
 Text Label 7350 3000 2    60   ~ 0
 CHANNEL_15
+NoConn ~ 4300 2000
+NoConn ~ 4300 1900
+NoConn ~ 4300 1800
+Wire Wire Line
+	1400 1500 1350 1500
+Wire Wire Line
+	4300 1500 4350 1500
+Wire Wire Line
+	4300 1400 4350 1400
+Wire Wire Line
+	4300 2800 4350 2800
+Wire Wire Line
+	4300 2700 4350 2700
+NoConn ~ 4300 3200
+NoConn ~ 4300 3100
+Wire Wire Line
+	4300 1600 4350 1600
+Wire Wire Line
+	4300 1700 4350 1700
+Wire Wire Line
+	4300 2100 4350 2100
 $EndSCHEMATC
