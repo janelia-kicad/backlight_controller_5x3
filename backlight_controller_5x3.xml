@@ -30,130 +30,130 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/backlight_5x3/high_power_outputs/" tstamps="/5B99EA03/5B9A0F78/">
+    <sheet number="3" name="/backlight_5x3/high_voltage_outputs/" tstamps="/5B99EA03/5B9A0F78/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_outputs.sch</source>
+        <source>high_voltage_outputs.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/backlight_5x3/high_power_outputs/high_power_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/">
+    <sheet number="4" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_output.sch</source>
+        <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/backlight_5x3/high_power_outputs/high_power_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/">
+    <sheet number="5" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_output.sch</source>
+        <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/backlight_5x3/high_power_outputs/high_power_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/">
+    <sheet number="6" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_output.sch</source>
+        <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/backlight_5x3/high_power_outputs/high_power_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/">
+    <sheet number="7" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>high_power_output.sch</source>
+        <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/backlight_5x3/low_power_outputs/" tstamps="/5B99EA03/5B9A0F86/">
+    <sheet number="8" name="/backlight_5x3/low_voltage_outputs/" tstamps="/5B99EA03/5B9A0F86/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_outputs.sch</source>
+        <source>low_voltage_outputs.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="9" name="/backlight_5x3/low_power_outputs/low_power_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/">
+    <sheet number="9" name="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_output.sch</source>
+        <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="10" name="/backlight_5x3/low_power_outputs/low_power_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/">
+    <sheet number="10" name="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_output.sch</source>
+        <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="11" name="/backlight_5x3/low_power_outputs/low_power_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/">
+    <sheet number="11" name="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_output.sch</source>
+        <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="12" name="/backlight_5x3/low_power_outputs/low_power_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/">
+    <sheet number="12" name="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>low_power_output.sch</source>
+        <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -385,7 +385,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="DB9F_SMD" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/" tstamps="/5B99EA03/5B9A0F78/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/" tstamps="/5B99EA03/5B9A0F78/"/>
       <tstamp>5B9A6B5D</tstamp>
     </comp>
     <comp ref="HPS1">
@@ -397,7 +397,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R1">
@@ -409,7 +409,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C3">
@@ -421,7 +421,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L2">
@@ -433,7 +433,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS2">
@@ -445,7 +445,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R2">
@@ -457,7 +457,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C4">
@@ -469,7 +469,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L3">
@@ -481,7 +481,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS3">
@@ -493,7 +493,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R3">
@@ -505,7 +505,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C5">
@@ -517,7 +517,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L4">
@@ -529,7 +529,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="HPS4">
@@ -541,7 +541,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
       <tstamp>5B7FABE5</tstamp>
     </comp>
     <comp ref="R4">
@@ -553,7 +553,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
       <tstamp>5B7FB15D</tstamp>
     </comp>
     <comp ref="C6">
@@ -565,7 +565,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
       <tstamp>5B7FBCA9</tstamp>
     </comp>
     <comp ref="L5">
@@ -577,7 +577,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_power_outputs/high_power_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
       <tstamp>5B8B4D74</tstamp>
     </comp>
     <comp ref="J2">
@@ -589,7 +589,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="DB9M_SMD" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/" tstamps="/5B99EA03/5B9A0F86/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/" tstamps="/5B99EA03/5B9A0F86/"/>
       <tstamp>5B9A7195</tstamp>
     </comp>
     <comp ref="L6">
@@ -601,7 +601,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R5">
@@ -613,7 +613,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="140" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
       <tstamp>5B989FD5</tstamp>
     </comp>
     <comp ref="L7">
@@ -625,7 +625,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R6">
@@ -637,7 +637,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="140" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
       <tstamp>5B989FD5</tstamp>
     </comp>
     <comp ref="L8">
@@ -649,7 +649,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R7">
@@ -661,7 +661,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="140" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
       <tstamp>5B989FD5</tstamp>
     </comp>
     <comp ref="L9">
@@ -673,7 +673,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R8">
@@ -685,7 +685,7 @@
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="140" description=""/>
-      <sheetpath names="/backlight_5x3/low_power_outputs/low_power_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
       <tstamp>5B989FD5</tstamp>
     </comp>
     <comp ref="L10">
@@ -1689,53 +1689,53 @@
       <node ref="L5" pin="1"/>
       <node ref="U1" pin="15"/>
     </net>
-    <net code="68" name="/backlight_5x3/high_power_outputs/OUTPUT_2">
+    <net code="68" name="/backlight_5x3/high_voltage_outputs/OUTPUT_2">
       <node ref="J1" pin="6"/>
       <node ref="HPS3" pin="6"/>
     </net>
-    <net code="69" name="/backlight_5x3/high_power_outputs/OUTPUT_0">
+    <net code="69" name="/backlight_5x3/high_voltage_outputs/OUTPUT_0">
       <node ref="HPS1" pin="6"/>
       <node ref="J1" pin="2"/>
     </net>
-    <net code="70" name="/backlight_5x3/high_power_outputs/OUTPUT_1">
+    <net code="70" name="/backlight_5x3/high_voltage_outputs/OUTPUT_1">
       <node ref="HPS2" pin="6"/>
       <node ref="J1" pin="4"/>
     </net>
-    <net code="71" name="/backlight_5x3/high_power_outputs/OUTPUT_3">
+    <net code="71" name="/backlight_5x3/high_voltage_outputs/OUTPUT_3">
       <node ref="HPS4" pin="6"/>
       <node ref="J1" pin="8"/>
     </net>
-    <net code="72" name="/backlight_5x3/low_power_outputs/OUTPUT_3">
+    <net code="72" name="/backlight_5x3/low_voltage_outputs/OUTPUT_3">
       <node ref="J2" pin="8"/>
       <node ref="R8" pin="1"/>
     </net>
-    <net code="73" name="/backlight_5x3/low_power_outputs/OUTPUT_2">
+    <net code="73" name="/backlight_5x3/low_voltage_outputs/OUTPUT_2">
       <node ref="J2" pin="6"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="74" name="/backlight_5x3/low_power_outputs/OUTPUT_1">
+    <net code="74" name="/backlight_5x3/low_voltage_outputs/OUTPUT_1">
       <node ref="J2" pin="4"/>
       <node ref="R6" pin="1"/>
     </net>
-    <net code="75" name="/backlight_5x3/low_power_outputs/OUTPUT_0">
+    <net code="75" name="/backlight_5x3/low_voltage_outputs/OUTPUT_0">
       <node ref="J2" pin="2"/>
       <node ref="R5" pin="1"/>
     </net>
     <net code="76" name="Net-(HPS1-Pad4)">
       <node ref="HPS1" pin="4"/>
     </net>
-    <net code="77" name="/backlight_5x3/high_power_outputs/high_power_output_0/FAULT">
+    <net code="77" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT">
       <node ref="R1" pin="1"/>
       <node ref="HPS1" pin="2"/>
     </net>
     <net code="78" name="Net-(HPS2-Pad4)">
       <node ref="HPS2" pin="4"/>
     </net>
-    <net code="79" name="/backlight_5x3/high_power_outputs/high_power_output_1/FAULT">
+    <net code="79" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT">
       <node ref="HPS2" pin="2"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="80" name="/backlight_5x3/high_power_outputs/high_power_output_2/FAULT">
+    <net code="80" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT">
       <node ref="HPS3" pin="2"/>
       <node ref="R3" pin="1"/>
     </net>
@@ -1745,7 +1745,7 @@
     <net code="82" name="Net-(HPS4-Pad4)">
       <node ref="HPS4" pin="4"/>
     </net>
-    <net code="83" name="/backlight_5x3/high_power_outputs/high_power_output_3/FAULT">
+    <net code="83" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT">
       <node ref="R4" pin="1"/>
       <node ref="HPS4" pin="2"/>
     </net>

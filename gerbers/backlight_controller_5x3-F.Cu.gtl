@@ -113,25 +113,25 @@ G04 #@! TO.P,J2,1*
 G04 #@! TO.N,GND*
 X101150000Y-110890000D03*
 G04 #@! TO.P,J2,2*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_0*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_0*
 X101150000Y-108150000D03*
 G04 #@! TO.P,J2,3*
 G04 #@! TO.N,GND*
 X101150000Y-105410000D03*
 G04 #@! TO.P,J2,4*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_1*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_1*
 X101150000Y-102670000D03*
 G04 #@! TO.P,J2,5*
 G04 #@! TO.N,GND*
 X101150000Y-99930000D03*
 G04 #@! TO.P,J2,6*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_2*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_2*
 X104590000Y-109520000D03*
 G04 #@! TO.P,J2,7*
 G04 #@! TO.N,GND*
 X104590000Y-106780000D03*
 G04 #@! TO.P,J2,8*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_3*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_3*
 X104590000Y-104040000D03*
 G04 #@! TO.P,J2,9*
 G04 #@! TO.N,GND*
@@ -151,13 +151,13 @@ G04 #@! TO.P,J1,5*
 G04 #@! TO.N,VAA*
 X80830000Y-110890000D03*
 G04 #@! TO.P,J1,4*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_1*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_1*
 X80830000Y-108150000D03*
 G04 #@! TO.P,J1,3*
 G04 #@! TO.N,VAA*
 X80830000Y-105410000D03*
 G04 #@! TO.P,J1,2*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_0*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_0*
 X80830000Y-102670000D03*
 G04 #@! TO.P,J1,1*
 G04 #@! TO.N,VAA*
@@ -165,13 +165,13 @@ X80830000Y-99930000D03*
 G04 #@! TO.P,J1,9*
 X84270000Y-109520000D03*
 G04 #@! TO.P,J1,8*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_3*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_3*
 X84270000Y-106780000D03*
 G04 #@! TO.P,J1,7*
 G04 #@! TO.N,VAA*
 X84270000Y-104040000D03*
 G04 #@! TO.P,J1,6*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_2*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_2*
 X84270000Y-101300000D03*
 G04 #@! TD*
 D15*
@@ -682,22 +682,22 @@ X133494100Y-112738700D03*
 G04 #@! TO.N,/CHANNEL_12*
 X130369500Y-130032100D03*
 D28*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_0*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_0*
 X78392600Y-102589100D03*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_1*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_1*
 X78562900Y-108150000D03*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_2*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_2*
 X86537100Y-101300000D03*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_3*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_3*
 X82777900Y-114300000D03*
 D29*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_3*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_3*
 X110797900Y-111184600D03*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_2*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_2*
 X108972000Y-109520000D03*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_1*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_1*
 X110444000Y-103198800D03*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_0*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_0*
 X103774400Y-108162400D03*
 G04 #@! TO.N,/backlight_5x3/C_8*
 X159280400Y-108276300D03*
@@ -1109,20 +1109,20 @@ X96507300Y-135026100D01*
 X96507300Y-135026100D02*
 X96507300Y-135890000D01*
 D32*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_0*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_0*
 X80830000Y-102670000D02*
 X78562900Y-102670000D01*
 X78392600Y-102589100D02*
 X78482000Y-102589100D01*
 X78482000Y-102589100D02*
 X78562900Y-102670000D01*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_1*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_1*
 X80830000Y-108150000D02*
 X78562900Y-108150000D01*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_2*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_2*
 X84270000Y-101300000D02*
 X86537100Y-101300000D01*
-G04 #@! TO.N,/backlight_5x3/high_power_outputs/OUTPUT_3*
+G04 #@! TO.N,/backlight_5x3/high_voltage_outputs/OUTPUT_3*
 X86537100Y-106780000D02*
 X86537100Y-110540800D01*
 X86537100Y-110540800D02*
@@ -1130,17 +1130,17 @@ X82777900Y-114300000D01*
 X84270000Y-106780000D02*
 X86537100Y-106780000D01*
 D34*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_3*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_3*
 X110797900Y-111184600D02*
 X110797900Y-108387200D01*
 X110797900Y-108387200D02*
 X106450700Y-104040000D01*
 X104590000Y-104040000D02*
 X106450700Y-104040000D01*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_2*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_2*
 X108972000Y-109520000D02*
 X104590000Y-109520000D01*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_1*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_1*
 X110444000Y-103198800D02*
 X110124400Y-102879200D01*
 X110124400Y-102879200D02*
@@ -1149,7 +1149,7 @@ X103219900Y-102879200D02*
 X103010700Y-102670000D01*
 X101150000Y-102670000D02*
 X103010700Y-102670000D01*
-G04 #@! TO.N,/backlight_5x3/low_power_outputs/OUTPUT_0*
+G04 #@! TO.N,/backlight_5x3/low_voltage_outputs/OUTPUT_0*
 X101150000Y-108150000D02*
 X103010700Y-108150000D01*
 X103774400Y-108162400D02*

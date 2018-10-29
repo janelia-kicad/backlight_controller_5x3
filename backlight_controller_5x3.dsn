@@ -603,40 +603,40 @@
     (net /CHANNEL_12
       (pins MDB1-18 U2-6)
     )
-    (net /backlight_5x3/high_power_outputs/OUTPUT_0
+    (net /backlight_5x3/high_voltage_outputs/OUTPUT_0
       (pins J1-2 HPS1-6)
     )
-    (net /backlight_5x3/high_power_outputs/high_power_output_0/FAULT
+    (net /backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT
       (pins HPS1-2 R1-1)
     )
-    (net /backlight_5x3/high_power_outputs/OUTPUT_1
+    (net /backlight_5x3/high_voltage_outputs/OUTPUT_1
       (pins J1-4 HPS2-6)
     )
-    (net /backlight_5x3/high_power_outputs/high_power_output_1/FAULT
+    (net /backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT
       (pins HPS2-2 R2-1)
     )
-    (net /backlight_5x3/high_power_outputs/OUTPUT_2
+    (net /backlight_5x3/high_voltage_outputs/OUTPUT_2
       (pins J1-6 HPS3-6)
     )
-    (net /backlight_5x3/high_power_outputs/high_power_output_2/FAULT
+    (net /backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT
       (pins HPS3-2 R3-1)
     )
-    (net /backlight_5x3/high_power_outputs/OUTPUT_3
+    (net /backlight_5x3/high_voltage_outputs/OUTPUT_3
       (pins J1-8 HPS4-6)
     )
-    (net /backlight_5x3/high_power_outputs/high_power_output_3/FAULT
+    (net /backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT
       (pins HPS4-2 R4-1)
     )
-    (net /backlight_5x3/low_power_outputs/OUTPUT_3
+    (net /backlight_5x3/low_voltage_outputs/OUTPUT_3
       (pins J2-8 R8-1)
     )
-    (net /backlight_5x3/low_power_outputs/OUTPUT_2
+    (net /backlight_5x3/low_voltage_outputs/OUTPUT_2
       (pins J2-6 R7-1)
     )
-    (net /backlight_5x3/low_power_outputs/OUTPUT_1
+    (net /backlight_5x3/low_voltage_outputs/OUTPUT_1
       (pins J2-4 R6-1)
     )
-    (net /backlight_5x3/low_power_outputs/OUTPUT_0
+    (net /backlight_5x3/low_voltage_outputs/OUTPUT_0
       (pins J2-2 R5-1)
     )
     (net /backlight_5x3/C_8
@@ -729,8 +729,8 @@
         (clearance 101.7)
       )
     )
-    (class LEDPOWER /backlight_5x3/low_power_outputs/OUTPUT_0 /backlight_5x3/low_power_outputs/OUTPUT_1
-      /backlight_5x3/low_power_outputs/OUTPUT_2 /backlight_5x3/low_power_outputs/OUTPUT_3
+    (class LEDPOWER /backlight_5x3/low_voltage_outputs/OUTPUT_0 /backlight_5x3/low_voltage_outputs/OUTPUT_1
+      /backlight_5x3/low_voltage_outputs/OUTPUT_2 /backlight_5x3/low_voltage_outputs/OUTPUT_3
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -758,9 +758,9 @@
       /backlight_5x3/backlight_outputs/ir_1/NPN /backlight_5x3/backlight_outputs/ir_2/NPN
       /backlight_5x3/backlight_outputs/ir_3/NPN /backlight_5x3/backlight_outputs/visible_0/NPN
       /backlight_5x3/backlight_outputs/visible_1/NPN /backlight_5x3/backlight_outputs/visible_2/NPN
-      /backlight_5x3/backlight_outputs/visible_3/NPN /backlight_5x3/high_power_outputs/high_power_output_0/FAULT
-      /backlight_5x3/high_power_outputs/high_power_output_1/FAULT /backlight_5x3/high_power_outputs/high_power_output_2/FAULT
-      /backlight_5x3/high_power_outputs/high_power_output_3/FAULT /~ENABLE
+      /backlight_5x3/backlight_outputs/visible_3/NPN /backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT
+      /backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT /backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT
+      /backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT /~ENABLE
       "Net-(HPS1-Pad4)" "Net-(HPS2-Pad4)" "Net-(HPS3-Pad4)" "Net-(HPS4-Pad4)"
       "Net-(J10-Pad4)" "Net-(J3-Pad4)" "Net-(J4-Pad4)" "Net-(J5-Pad4)" "Net-(J6-Pad4)"
       "Net-(J7-Pad4)" "Net-(J8-Pad4)" "Net-(J9-Pad4)" "Net-(MDB1-Pad11)" "Net-(MDB1-Pad12)"
@@ -779,8 +779,8 @@
         (clearance 101.7)
       )
     )
-    (class SUPERPOWER /backlight_5x3/high_power_outputs/OUTPUT_0 /backlight_5x3/high_power_outputs/OUTPUT_1
-      /backlight_5x3/high_power_outputs/OUTPUT_2 /backlight_5x3/high_power_outputs/OUTPUT_3
+    (class SUPERPOWER /backlight_5x3/high_voltage_outputs/OUTPUT_0 /backlight_5x3/high_voltage_outputs/OUTPUT_1
+      /backlight_5x3/high_voltage_outputs/OUTPUT_2 /backlight_5x3/high_voltage_outputs/OUTPUT_3
       VAA
       (circuit
         (use_via Via[0-1]_1625.6:1117.6_um)
