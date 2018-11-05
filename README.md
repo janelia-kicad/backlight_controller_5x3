@@ -1,18 +1,18 @@
-- [Repository Information](#orgf227fca)
-  - [Description](#org27d5017)
-- [Images](#orgb0dcd7b)
-- [Schematic](#org106dd11)
-- [Gerbers](#orgf4ca98f)
-- [Bill of Materials](#orga130eae)
-  - [PCB Parts](#orga063c61)
-  - [Supplemental Parts](#org21b68dc)
-  - [Vendor Parts Lists](#org7dfc1a6)
-- [Supplemental Documentation](#orge1fed7b)
-  - [Assembly Instructions](#org6673738)
+- [Repository Information](#org88d10f0)
+  - [Description](#org0ac09e6)
+- [Images](#org597bb65)
+- [Schematic](#org1aee950)
+- [Gerbers](#org86b99a3)
+- [Bill of Materials](#org1443101)
+  - [PCB Parts](#orgf02a666)
+  - [Supplemental Parts](#org6b2ad46)
+  - [Vendor Parts Lists](#org61a6ea8)
+- [Supplemental Documentation](#orgbcb13da)
+  - [Assembly Instructions](#org1523142)
 
 
 
-<a id="orgf227fca"></a>
+<a id="org88d10f0"></a>
 
 # Repository Information
 
@@ -24,19 +24,23 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org27d5017"></a>
+<a id="org0ac09e6"></a>
 
 ## Description
 
 This board controls up to four Smart Vision backlights with IR and visible channels plus additional high and low power channel outputs.
 
 
-<a id="orgb0dcd7b"></a>
+<a id="org597bb65"></a>
 
 # Images
 
+![img](./images/top.png)
 
-<a id="org106dd11"></a>
+![img](./images/bottom.png)
+
+
+<a id="org1aee950"></a>
 
 # Schematic
 
@@ -85,7 +89,7 @@ This board controls up to four Smart Vision backlights with IR and visible chann
 ![img](./schematic/images/schematic20.png)
 
 
-<a id="orgf4ca98f"></a>
+<a id="org86b99a3"></a>
 
 # Gerbers
 
@@ -98,12 +102,12 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="orga130eae"></a>
+<a id="org1443101"></a>
 
 # Bill of Materials
 
 
-<a id="orga063c61"></a>
+<a id="orgf02a666"></a>
 
 ## PCB Parts
 
@@ -125,7 +129,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 | 14   | U10 U3 U4 U5 U6 U7 U8 U9                                | 8        | NUD3124LT1GOSCT-ND | digikey | IC INDCT LOAD DRVR AUTO SOT23                                             |
 
 
-<a id="org21b68dc"></a>
+<a id="org6b2ad46"></a>
 
 ## Supplemental Parts
 
@@ -136,7 +140,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 | 3    | 8        | 277-10308-ND | digikey | CONN INSERT SHELL PRESS FIT    |
 
 
-<a id="org7dfc1a6"></a>
+<a id="org61a6ea8"></a>
 
 ## Vendor Parts Lists
 
@@ -145,12 +149,12 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 [./bom/supplemental\_digikey\_parts.csv](./bom/supplemental_digikey_parts.csv)
 
 
-<a id="orge1fed7b"></a>
+<a id="orgbcb13da"></a>
 
 # Supplemental Documentation
 
 
-<a id="org6673738"></a>
+<a id="org1523142"></a>
 
 ## Assembly Instructions
 

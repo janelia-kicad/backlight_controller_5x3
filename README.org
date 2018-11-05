@@ -1,4 +1,4 @@
-# Created 2018-10-29 Mon 16:08
+# Created 2018-11-05 Mon 10:16
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -15,6 +15,10 @@ This board controls up to four Smart Vision backlights with IR and visible
 channels plus additional high and low power channel outputs.
 
 * Images
+
+[[file:./images/top.png]]
+
+[[file:./images/bottom.png]]
 
 * Schematic
 
