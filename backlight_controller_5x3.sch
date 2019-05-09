@@ -293,4 +293,10 @@ Wire Wire Line
 	4300 1700 4350 1700
 Wire Wire Line
 	4300 2100 4350 2100
+$Sheet
+S 1400 750  2900 2500
+U 5CD48705
+F0 "modular_device_base_5x3_male" 60
+F1 "modular_device_base_5x3_male.sch" 60
+$EndSheet
 $EndSCHEMATC
