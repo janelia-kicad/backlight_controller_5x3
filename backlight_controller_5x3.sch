@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
@@ -6,28 +6,13 @@ encoding utf-8
 Sheet 1 21
 Title "backlight_controller_5x3"
 Date ""
-Rev "1.2"
+Rev "1.3"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L backlight_controller_5x3:MODULAR_DEVICE_BASE_5x3_MALE MDB1
-U 1 1 589B83C9
-P 2850 1550
-F 0 "MDB1" H 2850 2547 60  0000 C CNN
-F 1 "MODULAR_DEVICE_BASE_5x3_MALE" H 2850 2441 60  0000 C CNN
-F 2 "backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE" H 1300 1500 60  0001 C CNN
-F 3 "" H 1350 3200 60  0000 C CNN
-F 4 "digikey" H 1300 1600 60  0001 C CNN "Vendor"
-F 5 "S1011E-25-ND" H 1300 1700 60  0001 C CNN "PartNumber"
-F 6 "25 Positions Header Breakaway Connector 0.1in" H 1300 1800 60  0001 C CNN "Description"
-F 7 "2" H 2600 1700 60  0001 C CNN "PartCount"
-	1    2850 1550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 589B843B

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 21
 Title ""
 Date ""
-Rev ""
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -151,22 +151,6 @@ F 3 "" H 2550 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L backlight_controller_5x3:SN74ABT541BDWR U?
-U 1 1 5B9A40AB
-P 3300 2300
-AR Path="/5B9A40AB" Ref="U?"  Part="1" 
-AR Path="/5B99EA03/5B9A40AB" Ref="U1"  Part="1" 
-F 0 "U1" H 3500 2950 60  0000 C CNN
-F 1 "SN74ABT541BDWR" V 3450 2300 60  0000 C CNN
-F 2 "backlight_controller_5x3:SOIC_20" H 3400 2850 60  0001 C CNN
-F 3 "" H 3300 2300 60  0001 C CNN
-F 4 "digikey" H 3400 1500 60  0001 C CNN "Vendor"
-F 5 "296-14668-1-ND" H 3500 1600 60  0001 C CNN "PartNumber"
-F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" H 3600 1700 60  0001 C CNN "Description"
-	1    3300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5B9A40B2
 P 2900 2900
@@ -248,22 +232,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 1600 3300 1550
 $Comp
-L backlight_controller_5x3:0.1uF C?
-U 1 1 5B9A40E5
-P 2050 2300
-AR Path="/5B9A40E5" Ref="C?"  Part="1" 
-AR Path="/5B99EA03/5B9A40E5" Ref="C1"  Part="1" 
-F 0 "C1" H 2100 2400 40  0000 L CNN
-F 1 "0.1uF" H 2050 2300 30  0000 C CNN
-F 2 "backlight_controller_5x3:SM1210" H 2088 2150 30  0001 C CNN
-F 3 "" H 2050 2300 60  0000 C CNN
-F 4 "digikey" H 2150 2500 60  0001 C CNN "Vendor"
-F 5 "399-13229-1-ND" H 2250 2600 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 2350 2700 60  0001 C CNN "Description"
-	1    2050 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VEE #PWR?
 U 1 1 5B9A40EC
 P 2050 2050
@@ -293,22 +261,6 @@ Wire Wire Line
 	2050 2050 2050 2100
 Wire Wire Line
 	2050 2500 2050 2550
-$Comp
-L backlight_controller_5x3:MINI_FIT_JR_02X03_M_RA P?
-U 1 1 5B9A40FD
-P 2550 6350
-AR Path="/5B9A40FD" Ref="P?"  Part="1" 
-AR Path="/5B99EA03/5B9A40FD" Ref="P1"  Part="1" 
-F 0 "P1" H 2372 6304 50  0000 R CNN
-F 1 "MINI_FIT_JR_02X03_M_RA" H 2372 6395 50  0000 R CNN
-F 2 "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA" H 2550 5150 60  0001 C CNN
-F 3 "" H 2550 5150 60  0001 C CNN
-F 4 "digikey" H 2650 6750 60  0001 C CNN "Vendor"
-F 5 "WM1353-ND" H 2750 6850 60  0001 C CNN "PartNumber"
-F 6 "CONN HEADER 6POS 4.2MM R/A TIN" H 2850 6950 60  0001 C CNN "Description"
-	1    2550 6350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2450 6150 2450 6100
 Wire Wire Line
@@ -338,22 +290,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 5900 2450 6100
 Connection ~ 2450 6100
-$Comp
-L backlight_controller_5x3:diode_schottky_45V_10A D?
-U 1 1 5B9A4117
-P 3300 6050
-AR Path="/5B9A4117" Ref="D?"  Part="1" 
-AR Path="/5B99EA03/5B9A4117" Ref="D1"  Part="1" 
-F 0 "D1" H 3300 5937 50  0000 C CNN
-F 1 "diode_schottky_45V_10A" H 3020 5970 50  0001 L CNN
-F 2 "backlight_controller_5x3:CFP15" H 3150 6030 60  0001 C CNN
-F 3 "" H 3250 6130 60  0001 C CNN
-F 4 "digikey" H 3350 6230 60  0001 C CNN "Vendor"
-F 5 "568-11697-1-ND" H 3450 6330 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 3550 6430 60  0001 C CNN "Description"
-	1    3300 6050
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:VAA #PWR?
 U 1 1 5B9A411E
@@ -388,22 +324,6 @@ Wire Wire Line
 	3400 6050 3450 6050
 Wire Wire Line
 	3450 6050 3450 6000
-$Comp
-L backlight_controller_5x3:SN74ABT541BDWR U?
-U 1 1 5B9A4131
-P 3300 4300
-AR Path="/5B9A4131" Ref="U?"  Part="1" 
-AR Path="/5B99EA03/5B9A4131" Ref="U2"  Part="1" 
-F 0 "U2" H 3500 4950 60  0000 C CNN
-F 1 "SN74ABT541BDWR" V 3450 4300 60  0000 C CNN
-F 2 "backlight_controller_5x3:SOIC_20" H 3400 4850 60  0001 C CNN
-F 3 "" H 3300 4300 60  0001 C CNN
-F 4 "digikey" H 3400 3500 60  0001 C CNN "Vendor"
-F 5 "296-14668-1-ND" H 3500 3600 60  0001 C CNN "PartNumber"
-F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" H 3600 3700 60  0001 C CNN "Description"
-	1    3300 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9A4138
@@ -494,22 +414,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 3600 3300 3550
 $Comp
-L backlight_controller_5x3:0.1uF C?
-U 1 1 5B9A4169
-P 2050 4300
-AR Path="/5B9A4169" Ref="C?"  Part="1" 
-AR Path="/5B99EA03/5B9A4169" Ref="C2"  Part="1" 
-F 0 "C2" H 2100 4400 40  0000 L CNN
-F 1 "0.1uF" H 2050 4300 30  0000 C CNN
-F 2 "backlight_controller_5x3:SM1210" H 2088 4150 30  0001 C CNN
-F 3 "" H 2050 4300 60  0000 C CNN
-F 4 "digikey" H 2150 4500 60  0001 C CNN "Vendor"
-F 5 "399-13229-1-ND" H 2250 4600 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 2350 4700 60  0001 C CNN "Description"
-	1    2050 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VEE #PWR?
 U 1 1 5B9A4170
 P 2050 4050
@@ -539,22 +443,6 @@ Wire Wire Line
 	2050 4050 2050 4100
 Wire Wire Line
 	2050 4500 2050 4550
-$Comp
-L backlight_controller_5x3:LED_24V_RED L?
-U 1 1 5B9A4187
-P 3950 6300
-AR Path="/5B9A4187" Ref="L?"  Part="1" 
-AR Path="/5B99EA03/5B9A4187" Ref="L1"  Part="1" 
-F 0 "L1" V 3904 6378 50  0000 L CNN
-F 1 "LED_24V_RED" V 3995 6378 50  0000 L CNN
-F 2 "backlight_controller_5x3:LED_555-3XXX_R" H 3850 6300 60  0001 C CNN
-F 3 "" H 3950 6300 60  0001 C CNN
-F 4 "digikey" H 4050 6500 60  0001 C CNN "Vendor"
-F 5 "350-1723-ND" H 4150 6600 60  0001 C CNN "PartNumber"
-F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 4250 6700 60  0001 C CNN "Description"
-	1    3950 6300
-	0    1    1    0   
-$EndComp
 $Comp
 L power:VAA #PWR?
 U 1 1 5B9A418E

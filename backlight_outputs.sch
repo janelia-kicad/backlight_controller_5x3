@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 13 21
 Title ""
 Date ""
-Rev ""
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""

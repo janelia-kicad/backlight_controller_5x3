@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 21
 Title ""
 Date ""
-Rev ""
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -131,18 +131,4 @@ Text HLabel 4700 3750 0    60   Input ~ 0
 channel_2
 Text HLabel 4700 4400 0    60   Input ~ 0
 channel_3
-$Comp
-L backlight_controller_5x3:DB9F_SMD J1
-U 1 1 5B9A6B5D
-P 8100 3500
-F 0 "J1" H 8280 3546 50  0000 L CNN
-F 1 "DB9F_SMD" H 8280 3455 50  0000 L CNN
-F 2 "footprints:DB9F_SMD" H 8000 3950 50  0001 C CNN
-F 3 "" H 8100 3500 50  0001 C CNN
-F 4 "digikey" H 8200 4150 60  0001 C CNN "Vendor"
-F 5 "1195-4005-1-ND" H 8300 4250 60  0001 C CNN "PartNumber"
-F 6 "CONN D-SUB RCPT 9POS SMD SOLDER" H 8400 4350 60  0001 C CNN "Description"
-	1    8100 3500
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
