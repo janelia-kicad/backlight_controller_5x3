@@ -10,10 +10,10 @@ F2 "backlight_controller_5x3:SM0805" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "CAP CER 0.1UF 50V X7R" 300 400 60 H I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
-F6 "KEMET" 0 0 60 H I C CNN "Mfg"
-F7 "C0805T104K5RAL7800" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "399-14636-1-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "KEMET" 0 0 60 H I C CNN "Manufacturer"
+F7 "C0805T104K5RAL7800" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "399-14636-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  SM*
  C?
@@ -36,10 +36,10 @@ F2 "backlight_controller_5x3:SM0805" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "RES SMD 2.2K OHM 1% 1/8W" 380 300 60 V I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
-F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Mfg"
-F7 "ERJ-6ENF2201V" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "P2.20KCCT-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Manufacturer"
+F7 "ERJ-6ENF2201V" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "P2.20KCCT-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  R?
  SM0603
@@ -63,10 +63,10 @@ F2 "backlight_controller_5x3:SM0805" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "RES SMD 287 OHM 1% 1/8W" 380 300 60 V I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
-F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Mfg"
-F7 "ERJ-6ENF2870V" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "P287CCT-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Manufacturer"
+F7 "ERJ-6ENF2870V" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "P287CCT-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  R?
  SM0603
@@ -90,10 +90,10 @@ F2 "backlight_controller_5x3:SM0805" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "RES SMD 5.9K OHM 1% 1/8W" 380 300 60 V I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
-F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Mfg"
-F7 "ERJ-6ENF5901V" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "P5.90KCCT-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Manufacturer"
+F7 "ERJ-6ENF5901V" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "P5.90KCCT-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  R?
  SM0603
@@ -117,10 +117,10 @@ F2 "backlight_controller_5x3:SM0805" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "RES SMD 75 OHM 1% 1/8W" 380 300 60 V I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
-F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Mfg"
-F7 "ERJ-6ENF75R0V" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "P75.0CCT-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Panasonic Electronic Components" 0 0 60 H I C CNN "Manufacturer"
+F7 "ERJ-6ENF75R0V" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "P75.0CCT-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  R?
  SM0603
@@ -144,10 +144,10 @@ F2 "backlight_controller_5x3:PG-TO252-5-11" 150 -350 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "IC SWITCH SMART LOWSIDE" 550 50 60 H I C CNN "Description"
 F5 "TO-252-5" 0 0 60 H I C CNN "Package"
-F6 "Infineon Technologies" 0 0 60 H I C CNN "Mfg"
-F7 "BTS3256DAUMA1" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "BTS3256DAUMA1CT-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Infineon Technologies" 0 0 60 H I C CNN "Manufacturer"
+F7 "BTS3256DAUMA1" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "BTS3256DAUMA1CT-ND" 0 0 60 H I C CNN "Vendor Part Number"
 DRAW
 S -300 200 300 -200 0 1 0 N
 X Vs 1 0 300 100 D 50 50 1 1 W
@@ -166,10 +166,10 @@ F1 "DB9F" 0 -575 50 H V C CNN
 F2 "backlight_controller_5x3:DB9F_SMD" -100 450 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "CONN D-SUB RCPT 9POS SMD SOLDER" 300 850 60 H I C CNN "Description"
-F5 "HARTING" 0 0 60 H I C CNN "Mfg"
-F6 "09551156612741" 0 0 60 H I C CNN "Mfg PN"
-F7 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F8 "1195-4005-1-ND" 0 0 60 H I C CNN "Supplier PN"
+F5 "HARTING" 0 0 60 H I C CNN "Manufacturer"
+F6 "09551156612741" 0 0 60 H I C CNN "Manufacturer Part Number"
+F7 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F8 "1195-4005-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  DB*M*
 $ENDFPLIST
@@ -213,10 +213,10 @@ F1 "DB9M" 0 -575 50 H V C CNN
 F2 "backlight_controller_5x3:DB9M_SMD" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "CONN D-SUB PLUG 9POS SMD SOLDER" 300 250 60 H I C CNN "Description"
-F5 "HARTING" 0 0 60 H I C CNN "Mfg"
-F6 "09551296812741" 0 0 60 H I C CNN "Mfg PN"
-F7 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F8 "1195-4006-1-ND" 0 0 60 H V C CNN "Supplier PN"
+F5 "HARTING" 0 0 60 H I C CNN "Manufacturer"
+F6 "09551296812741" 0 0 60 H I C CNN "Manufacturer Part Number"
+F7 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F8 "1195-4006-1-ND" 0 0 60 H V C CNN "Vendor Part Number"
 $FPLIST
  DB*M*
 $ENDFPLIST
@@ -261,10 +261,10 @@ F2 "footprints:LED0805" -100 0 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "LED GREEN CLEAR SMD" 300 400 60 H I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
-F6 "Lite-On Inc." 0 0 60 H I C CNN "Mfg"
-F7 "LTST-C170GKT" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "160-1179-1-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Lite-On Inc." 0 0 60 H I C CNN "Manufacturer"
+F7 "LTST-C170GKT" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "160-1179-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  LED-3MM
  LED-5MM
@@ -292,10 +292,10 @@ F1 "M12-5-RCPT" 0 -300 50 H V C CNN
 F2 "backlight_controller_5x3:M12-5_RCPT_F_SMD" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "CONN FMALE INSERT 5POS SOLDER" 300 0 60 H I C CNN "Description"
-F5 "Phoenix Contact" 0 0 60 H I C CNN "Mfg"
-F6 "1411976" 0 0 60 H I C CNN "Mfg PN"
-F7 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F8 "277-10282-1-ND	" 0 0 60 H I C CNN "Supplier PN"
+F5 "Phoenix Contact" 0 0 60 H I C CNN "Manufacturer"
+F6 "1411976" 0 0 60 H I C CNN "Manufacturer Part Number"
+F7 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F8 "277-10282-1-ND	" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -326,10 +326,10 @@ F1 "MINI_FIT" -200 0 50 V V C CNN
 F2 "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA" 0 -1200 60 H I C CNN
 F3 "" 0 -1200 60 H I C CNN
 F4 "CONN HEADER 6POS 4.2MM R/A TIN" 300 600 60 H I C CNN "Description"
-F5 "Molex" 0 0 60 H I C CNN "Mfg"
-F6 "0039301060" 0 0 60 H I C CNN "Mfg PN"
-F7 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F8 "WM1353-ND" 0 0 60 H I C CNN "Supplier PN"
+F5 "Molex" 0 0 60 H I C CNN "Manufacturer"
+F6 "0039301060" 0 0 60 H I C CNN "Manufacturer Part Number"
+F7 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F8 "WM1353-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  Pin_Header_Straight_2X05
  Pin_Header_Angled_2X05
@@ -360,7 +360,7 @@ F0 "MDB" 0 -1750 60 H V C CNN
 F1 "MODULAR_DEVICE_BASE_5x3_MALE" 0 850 60 H V C CNN
 F2 "backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE" 0 1050 60 H I C CNN
 F3 "" 50 2750 60 H V C CNN
-F4 "digikey" 0 1150 60 H I C CNN "Vendor"
+F4 "Digi-Key" 0 1150 60 H I C CNN "Vendor"
 F5 "S1011E-25-ND" 0 1250 60 H I C CNN "PartNumber"
 F6 "25 Positions Header Breakaway Connector 0.1in" 0 1350 60 H I C CNN "Description"
 F7 "2" 1300 1250 60 H I C CNN "PartCount"
@@ -428,10 +428,10 @@ F2 "backlight_controller_5x3:TO-236-3" 0 800 60 H I C CNN
 F3 "" -250 0 60 V I C CNN
 F4 "IC INDCT LOAD DRVR AUTO" 0 1000 60 H I C CNN "Description"
 F5 "SOT-23-3" 0 0 60 H I C CNN "Package"
-F6 "ON Semiconductor" 0 0 60 H I C CNN "Mfg"
-F7 "NUD3124LT1G" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "NUD3124LT1GOSCT-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "ON Semiconductor" 0 0 60 H I C CNN "Manufacturer"
+F7 "NUD3124LT1G" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "NUD3124LT1GOSCT-ND" 0 0 60 H I C CNN "Vendor Part Number"
 DRAW
 S -100 100 100 -100 0 1 0 N
 S -100 100 100 -100 0 1 0 N
@@ -455,10 +455,10 @@ F2 "backlight_controller_5x3:SOIC_20" 100 550 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "20-SOIC" 0 0 60 H I C CNN "Package"
 F5 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output" 300 -600 60 H I C CNN "Description"
-F6 "Texas Instruments" 0 0 60 H I C CNN "Mfg"
-F7 "SN74ABT541BDWR" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "296-14668-1-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Texas Instruments" 0 0 60 H I C CNN "Manufacturer"
+F7 "SN74ABT541BDWR" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "296-14668-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
 DRAW
 S -250 600 250 -600 0 1 0 N
 P 2 0 1 0 -250 -350 -50 -350 N
@@ -517,10 +517,10 @@ F2 "backlight_controller_5x3:CFP15" -150 -20 60 H I C CNN
 F3 "" -50 80 60 H I C CNN
 F4 "DIODE SCHOTTKY 45V 10A" 250 380 60 H I C CNN "Description"
 F5 "CFP15" 0 0 60 H I C CNN "Package"
-F6 "Nexperia USA Inc." 0 0 60 H I C CNN "Mfg"
-F7 "PMEG045V100EPDZ" 0 0 60 H I C CNN "Mfg PN"
-F8 "Digi-Key" 0 0 60 H I C CNN "Supplier"
-F9 "1727-1904-1-ND" 0 0 60 H I C CNN "Supplier PN"
+F6 "Nexperia USA Inc." 0 0 60 H I C CNN "Manufacturer"
+F7 "PMEG045V100EPDZ" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "1727-1904-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
 $FPLIST
  Diode_*
  D-Pak_TO252AA
