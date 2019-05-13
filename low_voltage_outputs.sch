@@ -131,4 +131,20 @@ Text HLabel 4250 3850 0    60   Input ~ 0
 channel_2
 Text HLabel 4250 4500 0    60   Input ~ 0
 channel_3
+$Comp
+L backlight_controller_5x3:DB9M J4
+U 1 1 5CDBCB14
+P 8400 3500
+F 0 "J4" H 8580 3546 50  0000 L CNN
+F 1 "DB9M" H 8580 3455 50  0000 L CNN
+F 2 "backlight_controller_5x3:DB9M_SMD" H 8400 3500 50  0001 C CNN
+F 3 "" H 8400 3500 50  0001 C CNN
+F 4 "CONN D-SUB PLUG 9POS SMD SOLDER" H 8700 3750 60  0001 C CNN "Description"
+F 5 "HARTING" H 8400 3500 60  0001 C CNN "Manufacturer"
+F 6 "09551296812741" H 8400 3500 60  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 8400 3500 60  0001 C CNN "Vendor"
+F 8 "1195-4006-1-ND" H 8400 3500 60  0001 C CNN "Vendor Part Number"
+	1    8400 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
