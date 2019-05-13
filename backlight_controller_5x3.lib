@@ -252,17 +252,47 @@ X 9 9 -300 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# DIODE_10A
+#
+DEF DIODE_10A D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "DIODE_10A" -280 -80 50 H I L CNN
+F2 "backlight_controller_5x3:CFP15" -150 -20 60 H I C CNN
+F3 "" -50 80 60 H I C CNN
+F4 "DIODE SCHOTTKY 45V 10A" 250 380 60 H I C CNN "Description"
+F5 "CFP15" 0 0 60 H I C CNN "Package"
+F6 "Nexperia USA Inc." 0 0 60 H I C CNN "Manufacturer"
+F7 "PMEG045V100EPDZ" 0 0 60 H I C CNN "Manufacturer Part Number"
+F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
+F9 "1727-1904-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FIDUCIAL
 #
 DEF FIDUCIAL FID 0 30 N N 1 F N
-F0 "FID" 0 140 50 H V C CNN
-F1 "FIDUCIAL" 0 -140 50 H V C CNN
+F0 "FID" 0 90 50 H V C CNN
+F1 "FIDUCIAL" 0 -90 50 H V C CNN
 F2 "backlight_controller_5x3:FIDUCIAL" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
-C 0 0 100 0 1 0 f
-P 2 0 1 0 -110 0 110 0 N
-P 2 0 1 0 0 110 0 -110 N
+C 0 0 25 0 1 0 f
+P 3 0 1 0 -50 0 50 0 50 0 N
+P 3 0 1 0 0 50 0 -50 0 -50 N
 ENDDRAW
 ENDDEF
 #
@@ -462,8 +492,8 @@ ENDDEF
 #
 # MOUNTING_HOLE_4-40
 #
-DEF MOUNTING_HOLE_4-40 TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
+DEF MOUNTING_HOLE_4-40 MH 0 30 N N 1 F N
+F0 "MH" 0 270 50 H V C CNN
 F1 "MOUNTING_HOLE_4-40" 0 200 50 H V C CNN
 F2 "backlight_controller_5x3:MOUNTING_HOLE_4-40" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
@@ -559,36 +589,6 @@ X ~ 6 -350 -50 100 R 50 50 1 1 I
 X ~ 7 -350 -150 100 R 50 50 1 1 I
 X ~ 8 -350 -250 100 R 50 50 1 1 I
 X ~ 9 -350 -350 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# diode_10A
-#
-DEF diode_10A D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "diode_10A" -280 -80 50 H I L CNN
-F2 "backlight_controller_5x3:CFP15" -150 -20 60 H I C CNN
-F3 "" -50 80 60 H I C CNN
-F4 "DIODE SCHOTTKY 45V 10A" 250 380 60 H I C CNN "Description"
-F5 "CFP15" 0 0 60 H I C CNN "Package"
-F6 "Nexperia USA Inc." 0 0 60 H I C CNN "Manufacturer"
-F7 "PMEG045V100EPDZ" 0 0 60 H I C CNN "Manufacturer Part Number"
-F8 "Digi-Key" 0 0 60 H I C CNN "Vendor"
-F9 "1727-1904-1-ND" 0 0 60 H I C CNN "Vendor Part Number"
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *SingleDiode*
- *_Diode_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
-P 3 0 1 0 -30 40 -40 40 -40 30 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

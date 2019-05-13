@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 21
+Sheet 1 22
 Title "backlight_controller_5x3"
 Date ""
 Rev "1.3"
@@ -38,8 +38,6 @@ $EndComp
 Wire Wire Line
 	1100 700  1100 800 
 Wire Wire Line
-	1100 800  1350 800 
-Wire Wire Line
 	700  750  700  900 
 Wire Wire Line
 	700  900  1400 900 
@@ -66,8 +64,6 @@ F 3 "" H -150 100 50  0001 C CNN
 	1    1350 750 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 750  1350 800 
 Connection ~ 1350 800 
 $Comp
 L power:PWR_FLAG #FLG03
@@ -125,8 +121,6 @@ NoConn ~ 4300 2500
 NoConn ~ 4300 2600
 Wire Wire Line
 	700  900  700  950 
-Wire Wire Line
-	1350 800  1400 800 
 Wire Wire Line
 	4850 900  5150 900 
 Wire Wire Line
@@ -294,9 +288,65 @@ Wire Wire Line
 Wire Wire Line
 	4300 2100 4350 2100
 $Sheet
-S 1400 750  2900 2500
+S 1400 700  2900 2650
 U 5CD48705
 F0 "modular_device_base_5x3_male" 60
 F1 "modular_device_base_5x3_male.sch" 60
+F2 "VDD(+9-42VDC)" U L 1400 800 60 
+F3 "GND" U L 1400 900 60 
+F4 "A10" B L 1400 1000 60 
+F5 "A11" B L 1400 1100 60 
+F6 "D2{slash}PWM" B L 1400 1200 60 
+F7 "D55" B L 1400 1300 60 
+F8 "D54{slash}CS2" B L 1400 1400 60 
+F9 "D5{slash}PWM{slash}TX1B{slash}MISO1B" B L 1400 1500 60 
+F10 "D6{slash}PWM" B L 1400 1600 60 
+F11 "D52{slash}MOSI2B" B L 1400 1700 60 
+F12 "D40" B L 1400 1800 60 
+F13 "D41" B L 1400 1900 60 
+F14 "D42" B L 1400 2000 60 
+F15 "D11{slash}MOSI0" B L 1400 2100 60 
+F16 "D12{slash}MISO0" B L 1400 2200 60 
+F17 "D50{slash}A24" B L 1400 2300 60 
+F18 "D49{slash}A23" B L 1400 2400 60 
+F19 "D48{slash}TX6{slash}SDA0B" B L 1400 2500 60 
+F20 "D47{slash}RX6{slash}SCLOB" B L 1400 2600 60 
+F21 "D43{slash}CS2" B L 1400 2700 60 
+F22 "D44{slash}MOSI2" B L 1400 2800 60 
+F23 "D29{slash}PWM{slash}CAN0TXB" B L 1400 2900 60 
+F24 "D30{slash}PWM{slash}CAN0RXB" B L 1400 3000 60 
+F25 "D45{slash}MISO2" B L 1400 3100 60 
+F26 "D46{slash}SCK2" B L 1400 3200 60 
+F27 "D20{slash}A6{slash}PWM{slash}CS0{slash}SCK1" B R 4300 1500 60 
+F28 "D37{slash}A18{slash}PWM{slash}SCL1" B R 4300 2800 60 
+F29 "D13{slash}LED{slash}SCK0" B R 4300 2200 60 
+F30 "D19{slash}A5{slash}SCL0" B R 4300 1600 60 
+F31 "D17{slash}A3{slash}SDA0B" B R 4300 1800 60 
+F32 "D16{slash}A2{slash}SCL0B" B R 4300 1900 60 
+F33 "D15{slash}A1{slash}CS0" B R 4300 2000 60 
+F34 "D36{slash}A17{slash}PWM" B R 4300 2900 60 
+F35 "D34{slash}A15{slash}SDA0B{slash}RX5" B R 4300 3100 60 
+F36 "D33{slash}A14{slash}SCL0B{slash}TX5" B R 4300 3200 60 
+F37 "D35{slash}A16{slash}PWM" B R 4300 3000 60 
+F38 "D14{slash}A0{slash}PWM{slash}SCK0B" B R 4300 2100 60 
+F39 "AREF" U R 4300 800 60 
+F40 "D22{slash}A8{slash}PWM" B R 4300 1300 60 
+F41 "D23{slash}A9{slash}PWM" B R 4300 1200 60 
+F42 "3.3V(250mA)" U R 4300 1100 60 
+F43 "D18{slash}A4{slash}SDA0" B R 4300 1700 60 
+F44 "D21{slash}A7{slash}PWM{slash}CS0{slash}MOSI1B{slash}RX1B" B R 4300 1400 60 
+F45 "VEE(+4-5VDC)" U R 4300 900 60 
+F46 "D53{slash}SCK2B" B R 4300 2300 60 
+F47 "A22{slash}DAC1" B R 4300 2400 60 
+F48 "A21{slash}DAC0" B R 4300 2500 60 
+F49 "D51{slash}MISO2B" B R 4300 2600 60 
+F50 "D38{slash}A19{slash}PWM{slash}SDA1" B R 4300 2700 60 
+F51 "AGND" U R 4300 1000 60 
 $EndSheet
+Wire Wire Line
+	1350 800  1400 800 
+Wire Wire Line
+	1100 800  1350 800 
+Wire Wire Line
+	1350 750  1350 800 
 $EndSCHEMATC
