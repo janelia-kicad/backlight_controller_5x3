@@ -37,10 +37,6 @@ F 3 "" H 550 100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 700  1100 800 
-Wire Wire Line
-	700  750  700  900 
-Wire Wire Line
-	700  900  1400 900 
 $Comp
 L power:GND #PWR03
 U 1 1 589B84A6
@@ -52,7 +48,6 @@ F 3 "" H 0   -50 50  0001 C CNN
 	1    700  950 
 	1    0    0    -1  
 $EndComp
-Connection ~ 700  900 
 $Comp
 L power:VDD #PWR01
 U 1 1 589B84C6
@@ -64,7 +59,6 @@ F 3 "" H -150 100 50  0001 C CNN
 	1    1350 750 
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 800 
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 589B8557
@@ -76,8 +70,6 @@ F 3 "" H 4600 200 50  0001 C CNN
 	1    5150 800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 900  4850 900 
 Wire Wire Line
 	5150 900  5150 800 
 $Comp
@@ -93,64 +85,18 @@ F 3 "" H -50 50  50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 800  4850 900 
-Connection ~ 4850 900 
-NoConn ~ 1400 1000
-NoConn ~ 1400 1100
-NoConn ~ 1400 1300
-NoConn ~ 1400 1400
-NoConn ~ 1400 1800
-NoConn ~ 1400 1900
-NoConn ~ 1400 2000
-NoConn ~ 1400 2100
-NoConn ~ 1400 2200
-NoConn ~ 1400 2300
-NoConn ~ 1400 2400
-NoConn ~ 1400 2500
-NoConn ~ 1400 2600
-NoConn ~ 1400 2700
-NoConn ~ 1400 2800
-NoConn ~ 1400 3100
-NoConn ~ 1400 3200
-NoConn ~ 4300 800 
-NoConn ~ 4300 1000
-NoConn ~ 4300 1100
-NoConn ~ 4300 2200
-NoConn ~ 4300 2300
-NoConn ~ 4300 2400
-NoConn ~ 4300 2500
-NoConn ~ 4300 2600
-Wire Wire Line
-	700  900  700  950 
 Wire Wire Line
 	4850 900  5150 900 
-Wire Wire Line
-	1400 1700 1350 1700
 Text Label 1350 1700 2    60   ~ 0
 ~ENABLE
-Wire Wire Line
-	1400 1200 1350 1200
-Wire Wire Line
-	1400 1600 1350 1600
 Text Label 1350 1200 2    60   ~ 0
 CHANNEL_0
 Text Label 1350 1500 2    60   ~ 0
 CHANNEL_1
-Wire Wire Line
-	1400 2900 1350 2900
-Wire Wire Line
-	1400 3000 1350 3000
 Text Label 1350 1600 2    60   ~ 0
 CHANNEL_2
 Text Label 1350 2900 2    60   ~ 0
 CHANNEL_3
-Wire Wire Line
-	4300 1200 4350 1200
-Wire Wire Line
-	4300 1300 4350 1300
-Wire Wire Line
-	4300 2900 4350 2900
-Wire Wire Line
-	4300 3000 4350 3000
 Text Label 4350 1700 0    60   ~ 0
 CHANNEL_6
 Text Label 4350 1600 0    60   ~ 0
@@ -266,27 +212,6 @@ Text Label 7350 2900 2    60   ~ 0
 CHANNEL_14
 Text Label 7350 3000 2    60   ~ 0
 CHANNEL_15
-NoConn ~ 4300 2000
-NoConn ~ 4300 1900
-NoConn ~ 4300 1800
-Wire Wire Line
-	1400 1500 1350 1500
-Wire Wire Line
-	4300 1500 4350 1500
-Wire Wire Line
-	4300 1400 4350 1400
-Wire Wire Line
-	4300 2800 4350 2800
-Wire Wire Line
-	4300 2700 4350 2700
-NoConn ~ 4300 3200
-NoConn ~ 4300 3100
-Wire Wire Line
-	4300 1600 4350 1600
-Wire Wire Line
-	4300 1700 4350 1700
-Wire Wire Line
-	4300 2100 4350 2100
 $Sheet
 S 1400 700  2900 2650
 U 5CD48705
@@ -344,9 +269,84 @@ F50 "D38{slash}A19{slash}PWM{slash}SDA1" B R 4300 2700 60
 F51 "AGND" U R 4300 1000 60 
 $EndSheet
 Wire Wire Line
-	1350 800  1400 800 
-Wire Wire Line
 	1100 800  1350 800 
 Wire Wire Line
 	1350 750  1350 800 
+Wire Wire Line
+	700  750  700  900 
+Wire Wire Line
+	1350 1600 1400 1600
+Wire Wire Line
+	1350 1700 1400 1700
+Wire Wire Line
+	1400 1500 1350 1500
+Wire Wire Line
+	1400 1200 1350 1200
+Wire Wire Line
+	1400 800  1350 800 
+Connection ~ 1350 800 
+Wire Wire Line
+	1400 900  700  900 
+Connection ~ 700  900 
+Wire Wire Line
+	700  900  700  950 
+Wire Wire Line
+	1400 2900 1350 2900
+Wire Wire Line
+	1400 3000 1350 3000
+Wire Wire Line
+	4300 900  4850 900 
+Connection ~ 4850 900 
+Wire Wire Line
+	4300 1200 4350 1200
+Wire Wire Line
+	4300 1300 4350 1300
+Wire Wire Line
+	4300 1400 4350 1400
+Wire Wire Line
+	4300 1500 4350 1500
+Wire Wire Line
+	4300 1600 4350 1600
+Wire Wire Line
+	4300 1700 4350 1700
+Wire Wire Line
+	4300 2100 4350 2100
+Wire Wire Line
+	4300 2700 4350 2700
+Wire Wire Line
+	4300 2800 4350 2800
+Wire Wire Line
+	4300 2900 4350 2900
+Wire Wire Line
+	4300 3000 4350 3000
+NoConn ~ 1400 1000
+NoConn ~ 1400 1100
+NoConn ~ 1400 1300
+NoConn ~ 1400 1400
+NoConn ~ 1400 1800
+NoConn ~ 1400 1900
+NoConn ~ 1400 2000
+NoConn ~ 1400 2100
+NoConn ~ 1400 2200
+NoConn ~ 1400 2300
+NoConn ~ 1400 2400
+NoConn ~ 1400 2500
+NoConn ~ 1400 2600
+NoConn ~ 1400 2700
+NoConn ~ 1400 2800
+NoConn ~ 1400 3100
+NoConn ~ 1400 3200
+NoConn ~ 4300 800 
+NoConn ~ 4300 1000
+NoConn ~ 4300 1100
+NoConn ~ 4300 1800
+NoConn ~ 4300 1900
+NoConn ~ 4300 2000
+NoConn ~ 4300 2200
+NoConn ~ 4300 2300
+NoConn ~ 4300 2400
+NoConn ~ 4300 2500
+NoConn ~ 4300 2600
+NoConn ~ 4300 3100
+NoConn ~ 4300 3200
 $EndSCHEMATC
