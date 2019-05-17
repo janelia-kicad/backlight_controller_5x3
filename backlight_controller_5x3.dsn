@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "6.0.0-rc1-unknown-4b44cbe~66~ubuntu18.04.1")
+    (host_version "6.0.0-unknown-69339f3~86~ubuntu18.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -21,8 +21,17 @@
       )
     )
     (boundary
-      (path pcb 0  191135 -139065  69850 -139065  69850 -71755  191135 -71755
-            191135 -139065)
+      (path pcb 0  190086 -71774.3  190299 -71831.6  190500 -71925.1  190681 -72052.1
+            190838 -72208.7  190965 -72390  191058 -72590.6  191116 -72804.5
+            191135 -73025  191135 -137795  191116 -138016  191058 -138229
+            190965 -138430  190838 -138611  190681 -138768  190500 -138895
+            190299 -138988  190086 -139046  189865 -139065  71120 -139065
+            70899.5 -139046  70685.6 -138988  70485 -138895  70303.7 -138768
+            70147.1 -138611  70020.1 -138430  69926.6 -138229  69869.3 -138016
+            69850 -137795  69850 -73025  69869.3 -72804.5  69926.6 -72590.6
+            70020.1 -72390  70147.1 -72208.7  70303.7 -72052.1  70485 -71925.1
+            70685.6 -71831.6  70899.5 -71774.3  71120 -71755  189865 -71755
+            190086 -71774.3)
     )
     (via "Via[0-1]_889:635_um" "Via[0-1]_1219.2:711.2_um" "Via[0-1]_1625.6:1117.6_um")
     (rule
@@ -33,97 +42,125 @@
     )
   )
   (placement
-    (component "footprints:M12-5_RCPT_F_SMD"
-      (place J3 121285 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J4 121285 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J5 140335 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J6 140335 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J7 159385 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J8 159385 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J9 178435 -89535 front 0 (PN "M12-5-RCPT_F_SMD"))
-      (place J10 178435 -121285 front 0 (PN "M12-5-RCPT_F_SMD"))
-    )
-    (component footprints:DB9M_SMD
-      (place J2 102870 -105410 front 90 (PN DB9M_SMD))
-    )
-    (component footprints:DB9F_SMD
-      (place J1 82550 -105410 front 90 (PN DB9F_SMD))
-    )
-    (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
-      (place P1 187960 -105410 front 90 (PN MINI_FIT_JR_02X03_M_RA))
-    )
-    (component backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
-      (place MDB1 91440 -105410 front 0 (PN MODULAR_DEVICE_BASE_5x3_MALE))
-    )
-    (component backlight_controller_5x3:CFP15
-      (place D1 73660 -88650 back 180 (PN diode_schottky_45V_10A))
-    )
-    (component backlight_controller_5x3:SM1210
-      (place C1 130810 -114300 back 180 (PN 0.1uF))
-      (place C2 156210 -97155 back 0 (PN 0.1uF))
-      (place C3 96520 -87630 back 90 (PN 0.1uF))
-      (place C4 96520 -96520 back 90 (PN 0.1uF))
-      (place C5 96520 -105410 back 90 (PN 0.1uF))
-      (place C6 96520 -114300 back 90 (PN 0.1uF))
-      (place R1 100965 -87630 back 180 (PN 5.9k))
-      (place R2 100965 -96520 back 180 (PN 5.9k))
-      (place R3 100965 -105410 back 180 (PN 5.9k))
-      (place R4 100965 -114300 back 180 (PN 5.9k))
-    )
-    (component "backlight_controller_5x3:PG-TO252-5-11"
-      (place HPS1 93345 -87630 back 90 (PN BTS3256))
-      (place HPS2 93345 -96520 back 90 (PN BTS3256))
-      (place HPS3 93345 -105410 back 90 (PN BTS3256))
-      (place HPS4 93345 -114300 back 90 (PN BTS3256))
-    )
-    (component backlight_controller_5x3:SOIC_20
-      (place U1 130556 -105664 back 0 (PN SN74ABT541BDWR))
-      (place U2 156210 -105410 back 180 (PN SN74ABT541BDWR))
-    )
-    (component "backlight_controller_5x3:LED_555-3XXX_R"
-      (place L1 189230 -116205 front 0 (PN LED_24V_RED))
-      (place L3 81280 -125730 front 0 (PN LED_5V_GRN))
-      (place L5 86360 -125730 front 0 (PN LED_5V_GRN))
-      (place L8 104140 -125730 front 0 (PN LED_5V_GRN))
-      (place L9 106680 -125730 front 0 (PN LED_5V_GRN))
-      (place L10 121285 -78740 front 90 (PN LED_5V_GRN))
-      (place L13 140335 -132080 front 90 (PN LED_5V_GRN))
-      (place L15 159385 -132080 front 90 (PN LED_5V_GRN))
-      (place L17 178435 -132080 front 90 (PN LED_5V_GRN))
-    )
-    (component "backlight_controller_5x3:LED_555-3XXX_G"
-      (place L2 78740 -125730 front 0 (PN LED_5V_GRN))
-      (place L4 83820 -125730 front 0 (PN LED_5V_GRN))
-      (place L6 99060 -125730 front 0 (PN LED_5V_GRN))
-      (place L7 101600 -125730 front 0 (PN LED_5V_GRN))
-      (place L11 121285 -132080 front 90 (PN LED_5V_GRN))
-      (place L12 140335 -78740 front 90 (PN LED_5V_GRN))
-      (place L14 159385 -78740 front 90 (PN LED_5V_GRN))
-      (place L16 178435 -78740 front 90 (PN LED_5V_GRN))
-    )
     (component "backlight_controller_5x3:TO-236-3"
       (place U3 121285 -81280 back 180 (PN NUD3124))
       (place U4 121285 -129540 back 180 (PN NUD3124))
       (place U5 140335 -81280 back 180 (PN NUD3124))
       (place U6 140335 -129540 back 180 (PN NUD3124))
-    )
-    (component "backlight_controller_5x3:TO-236-3::1"
       (place U7 159385 -81280 back 180 (PN NUD3124))
       (place U8 159385 -129540 back 180 (PN NUD3124))
       (place U9 178435 -81280 back 180 (PN NUD3124))
       (place U10 178435 -129540 back 180 (PN NUD3124))
     )
-    (component footprints:SM0805
-      (place R5 113665 -99695 back 180 (PN 75))
-      (place R7 113665 -107315 back 180 (PN 75))
+    (component "backlight_controller_5x3:M12-5_RCPT_F_SMD"
+      (place J5 121285 -89535 front 90 (PN "M12-5-RCPT"))
+      (place J6 121285 -121285 front 90 (PN "M12-5-RCPT"))
+      (place J7 140335 -89535 front 90 (PN "M12-5-RCPT"))
+      (place J8 140335 -121285 front 90 (PN "M12-5-RCPT"))
+      (place J10 159385 -121285 front 90 (PN "M12-5-RCPT"))
+      (place J11 178435 -89535 front 90 (PN "M12-5-RCPT"))
+      (place J9 159385 -89535 front 90 (PN "M12-5-RCPT"))
+      (place J12 178435 -121285 front 90 (PN "M12-5-RCPT"))
     )
-    (component footprints:SM0805::1
-      (place R6 113665 -103505 back 180 (PN 75))
-      (place R8 113665 -111125 back 180 (PN 75))
+    (component backlight_controller_5x3:LED0805
+      (place D3 78740 -128270 front 180 (PN LED_GRN))
+      (place D2 189230 -123406 front 180 (PN LED_GRN))
+      (place D17 178435 -78105 front 270 (PN LED_GRN))
+      (place D18 178435 -132715 front 270 (PN LED_GRN))
+      (place D16 159385 -132715 front 270 (PN LED_GRN))
+      (place D4 81280 -128270 front 180 (PN LED_GRN))
+      (place D15 159385 -78105 front 270 (PN LED_GRN))
+      (place D14 140335 -132715 front 270 (PN LED_GRN))
+      (place D6 86360 -128270 front 180 (PN LED_GRN))
+      (place D13 140335 -78105 front 270 (PN LED_GRN))
+      (place D12 121285 -132715 front 270 (PN LED_GRN))
+      (place D7 99060 -128270 front 180 (PN LED_GRN))
+      (place D11 121285 -78105 front 270 (PN LED_GRN))
+      (place D8 101600 -128270 front 180 (PN LED_GRN))
+      (place D10 106680 -128270 front 180 (PN LED_GRN))
+      (place D9 104140 -128270 front 180 (PN LED_GRN))
+      (place D5 83820 -128270 front 180 (PN LED_GRN))
+    )
+    (component backlight_controller_5x3:SM0805
+      (place R11 118745 -101600 back 270 (PN 75))
+      (place R9 96520 -120650 back 270 (PN 5.9k))
+      (place R10 99060 -123825 front 0 (PN 287))
+      (place C6 92710 -115570 back 180 (PN 0.1uF))
+      (place R13 118745 -104140 back 270 (PN 75))
+      (place R12 101600 -123825 front 0 (PN 287))
+      (place R8 86360 -123825 front 0 (PN 287))
+      (place R7 96520 -110490 back 270 (PN 5.9k))
+      (place C5 92710 -105410 back 180 (PN 0.1uF))
+      (place R6 83820 -123825 front 0 (PN 287))
+      (place R5 96520 -100330 back 270 (PN 5.9k))
+      (place C4 92710 -95250 back 180 (PN 0.1uF))
+      (place R4 81280 -123825 front 0 (PN 287))
+      (place R14 104140 -123825 front 0 (PN 287))
+      (place R3 96520 -90170 back 270 (PN 5.9k))
+      (place C3 92710 -85090 back 180 (PN 0.1uF))
+      (place C1 130810 -113665 back 90 (PN 0.1uF))
+      (place R2 78740 -123825 front 0 (PN 287))
+      (place R1 189230 -118745 front 0 (PN 2.2k))
+      (place R15 118745 -106680 back 270 (PN 75))
+      (place R17 118745 -109220 back 270 (PN 75))
+      (place R16 106680 -123825 front 0 (PN 287))
+      (place R25 173990 -132715 front 90 (PN 287))
+      (place R18 116840 -78105 front 90 (PN 287))
+      (place R22 154940 -78105 front 90 (PN 287))
+      (place R19 116840 -132715 front 90 (PN 287))
+      (place C2 156210 -97155 back 270 (PN 0.1uF))
+      (place R23 154940 -132715 front 90 (PN 287))
+      (place R24 173990 -78105 front 90 (PN 287))
+      (place R20 135890 -78105 front 90 (PN 287))
+      (place R21 135890 -132715 front 90 (PN 287))
+    )
+    (component backlight_controller_5x3:HEADER_01x25
+      (place J2 102870 -135890 back 180 (PN HEADER_01x25_MALE))
+      (place J1 102870 -74930 back 180 (PN HEADER_01x25_MALE))
+    )
+    (component backlight_controller_5x3:DB9F_SMD
+      (place J3 82550 -105410 front 180 (PN DB9F))
+    )
+    (component backlight_controller_5x3:DB9M_SMD
+      (place J4 102870 -105410 front 180 (PN DB9M))
+    )
+    (component backlight_controller_5x3:FIDUCIAL
+      (place FID4 71120 -137795 front 0 (PN FIDUCIAL))
+      (place FID3 189865 -137795 front 0 (PN FIDUCIAL))
+      (place FID2 189865 -73025 front 0 (PN FIDUCIAL))
+      (place FID1 71120 -73025 front 0 (PN FIDUCIAL))
+    )
+    (component "backlight_controller_5x3:MOUNTING_HOLE_4-40"
+      (place MH1 73660 -80010 front 0 (PN "MOUNTING_HOLE_4-40"))
+      (place MH2 165100 -74930 front 0 (PN "MOUNTING_HOLE_4-40"))
+      (place MH3 165100 -135890 front 0 (PN "MOUNTING_HOLE_4-40"))
+      (place MH4 73660 -130810 front 0 (PN "MOUNTING_HOLE_4-40"))
+    )
+    (component "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
+      (place P1 187960 -105410 front 90 (PN MINI_FIT))
+    )
+    (component backlight_controller_5x3:CFP15
+      (place D1 73660 -88650 back 180 (PN DIODE_10A))
+    )
+    (component "backlight_controller_5x3:PG-TO252-5-11"
+      (place HPS1 92710 -90170 back 90 (PN BTS3256))
+      (place HPS2 92710 -100330 back 90 (PN BTS3256))
+      (place HPS3 92710 -110490 back 90 (PN BTS3256))
+      (place HPS4 92710 -120650 back 90 (PN BTS3256))
+    )
+    (component backlight_controller_5x3:SOIC_20
+      (place U1 130556 -105664 back 0 (PN SN74ABT541BDWR))
+      (place U2 156210 -105410 back 180 (PN SN74ABT541BDWR))
     )
   )
   (library
-    (image "footprints:M12-5_RCPT_F_SMD"
+    (image "backlight_controller_5x3:TO-236-3"
+      (outline (path signal 1000  -1000 0  1000 0))
+      (pin Rect[T]Pad_800x900_um 3 0 1000)
+      (pin Rect[T]Pad_800x900_um 2 950 -1000)
+      (pin Rect[T]Pad_800x900_um 1 -950 -1000)
+    )
+    (image "backlight_controller_5x3:M12-5_RCPT_F_SMD"
       (outline (path signal 400  5100 0  5018.04 -910.64  4774.8 -1792.01  4378.09 -2615.79
             3840.66 -3355.49  3179.8 -3987.34  2416.73 -4491.04  1575.99 -4850.39
             684.59 -5053.84  -228.811 -5094.86  -1134.86 -4972.13  -2004.43 -4689.59
@@ -144,53 +181,125 @@
             -1138.52 7918.57  0 8000  1138.52 7918.57  2253.86 7675.94  3323.32 7277.06
             4325.13 6730.03  5238.89 6046  6046 5238.89  6730.03 4325.13
             7277.06 3323.32  7675.94 2253.86  7918.57 1138.52  8000 0))
-      (pin Round[A]Pad_1600_um @1 4500 0)
-      (pin Round[A]Pad_2000_um @2 -4500 0)
-      (pin Rect[T]Pad_2250x7850_um @3 5675 0)
-      (pin Rect[T]Pad_2250x7850_um @4 -5675 0)
-      (pin Round[T]Pad_1500_um 4 -1770 -1770)
-      (pin Round[T]Pad_1500_um 3 1770 -1770)
-      (pin Round[T]Pad_1500_um 2 1770 1770)
-      (pin Round[T]Pad_1500_um 1 -1770 1770)
-      (pin Round[T]Pad_1500_um 5 0 0)
+      (pin Round[A]Pad_1600_um (rotate 270) @1 0 -4500)
+      (pin Round[A]Pad_2000_um (rotate 270) @2 0 4500)
+      (pin Rect[T]Pad_2250x7850_um (rotate 270) @3 0 -5675)
+      (pin Rect[T]Pad_2250x7850_um (rotate 270) @4 0 5675)
+      (pin Round[T]Pad_1500_um (rotate 270) 4 -1770 1770)
+      (pin Round[T]Pad_1500_um (rotate 270) 3 -1770 -1770)
+      (pin Round[T]Pad_1500_um (rotate 270) 2 1770 -1770)
+      (pin Round[T]Pad_1500_um (rotate 270) 1 1770 1770)
+      (pin Round[T]Pad_1500_um (rotate 270) 5 0 0)
     )
-    (image footprints:DB9M_SMD
-      (outline (path signal 381  -15560 6250  -15560 -6250))
-      (outline (path signal 381  -15560 -6250  15560 -6250))
-      (outline (path signal 381  15560 -6250  15560 6250))
-      (outline (path signal 381  15560 6250  -15560 6250))
-      (pin Round[A]Pad_2200_um @1 12500 3100)
-      (pin Round[A]Pad_2200_um @2 -12500 3100)
-      (pin Rect[T]Pad_3400x13000_um @3 -14200 0)
-      (pin Rect[T]Pad_3400x13000_um @4 14200 0)
-      (pin Rect[T]Pad_1000x2400_um 1 -5480 1720)
-      (pin Rect[T]Pad_1000x2400_um 2 -2740 1720)
-      (pin Rect[T]Pad_1000x2400_um 3 0 1720)
-      (pin Rect[T]Pad_1000x2400_um 4 2740 1720)
-      (pin Rect[T]Pad_1000x2400_um 5 5480 1720)
-      (pin Rect[T]Pad_1000x2400_um 6 -4110 -1720)
-      (pin Rect[T]Pad_1000x2400_um 7 -1370 -1720)
-      (pin Rect[T]Pad_1000x2400_um 8 1370 -1720)
-      (pin Rect[T]Pad_1000x2400_um 9 4110 -1720)
+    (image backlight_controller_5x3:LED0805
+      (outline (path signal 127  -127 381  -127 127))
+      (outline (path signal 127  127 381  -127 381))
+      (outline (path signal 127  127 127  127 381))
+      (outline (path signal 127  -127 127  127 127))
+      (outline (path signal 127  -635 -381  635 -381))
+      (outline (path signal 127  0 0  635 -381))
+      (outline (path signal 127  -635 -381  0 0))
+      (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 2 0 1054.1)
+      (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 1 0 -1054.1)
     )
-    (image footprints:DB9F_SMD
-      (outline (path signal 381  -15560 6250  -15560 -6250))
-      (outline (path signal 381  -15560 -6250  15560 -6250))
-      (outline (path signal 381  15560 -6250  15560 6250))
-      (outline (path signal 381  15560 6250  -15560 6250))
-      (pin Round[A]Pad_2200_um @1 12500 3100)
-      (pin Round[A]Pad_2200_um @2 -12500 3100)
-      (pin Rect[T]Pad_3400x13000_um @3 -14200 0)
-      (pin Rect[T]Pad_3400x13000_um @4 14200 0)
-      (pin Rect[T]Pad_1000x2400_um 5 -5480 1720)
-      (pin Rect[T]Pad_1000x2400_um 4 -2740 1720)
-      (pin Rect[T]Pad_1000x2400_um 3 0 1720)
-      (pin Rect[T]Pad_1000x2400_um 2 2740 1720)
-      (pin Rect[T]Pad_1000x2400_um 1 5480 1720)
-      (pin Rect[T]Pad_1000x2400_um 9 -4110 -1720)
-      (pin Rect[T]Pad_1000x2400_um 8 -1370 -1720)
-      (pin Rect[T]Pad_1000x2400_um 7 1370 -1720)
-      (pin Rect[T]Pad_1000x2400_um 6 4110 -1720)
+    (image backlight_controller_5x3:SM0805
+      (outline (path signal 177.8  -889 -1524  -889 -635))
+      (outline (path signal 177.8  889 -1524  -889 -1524))
+      (outline (path signal 177.8  889 -635  889 -1524))
+      (outline (path signal 177.8  -889 1524  -889 635))
+      (outline (path signal 177.8  889 1524  -889 1524))
+      (outline (path signal 177.8  889 635  889 1524))
+      (pin Rect[T]Pad_787.4x1600.2_um (rotate 270) 2 0 -1041.4)
+      (pin Rect[T]Pad_787.4x1600.2_um (rotate 270) 1 0 1041.4)
+    )
+    (image backlight_controller_5x3:HEADER_01x25
+      (outline (path signal 381  -31750 -1270  -31750 1270))
+      (outline (path signal 381  31750 -1270  -31750 -1270))
+      (outline (path signal 381  31750 1270  31750 -1270))
+      (outline (path signal 381  -31750 1270  31750 1270))
+      (pin Oval[A]Pad_1854.2x2540_um 25 30480 0)
+      (pin Oval[A]Pad_1854.2x2540_um 24 27940 0)
+      (pin Oval[A]Pad_1854.2x2540_um 23 25400 0)
+      (pin Oval[A]Pad_1854.2x2540_um 22 22860 0)
+      (pin Oval[A]Pad_1854.2x2540_um 21 20320 0)
+      (pin Oval[A]Pad_1854.2x2540_um 20 17780 0)
+      (pin Oval[A]Pad_1854.2x2540_um 19 15240 0)
+      (pin Oval[A]Pad_1854.2x2540_um 18 12700 0)
+      (pin Oval[A]Pad_1854.2x2540_um 17 10160 0)
+      (pin Oval[A]Pad_1854.2x2540_um 16 7620 0)
+      (pin Oval[A]Pad_1854.2x2540_um 15 5080 0)
+      (pin Oval[A]Pad_1854.2x2540_um 14 2540 0)
+      (pin Oval[A]Pad_1854.2x2540_um 13 0 0)
+      (pin Rect[A]Pad_1854.2x2540_um 1 -30480 0)
+      (pin Oval[A]Pad_1854.2x2540_um 2 -27940 0)
+      (pin Oval[A]Pad_1854.2x2540_um 3 -25400 0)
+      (pin Oval[A]Pad_1854.2x2540_um 4 -22860 0)
+      (pin Oval[A]Pad_1854.2x2540_um 5 -20320 0)
+      (pin Oval[A]Pad_1854.2x2540_um 6 -17780 0)
+      (pin Oval[A]Pad_1854.2x2540_um 7 -15240 0)
+      (pin Oval[A]Pad_1854.2x2540_um 8 -12700 0)
+      (pin Oval[A]Pad_1854.2x2540_um 9 -10160 0)
+      (pin Oval[A]Pad_1854.2x2540_um 10 -7620 0)
+      (pin Oval[A]Pad_1854.2x2540_um 11 -5080 0)
+      (pin Oval[A]Pad_1854.2x2540_um 12 -2540 0)
+    )
+    (image backlight_controller_5x3:DB9F_SMD
+      (outline (path signal 381  6250 15560  -6250 15560))
+      (outline (path signal 381  -6250 15560  -6250 -15560))
+      (outline (path signal 381  -6250 -15560  6250 -15560))
+      (outline (path signal 381  6250 -15560  6250 15560))
+      (pin Round[A]Pad_2200_um (rotate 270) @1 3100 -12500)
+      (pin Round[A]Pad_2200_um (rotate 270) @2 3100 12500)
+      (pin Rect[T]Pad_3400x13000_um (rotate 270) @3 0 14200)
+      (pin Rect[T]Pad_3400x13000_um (rotate 270) @4 0 -14200)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 5 1720 5480)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 4 1720 2740)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 3 1720 0)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 2 1720 -2740)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 1 1720 -5480)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 9 -1720 4110)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 8 -1720 1370)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 7 -1720 -1370)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 6 -1720 -4110)
+    )
+    (image backlight_controller_5x3:DB9M_SMD
+      (outline (path signal 381  6250 15560  -6250 15560))
+      (outline (path signal 381  -6250 15560  -6250 -15560))
+      (outline (path signal 381  -6250 -15560  6250 -15560))
+      (outline (path signal 381  6250 -15560  6250 15560))
+      (pin Round[A]Pad_2200_um (rotate 270) @1 3100 -12500)
+      (pin Round[A]Pad_2200_um (rotate 270) @2 3100 12500)
+      (pin Rect[T]Pad_3400x13000_um (rotate 270) @3 0 14200)
+      (pin Rect[T]Pad_3400x13000_um (rotate 270) @4 0 -14200)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 1 1720 5480)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 2 1720 2740)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 3 1720 0)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 4 1720 -2740)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 5 1720 -5480)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 6 -1720 4110)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 7 -1720 1370)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 8 -1720 -1370)
+      (pin Rect[T]Pad_1000x2400_um (rotate 270) 9 -1720 -4110)
+    )
+    (image backlight_controller_5x3:FIDUCIAL
+      (outline (path signal 50  750 0  675.727 -325.413  467.617 -586.374  166.891 -731.196
+            -166.891 -731.196  -467.617 -586.374  -675.727 -325.413  -750 0
+            -675.727 325.413  -467.617 586.374  -166.891 731.196  166.891 731.196
+            467.617 586.374  675.727 325.413  750 0))
+      (outline (path signal 100  500 0  420.627 -270.32  207.708 -454.816  -71.157 -494.911
+            -327.43 -377.875  -479.746 -140.866  -479.746 140.866  -327.43 377.875
+            -71.157 494.911  207.708 454.816  420.627 270.32  500 0))
+      (pin Round[T]Pad_500_um ~ 0 0)
+    )
+    (image "backlight_controller_5x3:MOUNTING_HOLE_4-40"
+      (outline (path signal 228.6  2540 0  2460.2 -631.672  2225.82 -1223.65  1851.58 -1738.75
+            1361 -2144.59  784.903 -2415.68  159.488 -2534.99  -475.949 -2495.01
+            -1081.48 -2298.26  -1619.06 -1957.1  -2054.9 -1492.97  -2361.63 -935.036
+            -2519.97 -318.346  -2519.97 318.346  -2361.63 935.036  -2054.9 1492.97
+            -1619.06 1957.1  -1081.48 2298.26  -475.949 2495.01  159.488 2534.99
+            784.903 2415.68  1361 2144.59  1851.58 1738.75  2225.82 1223.65
+            2460.2 631.672  2540 0))
+      (pin Round[A]Pad_3556_um 1 0 0)
     )
     (image "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA"
       (outline (path signal 400  6900 6200  6900 -6600))
@@ -206,102 +315,6 @@
       (pin Round[A]Pad_4000_um @1 -4200 0)
       (pin Round[A]Pad_4000_um @2 4200 0)
     )
-    (image backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
-      (outline (path signal 228.6  76200 -30480  76120.2 -31111.7  75885.8 -31703.7  75511.6 -32218.8
-            75021 -32624.6  74444.9 -32895.7  73819.5 -33015  73184.1 -32975
-            72578.5 -32778.3  72040.9 -32437.1  71605.1 -31973  71298.4 -31415
-            71140 -30798.3  71140 -30161.7  71298.4 -29545  71605.1 -28987
-            72040.9 -28522.9  72578.5 -28181.7  73184.1 -27985  73819.5 -27945
-            74444.9 -28064.3  75021 -28335.4  75511.6 -28741.2  75885.8 -29256.3
-            76120.2 -29848.3  76200 -30480))
-      (outline (path signal 228.6  76200 30480  76120.2 29848.3  75885.8 29256.3  75511.6 28741.2
-            75021 28335.4  74444.9 28064.3  73819.5 27945  73184.1 27985
-            72578.5 28181.7  72040.9 28522.9  71605.1 28987  71298.4 29545
-            71140 30161.7  71140 30798.3  71298.4 31415  71605.1 31973  72040.9 32437.1
-            72578.5 32778.3  73184.1 32975  73819.5 33015  74444.9 32895.7
-            75021 32624.6  75511.6 32218.8  75885.8 31703.7  76120.2 31111.7
-            76200 30480))
-      (outline (path signal 228.6  -15240 -25400  -15319.8 -26031.7  -15554.2 -26623.7
-            -15928.4 -27138.8  -16419 -27544.6  -16995.1 -27815.7  -17620.5 -27935
-            -18255.9 -27895  -18861.5 -27698.3  -19399.1 -27357.1  -19834.9 -26893
-            -20141.6 -26335  -20300 -25718.3  -20300 -25081.7  -20141.6 -24465
-            -19834.9 -23907  -19399.1 -23442.9  -18861.5 -23101.7  -18255.9 -22905
-            -17620.5 -22865  -16995.1 -22984.3  -16419 -23255.4  -15928.4 -23661.2
-            -15554.2 -24176.3  -15319.8 -24768.3  -15240 -25400))
-      (outline (path signal 228.6  -15240 25400  -15319.8 24768.3  -15554.2 24176.3  -15928.4 23661.2
-            -16419 23255.4  -16995.1 22984.3  -17620.5 22865  -18255.9 22905
-            -18861.5 23101.7  -19399.1 23442.9  -19834.9 23907  -20141.6 24465
-            -20300 25081.7  -20300 25718.3  -20141.6 26335  -19834.9 26893
-            -19399.1 27357.1  -18861.5 27698.3  -18255.9 27895  -17620.5 27935
-            -16995.1 27815.7  -16419 27544.6  -15928.4 27138.8  -15554.2 26623.7
-            -15319.8 26031.7  -15240 25400))
-      (outline (path signal 381  -20320 29210  43180 29210))
-      (outline (path signal 381  -20320 31750  43180 31750))
-      (outline (path signal 381  -20320 -31750  43180 -31750))
-      (outline (path signal 381  -20320 -29210  43180 -29210))
-      (outline (path signal 228.6  99695 33655  -21590 33655))
-      (outline (path signal 228.6  99695 -33655  99695 33655))
-      (outline (path signal 228.6  -21590 -33655  99695 -33655))
-      (outline (path signal 228.6  -21590 33655  -21590 -33655))
-      (outline (path signal 381  43180 29210  43180 31750))
-      (outline (path signal 381  -20320 31750  -20320 29210))
-      (outline (path signal 381  43180 -31750  43180 -29210))
-      (outline (path signal 381  -20320 -29210  -20320 -31750))
-      (pin Oval[A]Pad_1854.2x2540_um 46 41910 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 45 39370 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 30 36830 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 29 34290 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 44 31750 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 43 29210 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 47 26670 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 48 24130 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 49 21590 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 33 41910 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 34 39370 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 35 36830 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 36 34290 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 37 31750 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 38 29210 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 51 26670 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um DAC0 24130 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um DAC1 21590 -30480)
-      (pin Round[A]Pad_3556_um @1 73660 30480)
-      (pin Round[A]Pad_3556_um @2 73660 -30480)
-      (pin Round[A]Pad_3556_um @3 -17780 -25400)
-      (pin Round[A]Pad_3556_um @4 -17780 25400)
-      (pin Oval[A]Pad_1854.2x2540_um AREF -19050 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um VEE -16510 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um AGND -13970 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 3V3 -11430 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 23 -8890 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 22 -6350 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 21 -3810 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 20 -1270 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 19 1270 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 18 3810 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 17 6350 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 16 8890 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 15 11430 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 14 13970 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 13 16510 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 53 19050 -30480)
-      (pin Oval[A]Pad_1854.2x2540_um 50 19050 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 12 16510 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 11 13970 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 42 11430 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 41 8890 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 40 6350 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 52 3810 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 6 1270 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 5 -1270 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 54 -3810 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 55 -6350 30480)
-      (pin Oval[A]Pad_1854.2x2540_um 2 -8890 30480)
-      (pin Oval[A]Pad_1854.2x2540_um A11 -11430 30480)
-      (pin Rect[A]Pad_1854.2x2540_um VDD -19050 30480)
-      (pin Oval[A]Pad_1854.2x2540_um A10 -13970 30480)
-      (pin Oval[A]Pad_1854.2x2540_um GND -16510 30480)
-    )
     (image backlight_controller_5x3:CFP15
       (outline (path signal 228.6  -2300 -3750  -2300 3750))
       (outline (path signal 228.6  2300 -3750  -2300 -3750))
@@ -310,16 +323,6 @@
       (pin Rect[T]Pad_1600x1440_um 2 1065 2780)
       (pin Rect[T]Pad_1600x1440_um 2@1 -1065 2780)
       (pin Rect[T]Pad_3800x4960_um 1 0 -1020)
-    )
-    (image backlight_controller_5x3:SM1210
-      (outline (path signal 127  2286 1397  762 1397))
-      (outline (path signal 127  2286 -1397  2286 1397))
-      (outline (path signal 127  762 -1397  2286 -1397))
-      (outline (path signal 127  -2286 -1397  -762 -1397))
-      (outline (path signal 127  -2286 1397  -2286 -1397))
-      (outline (path signal 127  -762 1397  -2286 1397))
-      (pin Rect[T]Pad_1270x2540_um 2 1524 0)
-      (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
     )
     (image "backlight_controller_5x3:PG-TO252-5-11"
       (outline (path signal 381  223.607 2600  139.417 2425.18  -49.757 2382  -201.463 2502.98
@@ -364,58 +367,6 @@
       (pin Rect[T]Pad_2000x600_um 19 4650 4445)
       (pin Rect[T]Pad_2000x600_um 20 4650 5715)
     )
-    (image "backlight_controller_5x3:LED_555-3XXX_R"
-      (outline (path signal 228.6  -508 508  508 508))
-      (outline (path signal 228.6  0 0  0 1016))
-      (outline (path signal 228.6  -1270 3810  1270 3810))
-      (outline (path signal 228.6  1270 3810  1270 -3810))
-      (outline (path signal 228.6  1270 -3810  -1270 -3810))
-      (outline (path signal 228.6  -1270 -3810  -1270 3810))
-      (pin Oval[A]Pad_1524x2032_um 1 0 2540)
-      (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
-    )
-    (image "backlight_controller_5x3:LED_555-3XXX_G"
-      (outline (path signal 228.6  -1270 -3810  -1270 3810))
-      (outline (path signal 228.6  1270 -3810  -1270 -3810))
-      (outline (path signal 228.6  1270 3810  1270 -3810))
-      (outline (path signal 228.6  -1270 3810  1270 3810))
-      (outline (path signal 228.6  0 0  0 1016))
-      (outline (path signal 228.6  -508 508  508 508))
-      (pin Oval[A]Pad_1524x2032_um 2 0 -2540)
-      (pin Oval[A]Pad_1524x2032_um 1 0 2540)
-    )
-    (image "backlight_controller_5x3:TO-236-3"
-      (outline (path signal 1000  -1000 0  1000 0))
-      (pin Rect[T]Pad_800x900_um 3 0 1000)
-      (pin Rect[T]Pad_800x900_um 2 950 -1000)
-      (pin Rect[T]Pad_800x900_um 1 -950 -1000)
-    )
-    (image "backlight_controller_5x3:TO-236-3::1"
-      (outline (path signal 1000  -1000 0  1000 0))
-      (pin Rect[T]Pad_800x900_um 1 -950 -1000)
-      (pin Rect[T]Pad_800x900_um 2 950 -1000)
-      (pin Rect[T]Pad_800x900_um 3 0 1000)
-    )
-    (image footprints:SM0805
-      (outline (path signal 127  1524 -889  635 -889))
-      (outline (path signal 127  1524 889  1524 -889))
-      (outline (path signal 127  635 889  1524 889))
-      (outline (path signal 127  -1524 -889  -635 -889))
-      (outline (path signal 127  -1524 889  -1524 -889))
-      (outline (path signal 127  -635 889  -1524 889))
-      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
-      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
-    )
-    (image footprints:SM0805::1
-      (outline (path signal 127  -635 889  -1524 889))
-      (outline (path signal 127  -1524 889  -1524 -889))
-      (outline (path signal 127  -1524 -889  -635 -889))
-      (outline (path signal 127  635 889  1524 889))
-      (outline (path signal 127  1524 889  1524 -889))
-      (outline (path signal 127  1524 -889  635 -889))
-      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
-      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
-    )
     (padstack Round[T]Pad_1500_um
       (shape (circle F.Cu 1500))
       (attach off)
@@ -445,9 +396,8 @@
       (shape (circle B.Cu 4000))
       (attach off)
     )
-    (padstack Oval[A]Pad_1524x2032_um
-      (shape (path F.Cu 1524  0 -254  0 254))
-      (shape (path B.Cu 1524  0 -254  0 254))
+    (padstack Round[T]Pad_500_um
+      (shape (circle F.Cu 500))
       (attach off)
     )
     (padstack Oval[A]Pad_1854.2x2540_um
@@ -501,8 +451,8 @@
       (shape (rect F.Cu -500 -1200 500 1200))
       (attach off)
     )
-    (padstack Rect[T]Pad_1270x2540_um
-      (shape (rect F.Cu -635 -1270 635 1270))
+    (padstack Rect[T]Pad_1193.8x1193.8_um
+      (shape (rect F.Cu -596.9 -596.9 596.9 596.9))
       (attach off)
     )
     (padstack Rect[T]Pad_1600x1440_um
@@ -532,180 +482,230 @@
   )
   (network
     (net VEE
-      (pins MDB1-VEE C1-1 C2-1 U1-20 U2-20)
+      (pins C1-1 C2-1 J2-2 U1-20 U2-20)
     )
     (net GND
-      (pins J3-3 J4-3 J5-3 J6-3 J7-3 J8-3 J9-3 J10-3 J2-1 J2-3 J2-5 J2-7 J2-9 P1-6
-        P1-5 P1-4 MDB1-GND C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 HPS1-5 HPS2-5 HPS3-5 HPS4-5
-        U1-10 U1-19 U2-10 U2-19 L1-2 L2-2 L3-2 L4-2 L5-2 L6-2 L7-2 L8-2 L9-2 L10-2
-        L11-2 L12-2 L13-2 L14-2 L15-2 L16-2 L17-2 U3-2 U4-2 U5-2 U6-2 U7-2 U8-2 U9-2
-        U10-2)
+      (pins U3-2 U4-2 U5-2 U6-2 U7-2 U8-2 U9-2 U10-2 J5-3 J6-3 J7-3 J8-3 J10-3 J11-3
+        J9-3 J12-3 D3-2 D2-2 D17-2 D18-2 D16-2 D4-2 D15-2 D14-2 D6-2 D13-2 D12-2 D7-2
+        D11-2 D8-2 D10-2 D9-2 D5-2 C6-2 C5-2 C4-2 C3-2 C1-2 C2-2 J1-2 J4-1 J4-3 J4-5
+        J4-7 J4-9 P1-6 P1-5 P1-4 HPS1-5 HPS2-5 HPS3-5 HPS4-5 U1-10 U1-19 U2-10 U2-19)
     )
     (net VDD
-      (pins MDB1-VDD D1-1 C3-1 C4-1 C5-1 C6-1 HPS1-1 HPS2-1 HPS3-1 HPS4-1)
+      (pins C6-1 C5-1 C4-1 C3-1 J1-1 D1-1 HPS1-1 HPS2-1 HPS3-1 HPS4-1)
     )
     (net VAA
-      (pins J3-1 J3-5 J4-1 J4-5 J5-1 J5-5 J6-1 J6-5 J7-1 J7-5 J8-1 J8-5 J9-1 J9-5
-        J10-1 J10-5 J1-5 J1-3 J1-1 J1-9 J1-7 P1-3 P1-2 P1-1 D1-2 D1-2@1 L1-1)
+      (pins J5-1 J5-5 J6-1 J6-5 J7-1 J7-5 J8-1 J8-5 J10-1 J10-5 J11-1 J11-5 J9-1 J9-5
+        J12-1 J12-5 R1-1 J3-5 J3-3 J3-1 J3-9 J3-7 P1-3 P1-2 P1-1 D1-2 D1-2@1)
     )
     (net /CHANNEL_0
-      (pins MDB1-2 U1-2)
+      (pins J1-5 U1-2)
     )
     (net /CHANNEL_1
-      (pins MDB1-5 U1-3)
+      (pins J1-8 U1-3)
     )
     (net /CHANNEL_2
-      (pins MDB1-6 U1-4)
+      (pins J1-9 U1-4)
     )
     (net /CHANNEL_3
-      (pins MDB1-29 U1-5)
+      (pins J1-22 U1-5)
     )
     (net /CHANNEL_11
-      (pins MDB1-23 U2-5)
+      (pins J2-5 U2-5)
     )
     (net /CHANNEL_10
-      (pins MDB1-22 U2-4)
+      (pins J2-6 U2-4)
     )
     (net /CHANNEL_9
-      (pins MDB1-21 U2-3)
+      (pins J2-7 U2-3)
     )
     (net /CHANNEL_8
-      (pins MDB1-20 U2-2)
+      (pins J2-8 U2-2)
     )
     (net /~ENABLE
-      (pins MDB1-52 U1-1 U2-1)
+      (pins J1-10 U1-1 U2-1)
     )
     (net /CHANNEL_4
-      (pins MDB1-30 U1-6)
+      (pins J1-23 U1-6)
     )
     (net /CHANNEL_5
-      (pins MDB1-14 U1-7)
+      (pins J2-14 U1-7)
     )
     (net /CHANNEL_7
-      (pins MDB1-19 U1-9)
+      (pins J2-9 U1-9)
     )
     (net /CHANNEL_6
-      (pins MDB1-18 U1-8)
+      (pins J2-10 U1-8)
     )
     (net /CHANNEL_15
-      (pins MDB1-38 U2-9)
+      (pins J2-20 U2-9)
     )
     (net /CHANNEL_14
-      (pins MDB1-37 U2-8)
+      (pins J2-21 U2-8)
     )
     (net /CHANNEL_13
-      (pins MDB1-36 U2-7)
+      (pins J2-22 U2-7)
     )
     (net /CHANNEL_12
-      (pins MDB1-35 U2-6)
+      (pins J2-23 U2-6)
     )
     (net /backlight_5x3/high_voltage_outputs/OUTPUT_0
-      (pins J1-2 HPS1-6)
+      (pins J3-2 HPS1-6)
     )
     (net /backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT
-      (pins HPS1-2 R1-1)
+      (pins R3-2 HPS1-2)
     )
     (net /backlight_5x3/high_voltage_outputs/OUTPUT_1
-      (pins J1-4 HPS2-6)
+      (pins J3-4 HPS2-6)
     )
     (net /backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT
-      (pins HPS2-2 R2-1)
+      (pins R5-2 HPS2-2)
     )
     (net /backlight_5x3/high_voltage_outputs/OUTPUT_2
-      (pins J1-6 HPS3-6)
+      (pins J3-6 HPS3-6)
     )
     (net /backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT
-      (pins HPS3-2 R3-1)
+      (pins R7-2 HPS3-2)
     )
     (net /backlight_5x3/high_voltage_outputs/OUTPUT_3
-      (pins J1-8 HPS4-6)
+      (pins J3-8 HPS4-6)
     )
     (net /backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT
-      (pins HPS4-2 R4-1)
+      (pins R9-2 HPS4-2)
     )
     (net /backlight_5x3/low_voltage_outputs/OUTPUT_3
-      (pins J2-8 R8-1)
+      (pins R17-2 J4-8)
     )
     (net /backlight_5x3/low_voltage_outputs/OUTPUT_2
-      (pins J2-6 R7-1)
+      (pins R15-2 J4-6)
     )
     (net /backlight_5x3/low_voltage_outputs/OUTPUT_1
-      (pins J2-4 R6-1)
+      (pins R13-2 J4-4)
     )
     (net /backlight_5x3/low_voltage_outputs/OUTPUT_0
-      (pins J2-2 R5-1)
+      (pins R11-2 J4-2)
     )
     (net /backlight_5x3/C_8
-      (pins U2-18 L10-1 U3-1)
+      (pins U3-1 R18-1 U2-18)
     )
     (net /backlight_5x3/C_9
-      (pins U2-17 L11-1 U4-1)
+      (pins U4-1 R19-1 U2-17)
     )
     (net /backlight_5x3/C_10
-      (pins U2-16 L12-1 U5-1)
+      (pins U5-1 R20-1 U2-16)
     )
     (net /backlight_5x3/C_11
-      (pins U2-15 L13-1 U6-1)
+      (pins U6-1 R21-1 U2-15)
     )
     (net /backlight_5x3/C_12
-      (pins U2-14 L14-1 U7-1)
+      (pins U7-1 R22-1 U2-14)
     )
     (net /backlight_5x3/C_13
-      (pins U2-13 L15-1 U8-1)
+      (pins U8-1 R23-1 U2-13)
     )
     (net /backlight_5x3/C_14
-      (pins U2-12 L16-1 U9-1)
+      (pins U9-1 R24-1 U2-12)
     )
     (net /backlight_5x3/C_15
-      (pins U2-11 L17-1 U10-1)
+      (pins U10-1 R25-1 U2-11)
     )
     (net /backlight_5x3/C_0
-      (pins R1-2 U1-18 L2-1)
+      (pins R3-1 R2-1 U1-18)
     )
     (net /backlight_5x3/C_1
-      (pins R2-2 U1-17 L3-1)
+      (pins R5-1 R4-1 U1-17)
     )
     (net /backlight_5x3/C_2
-      (pins R3-2 U1-16 L4-1)
+      (pins R7-1 R6-1 U1-16)
     )
     (net /backlight_5x3/C_3
-      (pins R4-2 U1-15 L5-1)
+      (pins R9-1 R8-1 U1-15)
     )
     (net /backlight_5x3/C_4
-      (pins U1-14 L6-1 R5-2)
+      (pins R11-1 R10-1 U1-14)
     )
     (net /backlight_5x3/C_5
-      (pins U1-13 L7-1 R6-2)
+      (pins R13-1 R12-1 U1-13)
     )
     (net /backlight_5x3/C_6
-      (pins U1-12 L8-1 R7-2)
+      (pins R14-1 R15-1 U1-12)
     )
     (net /backlight_5x3/C_7
-      (pins U1-11 L9-1 R8-2)
+      (pins R17-1 R16-1 U1-11)
     )
     (net /backlight_5x3/backlight_outputs/ir_0/NPN
-      (pins J3-2 U3-3)
+      (pins U3-3 J5-2)
     )
     (net /backlight_5x3/backlight_outputs/visible_0/NPN
-      (pins J4-2 U4-3)
+      (pins U4-3 J6-2)
     )
     (net /backlight_5x3/backlight_outputs/ir_1/NPN
-      (pins J5-2 U5-3)
+      (pins U5-3 J7-2)
     )
     (net /backlight_5x3/backlight_outputs/visible_1/NPN
-      (pins J6-2 U6-3)
+      (pins U6-3 J8-2)
     )
     (net /backlight_5x3/backlight_outputs/ir_2/NPN
-      (pins J7-2 U7-3)
+      (pins U7-3 J9-2)
     )
     (net /backlight_5x3/backlight_outputs/visible_2/NPN
-      (pins J8-2 U8-3)
+      (pins U8-3 J10-2)
     )
     (net /backlight_5x3/backlight_outputs/ir_3/NPN
-      (pins J9-2 U9-3)
+      (pins U9-3 J11-2)
     )
     (net /backlight_5x3/backlight_outputs/visible_3/NPN
-      (pins J10-2 U10-3)
+      (pins U10-3 J12-2)
+    )
+    (net "Net-(D5-Pad1)"
+      (pins D5-1 R6-2)
+    )
+    (net "Net-(D9-Pad1)"
+      (pins D9-1 R14-2)
+    )
+    (net "Net-(D10-Pad1)"
+      (pins D10-1 R16-2)
+    )
+    (net "Net-(D8-Pad1)"
+      (pins D8-1 R12-2)
+    )
+    (net "Net-(D11-Pad1)"
+      (pins D11-1 R18-2)
+    )
+    (net "Net-(D7-Pad1)"
+      (pins D7-1 R10-2)
+    )
+    (net "Net-(D12-Pad1)"
+      (pins D12-1 R19-2)
+    )
+    (net "Net-(D13-Pad1)"
+      (pins D13-1 R20-2)
+    )
+    (net "Net-(D6-Pad1)"
+      (pins D6-1 R8-2)
+    )
+    (net "Net-(D14-Pad1)"
+      (pins D14-1 R21-2)
+    )
+    (net "Net-(D15-Pad1)"
+      (pins D15-1 R22-2)
+    )
+    (net "Net-(D4-Pad1)"
+      (pins D4-1 R4-2)
+    )
+    (net "Net-(D16-Pad1)"
+      (pins D16-1 R23-2)
+    )
+    (net "Net-(D18-Pad1)"
+      (pins D18-1 R25-2)
+    )
+    (net "Net-(D17-Pad1)"
+      (pins D17-1 R24-2)
+    )
+    (net "Net-(D2-Pad1)"
+      (pins D2-1 R1-2)
+    )
+    (net "Net-(D3-Pad1)"
+      (pins D3-1 R2-2)
     )
     (class kicad_default ""
       (circuit
@@ -757,6 +757,10 @@
       /backlight_5x3/backlight_outputs/visible_3/NPN /backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT
       /backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT /backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT
       /backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT /~ENABLE
+      "Net-(D10-Pad1)" "Net-(D11-Pad1)" "Net-(D12-Pad1)" "Net-(D13-Pad1)"
+      "Net-(D14-Pad1)" "Net-(D15-Pad1)" "Net-(D16-Pad1)" "Net-(D17-Pad1)"
+      "Net-(D18-Pad1)" "Net-(D2-Pad1)" "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(D5-Pad1)"
+      "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D8-Pad1)" "Net-(D9-Pad1)"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -778,27 +782,90 @@
     )
   )
   (wiring
-    (wire (path B.Cu 1422.4  175160 -101210  175160 -105410  175160 -109610)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  78740 -128270  81280 -128270  83820 -128270  86360 -128270)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  99060 -128270  101600 -128270  104140 -128270  106680 -128270)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  123825 -130130  123825 -132080)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  122235 -128540  123825 -130130)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  142875 -130130  142875 -132080)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  141285 -128540  142875 -130130)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  161925 -130130  161925 -132080)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  160335 -128540  161925 -130130)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  180975 -130130  180975 -132080)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  179385 -128540  180975 -130130)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  122285 -80280  123825 -78740)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  122235 -80280  122285 -80280)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  141335 -80280  142875 -78740)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  141285 -80280  141335 -80280)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  160385 -80280  161925 -78740)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  160335 -80280  160385 -80280)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  179435 -80280  180975 -78740)(net GND)(type protect))
-    (wire (path B.Cu 1422.4  179385 -80280  179435 -80280)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  175160 -96350  180205 -91305)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  175160 -101210  175160 -96350)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  113060 -101300  123055 -91305)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  104590 -101300  113060 -101300)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  78740 -129324  81280 -129324  83820 -129324  86360 -129324
+            99060 -129324  101600 -129324  104140 -129324  106680 -129324)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  116786 -129324  123055 -123055)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  106680 -129324  116786 -129324)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  157845 -94615  161155 -91305)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  144780 -94615  157845 -94615)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  142105 -91305  142105 -91940  144780 -94615)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  138795 -94615  142105 -91305)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  125304 -94615  138795 -94615)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  123055 -91305  123055 -92365.7  125304 -94615)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  173425 -94615  175160 -96350)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  163404 -94615  173425 -94615)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  161155 -91305  161155 -92365.7  163404 -94615)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  175160 -101210  175160 -105410  175160 -109610)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  180205 -124325  180205 -123055)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  185420 -127000  182880 -127000  180205 -124325)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  186690 -125730  185420 -127000)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  189230 -124460  187211 -124460  186690 -124460  186690 -125730)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  176895 -126365  180205 -123055)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  163404 -126365  176895 -126365)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  161155 -123055  161155 -124116  163404 -126365)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  157845 -126365  161155 -123055)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  144354 -126365  157845 -126365)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  142105 -123055  142105 -124116  144354 -126365)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  138795 -126365  142105 -123055)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  125304 -126365  138795 -126365)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  123055 -123055  123055 -124116  125304 -126365)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  103220 -99930  104590 -101300)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  101150 -99930  103220 -99930)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  101150 -99930  100095 -99930  98984.8 -101040)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  100730 -110890  101150 -110890)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  98984.8 -109145  100730 -110890)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  98984.8 -105335  98984.8 -109145)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  98984.8 -101040  98984.8 -105335)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  101075 -105335  101150 -105410)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  98984.8 -105335  101075 -105335)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  103220 -106780  104590 -106780)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  101075 -105335  101775 -105335  103220 -106780)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  186690 -116840  186690 -124460)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  184785 -114935  186690 -116840)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  177563 -114935  184785 -114935)(net GND)(type protect))
+    (wire (path F.Cu 1422.4  175160 -109610  175160 -112532  177563 -114935)(net GND)(type protect))
+    (wire (path F.Cu 1625.6  121285 -89535  119515 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  140335 -89535  138565 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  159385 -89535  157615 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  178435 -89535  176665 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  121285 -121285  119515 -119515)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  140335 -121285  138565 -119515)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  159385 -121285  157615 -119515)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  178435 -121285  176665 -119515)(net VAA)(type protect))
     (wire (path F.Cu 1625.6  180660 -101210  180660 -105410  180660 -109610)(net VAA)(type protect))
-    (wire (path F.Cu 1625.6  184715 -113665  189230 -113665)(net VAA)(type protect))
-    (wire (path F.Cu 1625.6  180660 -109610  184715 -113665)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  138565 -118454  138565 -119515)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  138565 -118220  138565 -118454)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  136550 -116205  138565 -118220)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  122825 -116205  136550 -116205)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  119515 -119515  122825 -116205)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  138565 -119515  138565 -117975  140335 -116205)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  157615 -118220  157615 -118454)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  155600 -116205  157615 -118220)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  157615 -118454  157615 -119515)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  140335 -116205  155600 -116205)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  157615 -119515  157615 -117975  159385 -116205)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  176665 -118454  176665 -119515)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  176665 -118220  176665 -118454)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  174650 -116205  176665 -118220)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  159385 -116205  174650 -116205)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  119515 -87765  122825 -84455)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  138565 -86704.3  138565 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  138565 -86469.8  138565 -86704.3)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  136550 -84455  138565 -86469.8)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  122825 -84455  136550 -84455)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  138565 -87765  141875 -84455)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  157615 -86704.3  157615 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  157615 -86469.8  157615 -86704.3)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  155600 -84455  157615 -86469.8)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  141875 -84455  155600 -84455)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  176665 -86704.3  176665 -87765)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  176665 -86495  176665 -86704.3)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  174625 -84455  176665 -86495)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  160925 -84455  174625 -84455)(net VAA)(type protect))
+    (wire (path F.Cu 1625.6  157615 -87765  160925 -84455)(net VAA)(type protect))
   )
 )
