@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4650 3150 4650
 Text HLabel 3150 2250 2    60   UnSpc ~ 0
-VDD(+9-42VDC)
+VDD_9-42VDC
 Text HLabel 3150 2350 2    60   UnSpc ~ 0
 GND
 Text HLabel 3150 2450 2    60   BiDi ~ 0
@@ -87,17 +87,17 @@ A10
 Text HLabel 3150 2550 2    60   BiDi ~ 0
 A11
 Text HLabel 3150 2650 2    60   BiDi ~ 0
-D2{slash}PWM
+D2.PWM
 Text HLabel 3150 2750 2    60   BiDi ~ 0
 D55
 Text HLabel 3150 2850 2    60   BiDi ~ 0
-D54{slash}CS2
+D54.CS2
 Text HLabel 3150 2950 2    60   BiDi ~ 0
-D5{slash}PWM{slash}TX1B{slash}MISO1B
+D5.PWM.TX1B.MISO1B
 Text HLabel 3150 3050 2    60   BiDi ~ 0
-D6{slash}PWM
+D6.PWM
 Text HLabel 3150 3150 2    60   BiDi ~ 0
-D52{slash}MOSI2B
+D52.MOSI2B
 Text HLabel 3150 3250 2    60   BiDi ~ 0
 D40
 Text HLabel 3150 3350 2    60   BiDi ~ 0
@@ -105,29 +105,29 @@ D41
 Text HLabel 3150 3450 2    60   BiDi ~ 0
 D42
 Text HLabel 3150 3550 2    60   BiDi ~ 0
-D11{slash}MOSI0
+D11.MOSI0
 Text HLabel 3150 3650 2    60   BiDi ~ 0
-D12{slash}MISO0
+D12.MISO0
 Text HLabel 3150 3750 2    60   BiDi ~ 0
-D50{slash}A24
+D50.A24
 Text HLabel 3150 3850 2    60   BiDi ~ 0
-D49{slash}A23
+D49.A23
 Text HLabel 3150 3950 2    60   BiDi ~ 0
-D48{slash}TX6{slash}SDA0B
+D48.TX6.SDA0B
 Text HLabel 3150 4050 2    60   BiDi ~ 0
-D47{slash}RX6{slash}SCLOB
+D47.RX6.SCLOB
 Text HLabel 3150 4150 2    60   BiDi ~ 0
-D43{slash}CS2
+D43.CS2
 Text HLabel 3150 4250 2    60   BiDi ~ 0
-D44{slash}MOSI2
+D44.MOSI2
 Text HLabel 3150 4350 2    60   BiDi ~ 0
-D29{slash}PWM{slash}CAN0TXB
+D29.PWM.CAN0TXB
 Text HLabel 3150 4450 2    60   BiDi ~ 0
-D30{slash}PWM{slash}CAN0RXB
+D30.PWM.CAN0RXB
 Text HLabel 3150 4550 2    60   BiDi ~ 0
-D45{slash}MISO2
+D45.MISO2
 Text HLabel 3150 4650 2    60   BiDi ~ 0
-D46{slash}SCK2
+D46.SCK2
 Wire Wire Line
 	5700 3350 5800 3350
 Wire Wire Line
@@ -137,31 +137,31 @@ Wire Wire Line
 Wire Wire Line
 	5700 3550 5800 3550
 Text HLabel 5800 2950 2    60   BiDi ~ 0
-D20{slash}A6{slash}PWM{slash}CS0{slash}SCK1
+D20.A6.PWM.CS0.SCK1
 Text HLabel 5800 4250 2    60   BiDi ~ 0
-D37{slash}A18{slash}PWM{slash}SCL1
+D37.A18.PWM.SCL1
 Text HLabel 5800 3650 2    60   BiDi ~ 0
-D13{slash}LED{slash}SCK0
+D13.LED.SCK0
 Text HLabel 5800 3050 2    60   BiDi ~ 0
-D19{slash}A5{slash}SCL0
+D19.A5.SCL0
 Text HLabel 5800 3250 2    60   BiDi ~ 0
-D17{slash}A3{slash}SDA0B
+D17.A3.SDA0B
 Text HLabel 5800 3350 2    60   BiDi ~ 0
-D16{slash}A2{slash}SCL0B
+D16.A2.SCL0B
 Text HLabel 5800 3450 2    60   BiDi ~ 0
-D15{slash}A1{slash}CS0
+D15.A1.CS0
 Text HLabel 5800 4350 2    60   BiDi ~ 0
-D36{slash}A17{slash}PWM
+D36.A17.PWM
 Wire Wire Line
 	5700 4150 5800 4150
 Wire Wire Line
 	5700 3150 5800 3150
 Text HLabel 5800 4550 2    60   BiDi ~ 0
-D34{slash}A15{slash}SDA0B{slash}RX5
+D34.A15.SDA0B.RX5
 Text HLabel 5800 4650 2    60   BiDi ~ 0
-D33{slash}A14{slash}SCL0B{slash}TX5
+D33.A14.SCL0B.TX5
 Text HLabel 5800 4450 2    60   BiDi ~ 0
-D35{slash}A16{slash}PWM
+D35.A16.PWM
 Wire Wire Line
 	5700 2950 5800 2950
 Wire Wire Line
@@ -175,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4050 5800 4050
 Text HLabel 5800 3550 2    60   BiDi ~ 0
-D14{slash}A0{slash}PWM{slash}SCK0B
+D14.A0.PWM.SCK0B
 Wire Wire Line
 	5700 3950 5800 3950
 Wire Wire Line
@@ -189,31 +189,31 @@ AREF
 Wire Wire Line
 	5700 4650 5800 4650
 Text HLabel 5800 2750 2    60   BiDi ~ 0
-D22{slash}A8{slash}PWM
+D22.A8.PWM
 Text HLabel 5800 2650 2    60   BiDi ~ 0
-D23{slash}A9{slash}PWM
+D23.A9.PWM
 Text HLabel 5800 2550 2    60   UnSpc ~ 0
-3.3V(250mA)
+3.3V_250mA
 Text HLabel 5800 3150 2    60   BiDi ~ 0
-D18{slash}A4{slash}SDA0
+D18.A4.SDA0
 Text HLabel 5800 2850 2    60   BiDi ~ 0
-D21{slash}A7{slash}PWM{slash}CS0{slash}MOSI1B{slash}RX1B
+D21.A7.PWM.CS0.MOSI1B.RX1B
 Text HLabel 5800 2350 2    60   UnSpc ~ 0
-VEE(+4-5VDC)
+VEE_4-5VDC
 Wire Wire Line
 	5700 2450 5800 2450
 Wire Wire Line
 	5700 3850 5800 3850
 Text HLabel 5800 3750 2    60   BiDi ~ 0
-D53{slash}SCK2B
+D53.SCK2B
 Text HLabel 5800 3850 2    60   BiDi ~ 0
-A22{slash}DAC1
+A22.DAC1
 Text HLabel 5800 3950 2    60   BiDi ~ 0
-A21{slash}DAC0
+A21.DAC0
 Text HLabel 5800 4050 2    60   BiDi ~ 0
-D51{slash}MISO2B
+D51.MISO2B
 Text HLabel 5800 4150 2    60   BiDi ~ 0
-D38{slash}A19{slash}PWM{slash}SDA1
+D38.A19.PWM.SDA1
 Text HLabel 5800 2450 2    60   UnSpc ~ 0
 AGND
 $Comp

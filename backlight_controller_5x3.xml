@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/backlight_controller_5x3/backlight_controller_5x3.sch</source>
-    <date>Mon 29 Oct 2018 04:05:05 PM EDT</date>
-    <tool>Eeschema 6.0.0-rc1-unknown-4b44cbe~66~ubuntu18.04.1</tool>
+    <date>Fri 17 May 2019 12:45:31 PM EDT</date>
+    <tool>Eeschema 6.0.0-unknown-69339f3~86~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>backlight_controller_5x3</title>
         <company>Janelia</company>
-        <rev>1.2</rev>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_controller_5x3.sch</source>
         <comment number="1" value=""/>
@@ -21,7 +21,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_5x3.sch</source>
         <comment number="1" value=""/>
@@ -34,7 +34,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>high_voltage_outputs.sch</source>
         <comment number="1" value=""/>
@@ -47,7 +47,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -60,7 +60,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -73,7 +73,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -86,7 +86,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>high_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -99,7 +99,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>low_voltage_outputs.sch</source>
         <comment number="1" value=""/>
@@ -112,7 +112,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -125,7 +125,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -138,7 +138,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -151,7 +151,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>low_voltage_output.sch</source>
         <comment number="1" value=""/>
@@ -164,7 +164,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_outputs.sch</source>
         <comment number="1" value=""/>
@@ -177,7 +177,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -190,7 +190,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -203,7 +203,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -216,7 +216,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -229,7 +229,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -242,7 +242,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -255,7 +255,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -268,7 +268,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>1.3</rev>
         <date/>
         <source>backlight_output.sch</source>
         <comment number="1" value=""/>
@@ -277,712 +277,1211 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
+    <sheet number="22" name="/modular_device_base_5x3_male/" tstamps="/5CD48705/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.3</rev>
+        <date/>
+        <source>modular_device_base_5x3_male.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
-    <comp ref="MDB1">
-      <value>MODULAR_DEVICE_BASE_5x3_MALE</value>
-      <footprint>backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE</footprint>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">25 Positions Header Breakaway Connector 0.1in</field>
-        <field name="PartCount">2</field>
-        <field name="PartNumber">S1011E-25-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="MODULAR_DEVICE_BASE_5x3_MALE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>589B83C9</tstamp>
+      <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
+      <tstamp>5CD9D53B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
+      <tstamp>5CD9F693</tstamp>
     </comp>
     <comp ref="U1">
       <value>SN74ABT541BDWR</value>
       <footprint>backlight_controller_5x3:SOIC_20</footprint>
       <fields>
-        <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC</field>
-        <field name="PartNumber">296-14668-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">SN74ABT541BDWR</field>
+        <field name="Package">20-SOIC</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-14668-1-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="SN74ABT541BDWR" description=""/>
       <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A40AB</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>0.1uF</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
-      <fields>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A40E5</tstamp>
-    </comp>
-    <comp ref="P1">
-      <value>MINI_FIT_JR_02X03_M_RA</value>
-      <footprint>backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA</footprint>
-      <fields>
-        <field name="Description">CONN HEADER 6POS 4.2MM R/A TIN</field>
-        <field name="PartNumber">WM1353-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="MINI_FIT_JR_02X03_M_RA" description=""/>
-      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A40FD</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>diode_schottky_45V_10A</value>
-      <footprint>backlight_controller_5x3:CFP15</footprint>
-      <fields>
-        <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
-        <field name="PartNumber">568-11697-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="diode_schottky_45V_10A" description=""/>
-      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A4117</tstamp>
+      <tstamp>5CDA009F</tstamp>
     </comp>
     <comp ref="U2">
       <value>SN74ABT541BDWR</value>
       <footprint>backlight_controller_5x3:SOIC_20</footprint>
       <fields>
-        <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC</field>
-        <field name="PartNumber">296-14668-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">SN74ABT541BDWR</field>
+        <field name="Package">20-SOIC</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-14668-1-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="SN74ABT541BDWR" description=""/>
       <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A4131</tstamp>
+      <tstamp>5CDA6CF7</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>0.1uF</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="P1">
+      <value>MINI_FIT</value>
+      <footprint>backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">CONN HEADER 6POS 4.2MM R/A TIN</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer Part Number">0039301060</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">WM1353-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
+      <libsource lib="backlight_controller_5x3" part="MINI_FIT" description=""/>
       <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A4169</tstamp>
+      <tstamp>5CDA8F78</tstamp>
     </comp>
-    <comp ref="L1">
-      <value>LED_24V_RED</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_R</footprint>
+    <comp ref="D1">
+      <value>DIODE_10A</value>
+      <footprint>backlight_controller_5x3:CFP15</footprint>
       <fields>
-        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
-        <field name="PartNumber">350-1723-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">DIODE SCHOTTKY 45V 10A</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Manufacturer Part Number">PMEG045V100EPDZ</field>
+        <field name="Package">CFP15</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1727-1904-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_24V_RED" description=""/>
+      <libsource lib="backlight_controller_5x3" part="DIODE_10A" description=""/>
       <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
-      <tstamp>5B9A4187</tstamp>
+      <tstamp>5CDA9D32</tstamp>
     </comp>
-    <comp ref="J1">
-      <value>DB9F_SMD</value>
-      <footprint>footprints:DB9F_SMD</footprint>
+    <comp ref="D2">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
+      <fields>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
+      <tstamp>5CDAAACB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2K OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2201V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P2.20KCCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="2.2k" description=""/>
+      <sheetpath names="/backlight_5x3/" tstamps="/5B99EA03/"/>
+      <tstamp>5CDAB8D4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>DB9F</value>
+      <footprint>backlight_controller_5x3:DB9F_SMD</footprint>
       <fields>
         <field name="Description">CONN D-SUB RCPT 9POS SMD SOLDER</field>
-        <field name="PartNumber">1195-4005-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">HARTING</field>
+        <field name="Manufacturer Part Number">09551156612741</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1195-4005-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="DB9F_SMD" description=""/>
+      <libsource lib="backlight_controller_5x3" part="DB9F" description=""/>
       <sheetpath names="/backlight_5x3/high_voltage_outputs/" tstamps="/5B99EA03/5B9A0F78/"/>
-      <tstamp>5B9A6B5D</tstamp>
+      <tstamp>5CDAD186</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
+      <fields>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <tstamp>5CDAF95D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <tstamp>5CDB089D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <tstamp>5CDB19E8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5.9k</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 5.9K OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF5901V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P5.90KCCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
+      <tstamp>5CDB244C</tstamp>
     </comp>
     <comp ref="HPS1">
       <value>BTS3256</value>
       <footprint>backlight_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
-        <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
-        <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC SWITCH SMART LOWSIDE</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Number">BTS3256DAUMA1</field>
+        <field name="Package">TO-252-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">BTS3256DAUMA1CT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
-      <tstamp>5B7FABE5</tstamp>
+      <tstamp>5CDB344C</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>5.9k</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="D4">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P5.90KAACT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
-      <tstamp>5B7FB15D</tstamp>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <tstamp>5CDAF95D</tstamp>
     </comp>
-    <comp ref="C3">
-      <value>0.1uF</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="R4">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <tstamp>5CDB089D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
-      <tstamp>5B7FBCA9</tstamp>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <tstamp>5CDB19E8</tstamp>
     </comp>
-    <comp ref="L2">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="R5">
+      <value>5.9k</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 5.9K OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF5901V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P5.90KCCT-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/" tstamps="/5B99EA03/5B9A0F78/5B99F372/"/>
-      <tstamp>5B8B4D74</tstamp>
+      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
+      <tstamp>5CDB244C</tstamp>
     </comp>
     <comp ref="HPS2">
       <value>BTS3256</value>
       <footprint>backlight_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
-        <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
-        <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC SWITCH SMART LOWSIDE</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Number">BTS3256DAUMA1</field>
+        <field name="Package">TO-252-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">BTS3256DAUMA1CT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
-      <tstamp>5B7FABE5</tstamp>
+      <tstamp>5CDB344C</tstamp>
     </comp>
-    <comp ref="R2">
-      <value>5.9k</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="D5">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P5.90KAACT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
-      <tstamp>5B7FB15D</tstamp>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <tstamp>5CDAF95D</tstamp>
     </comp>
-    <comp ref="C4">
-      <value>0.1uF</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="R6">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <tstamp>5CDB089D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
-      <tstamp>5B7FBCA9</tstamp>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <tstamp>5CDB19E8</tstamp>
     </comp>
-    <comp ref="L3">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="R7">
+      <value>5.9k</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 5.9K OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF5901V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P5.90KCCT-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/" tstamps="/5B99EA03/5B9A0F78/5B99F37A/"/>
-      <tstamp>5B8B4D74</tstamp>
+      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
+      <tstamp>5CDB244C</tstamp>
     </comp>
     <comp ref="HPS3">
       <value>BTS3256</value>
       <footprint>backlight_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
-        <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
-        <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC SWITCH SMART LOWSIDE</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Number">BTS3256DAUMA1</field>
+        <field name="Package">TO-252-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">BTS3256DAUMA1CT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
-      <tstamp>5B7FABE5</tstamp>
+      <tstamp>5CDB344C</tstamp>
     </comp>
-    <comp ref="R3">
-      <value>5.9k</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="D6">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P5.90KAACT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
-      <tstamp>5B7FB15D</tstamp>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <tstamp>5CDAF95D</tstamp>
     </comp>
-    <comp ref="C5">
-      <value>0.1uF</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
+    <comp ref="R8">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <tstamp>5CDB089D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
-      <tstamp>5B7FBCA9</tstamp>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <tstamp>5CDB19E8</tstamp>
     </comp>
-    <comp ref="L4">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="R9">
+      <value>5.9k</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 5.9K OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF5901V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P5.90KCCT-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/" tstamps="/5B99EA03/5B9A0F78/5B99F382/"/>
-      <tstamp>5B8B4D74</tstamp>
+      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
+      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
+      <tstamp>5CDB244C</tstamp>
     </comp>
     <comp ref="HPS4">
       <value>BTS3256</value>
       <footprint>backlight_controller_5x3:PG-TO252-5-11</footprint>
       <fields>
-        <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
-        <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC SWITCH SMART LOWSIDE</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Number">BTS3256DAUMA1</field>
+        <field name="Package">TO-252-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">BTS3256DAUMA1CT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="BTS3256" description=""/>
       <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
-      <tstamp>5B7FABE5</tstamp>
+      <tstamp>5CDB344C</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>5.9k</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P5.90KAACT-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="5.9k" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
-      <tstamp>5B7FB15D</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>0.1uF</value>
-      <footprint>backlight_controller_5x3:SM1210</footprint>
-      <fields>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
-      <tstamp>5B7FBCA9</tstamp>
-    </comp>
-    <comp ref="L5">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
-      <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/" tstamps="/5B99EA03/5B9A0F78/5B99F38A/"/>
-      <tstamp>5B8B4D74</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>DB9M_SMD</value>
-      <footprint>footprints:DB9M_SMD</footprint>
+    <comp ref="J4">
+      <value>DB9M</value>
+      <footprint>backlight_controller_5x3:DB9M_SMD</footprint>
       <fields>
         <field name="Description">CONN D-SUB PLUG 9POS SMD SOLDER</field>
-        <field name="PartNumber">1195-4006-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">HARTING</field>
+        <field name="Manufacturer Part Number">09551296812741</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1195-4006-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="DB9M_SMD" description=""/>
+      <libsource lib="backlight_controller_5x3" part="DB9M" description=""/>
       <sheetpath names="/backlight_5x3/low_voltage_outputs/" tstamps="/5B99EA03/5B9A0F86/"/>
-      <tstamp>5B9A7195</tstamp>
+      <tstamp>5CDBCB14</tstamp>
     </comp>
-    <comp ref="L6">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
-      <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
-      <tstamp>5B8B5179</tstamp>
-    </comp>
-    <comp ref="R5">
+    <comp ref="R11">
       <value>75</value>
-      <footprint>footprints:SM0805</footprint>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
-        <field name="PartNumber">P75.0CCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF75R0V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P75.0CCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="75" description=""/>
       <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
-      <tstamp>5BD8C6D2</tstamp>
+      <tstamp>5CDBD8AD</tstamp>
     </comp>
-    <comp ref="L7">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D7">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
-      <tstamp>5B8B5179</tstamp>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
+      <tstamp>5CDBE821</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>75</value>
-      <footprint>footprints:SM0805</footprint>
+    <comp ref="R10">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
-        <field name="PartNumber">P75.0CCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
+      <tstamp>5CDC165E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>75</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF75R0V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P75.0CCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="75" description=""/>
       <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
-      <tstamp>5BD8C6D2</tstamp>
+      <tstamp>5CDBD8AD</tstamp>
     </comp>
-    <comp ref="L8">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D8">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
-      <tstamp>5B8B5179</tstamp>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
+      <tstamp>5CDBE821</tstamp>
     </comp>
-    <comp ref="R7">
-      <value>75</value>
-      <footprint>footprints:SM0805</footprint>
+    <comp ref="R12">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
-        <field name="PartNumber">P75.0CCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
+      <tstamp>5CDC165E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>75</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF75R0V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P75.0CCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="75" description=""/>
       <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
-      <tstamp>5BD8C6D2</tstamp>
+      <tstamp>5CDBD8AD</tstamp>
     </comp>
-    <comp ref="L9">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D9">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
-      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
-      <tstamp>5B8B5179</tstamp>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
+      <tstamp>5CDBE821</tstamp>
     </comp>
-    <comp ref="R8">
-      <value>75</value>
-      <footprint>footprints:SM0805</footprint>
+    <comp ref="R14">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
-        <field name="PartNumber">P75.0CCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
+      <tstamp>5CDC165E</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>75</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF75R0V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P75.0CCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="75" description=""/>
       <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
-      <tstamp>5BD8C6D2</tstamp>
+      <tstamp>5CDBD8AD</tstamp>
     </comp>
-    <comp ref="L10">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D10">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
+      <tstamp>5CDBE821</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
+      <tstamp>5CDC165E</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
+      <fields>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B95/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/ir_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B95/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U3">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B95/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J5">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B95/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L11">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D12">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B9A/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/visible_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B9A/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U4">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B9A/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J4">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J6">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_0/" tstamps="/5B99EA03/5B9A0F98/5B9E5B9A/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L12">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D13">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C18/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/ir_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C18/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U5">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C18/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J7">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C18/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L13">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D14">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C1C/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/visible_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C1C/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U6">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C1C/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J6">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J8">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_1/" tstamps="/5B99EA03/5B9A0F98/5B9E5C1C/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L14">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D15">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C32/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/ir_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C32/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U7">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C32/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J7">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J9">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C32/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L15">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D16">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C36/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/visible_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C36/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U8">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C36/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J8">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J10">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_2/" tstamps="/5B99EA03/5B9A0F98/5B9E5C36/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L16">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D17">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3A/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/ir_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3A/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U9">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3A/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J9">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J11">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/ir_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3A/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
     </comp>
-    <comp ref="L17">
-      <value>LED_5V_GRN</value>
-      <footprint>backlight_controller_5x3:LED_555-3XXX_G</footprint>
+    <comp ref="D18">
+      <value>LED_GRN</value>
+      <footprint>footprints:LED0805</footprint>
       <fields>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
-      <libsource lib="backlight_controller_5x3" part="LED_5V_GRN" description=""/>
+      <libsource lib="backlight_controller_5x3" part="LED_GRN" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3E/"/>
-      <tstamp>5B8B52AE</tstamp>
+      <tstamp>5CDC2544</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>287</value>
+      <footprint>backlight_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="287" description=""/>
+      <sheetpath names="/backlight_5x3/backlight_outputs/visible_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3E/"/>
+      <tstamp>5CDC37D1</tstamp>
     </comp>
     <comp ref="U10">
       <value>NUD3124</value>
       <footprint>backlight_controller_5x3:TO-236-3</footprint>
       <fields>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <libsource lib="backlight_controller_5x3" part="NUD3124" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3E/"/>
-      <tstamp>5BCB3E07</tstamp>
+      <tstamp>5CDC3BFA</tstamp>
     </comp>
-    <comp ref="J10">
-      <value>M12-5-RCPT_F_SMD</value>
-      <footprint>footprints:M12-5_RCPT_F_SMD</footprint>
+    <comp ref="J12">
+      <value>M12-5-RCPT</value>
+      <footprint>backlight_controller_5x3:M12-5_RCPT_F_SMD</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
-      <libsource lib="components" part="M12-5-RCPT_F_SMD" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="backlight_controller_5x3" part="M12-5-RCPT" description=""/>
       <sheetpath names="/backlight_5x3/backlight_outputs/visible_3/" tstamps="/5B99EA03/5B9A0F98/5B9E5C3E/"/>
-      <tstamp>5BCC19F1</tstamp>
+      <tstamp>5CDC49B3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HEADER_01x25_MALE</value>
+      <footprint>backlight_controller_5x3:HEADER_01x25</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+        <field name="Manufacturer Part Number">PBC25SAAN</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">S1011E-25-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="HEADER_01x25_MALE" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDA5966</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_01x25_MALE</value>
+      <footprint>backlight_controller_5x3:HEADER_01x25</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+        <field name="Manufacturer Part Number">PBC25SAAN</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">S1011E-25-ND</field>
+      </fields>
+      <libsource lib="backlight_controller_5x3" part="HEADER_01x25_MALE" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDB25EF</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>backlight_controller_5x3:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="backlight_controller_5x3" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBBCAC</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>backlight_controller_5x3:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="backlight_controller_5x3" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBBD52</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>backlight_controller_5x3:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="backlight_controller_5x3" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBBF8B</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>backlight_controller_5x3:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="backlight_controller_5x3" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBBF96</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL</value>
+      <footprint>backlight_controller_5x3:FIDUCIAL</footprint>
+      <libsource lib="backlight_controller_5x3" part="FIDUCIAL" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBC781</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL</value>
+      <footprint>backlight_controller_5x3:FIDUCIAL</footprint>
+      <libsource lib="backlight_controller_5x3" part="FIDUCIAL" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBC911</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>FIDUCIAL</value>
+      <footprint>backlight_controller_5x3:FIDUCIAL</footprint>
+      <libsource lib="backlight_controller_5x3" part="FIDUCIAL" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBCBF9</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>FIDUCIAL</value>
+      <footprint>backlight_controller_5x3:FIDUCIAL</footprint>
+      <libsource lib="backlight_controller_5x3" part="FIDUCIAL" description=""/>
+      <sheetpath names="/modular_device_base_5x3_male/" tstamps="/5CD48705/"/>
+      <tstamp>5CDBCC03</tstamp>
     </comp>
   </components>
   <libparts>
@@ -995,10 +1494,61 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">0.1uF</field>
-        <field name="Footprint">backlight_controller_5x3:SM1210</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="Footprint">backlight_controller_5x3:SM0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0805T104K5RAL7800</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">399-14636-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="backlight_controller_5x3" part="2.2k">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.2k</field>
+        <field name="Footprint">backlight_controller_5x3:SM0805</field>
+        <field name="Description">RES SMD 2.2K OHM 1% 1/8W</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2201V</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P2.20KCCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="backlight_controller_5x3" part="287">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">287</field>
+        <field name="Footprint">backlight_controller_5x3:SM0805</field>
+        <field name="Description">RES SMD 287 OHM 1% 1/8W</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2870V</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P287CCT-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1016,10 +1566,13 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">5.9k</field>
-        <field name="Footprint">backlight_controller_5x3:SM1210</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">P5.90KAACT-ND</field>
-        <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
+        <field name="Footprint">backlight_controller_5x3:SM0805</field>
+        <field name="Description">RES SMD 5.9K OHM 1% 1/8W</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF5901V</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P5.90KCCT-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1037,10 +1590,13 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">75</field>
-        <field name="Footprint">footprints:SM0805</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">P75.0CCT-ND</field>
-        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
+        <field name="Footprint">backlight_controller_5x3:SM0805</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF75R0V</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P75.0CCT-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1052,9 +1608,12 @@
         <field name="Reference">HPS</field>
         <field name="Value">BTS3256</field>
         <field name="Footprint">backlight_controller_5x3:PG-TO252-5-11</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">BTS3256DAUMA1CT-ND</field>
-        <field name="Description">IC SWITCH SMART LOWSIDE TO252-5</field>
+        <field name="Description">IC SWITCH SMART LOWSIDE</field>
+        <field name="Package">TO-252-5</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Number">BTS3256DAUMA1</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">BTS3256DAUMA1CT-ND</field>
       </fields>
       <pins>
         <pin num="1" name="Vs" type="power_in"/>
@@ -1064,17 +1623,19 @@
         <pin num="6" name="DRAIN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="DB9F_SMD">
+    <libpart lib="backlight_controller_5x3" part="DB9F">
       <footprints>
         <fp>DB*M*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">DB9F_SMD</field>
+        <field name="Value">DB9F</field>
         <field name="Footprint">backlight_controller_5x3:DB9F_SMD</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">1195-4005-1-ND</field>
         <field name="Description">CONN D-SUB RCPT 9POS SMD SOLDER</field>
+        <field name="Manufacturer">HARTING</field>
+        <field name="Manufacturer Part Number">09551156612741</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1195-4005-1-ND</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1088,17 +1649,19 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="DB9M_SMD">
+    <libpart lib="backlight_controller_5x3" part="DB9M">
       <footprints>
         <fp>DB*M*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">DB9M_SMD</field>
+        <field name="Value">DB9M</field>
         <field name="Footprint">backlight_controller_5x3:DB9M_SMD</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">1195-4006-1-ND</field>
         <field name="Description">CONN D-SUB PLUG 9POS SMD SOLDER</field>
+        <field name="Manufacturer">HARTING</field>
+        <field name="Manufacturer Part Number">09551296812741</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1195-4006-1-ND</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1112,7 +1675,80 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="LED_24V_RED">
+    <libpart lib="backlight_controller_5x3" part="DIODE_10A">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE_10A</field>
+        <field name="Footprint">backlight_controller_5x3:CFP15</field>
+        <field name="Description">DIODE SCHOTTKY 45V 10A</field>
+        <field name="Package">CFP15</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Manufacturer Part Number">PMEG045V100EPDZ</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1727-1904-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="backlight_controller_5x3" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+        <field name="Footprint">backlight_controller_5x3:FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="backlight_controller_5x3" part="HEADER_01x25_MALE">
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_01x25_MALE</field>
+        <field name="Footprint">backlight_controller_5x3:HEADER_01x25</field>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+        <field name="Manufacturer Part Number">PBC25SAAN</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">S1011E-25-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="backlight_controller_5x3" part="LED_GRN">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -1123,42 +1759,45 @@
         <fp>LEDV</fp>
       </footprints>
       <fields>
-        <field name="Reference">L</field>
-        <field name="Value">LED_24V_RED</field>
-        <field name="Footprint">backlight_controller_5x3:LED_555-3XXX_R</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
-        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="Reference">D</field>
+        <field name="Value">LED_GRN</field>
+        <field name="Footprint">footprints:LED0805</field>
+        <field name="Description">LED GREEN CLEAR SMD</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer Part Number">LTST-C170GKT</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">160-1179-1-ND</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="LED_5V_GRN">
+    <libpart lib="backlight_controller_5x3" part="M12-5-RCPT">
+      <docs>~</docs>
       <footprints>
-        <fp>LED-3MM</fp>
-        <fp>LED-5MM</fp>
-        <fp>LED-10MM</fp>
-        <fp>LED-0603</fp>
-        <fp>LED-0805</fp>
-        <fp>LED-1206</fp>
-        <fp>LEDV</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">L</field>
-        <field name="Value">LED_5V_GRN</field>
-        <field name="Footprint">backlight_controller_5x3:LED_555-3XXX_G</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1726-ND</field>
-        <field name="Description">LED 2MM 5V VERTICAL GREEN PC MNT</field>
+        <field name="Reference">J</field>
+        <field name="Value">M12-5-RCPT</field>
+        <field name="Footprint">backlight_controller_5x3:M12-5_RCPT_F_SMD</field>
+        <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part Number">1411976</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">277-10282-1-ND	</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="MINI_FIT_JR_02X03_M_RA">
+    <libpart lib="backlight_controller_5x3" part="MINI_FIT">
       <footprints>
         <fp>Pin_Header_Straight_2X05</fp>
         <fp>Pin_Header_Angled_2X05</fp>
@@ -1167,11 +1806,13 @@
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">MINI_FIT_JR_02X03_M_RA</field>
+        <field name="Value">MINI_FIT</field>
         <field name="Footprint">backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">WM1353-ND</field>
         <field name="Description">CONN HEADER 6POS 4.2MM R/A TIN</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer Part Number">0039301060</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">WM1353-ND</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1182,67 +1823,14 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="MODULAR_DEVICE_BASE_5x3_MALE">
+    <libpart lib="backlight_controller_5x3" part="MOUNTING_HOLE_4-40">
       <fields>
-        <field name="Reference">MDB</field>
-        <field name="Value">MODULAR_DEVICE_BASE_5x3_MALE</field>
-        <field name="Footprint">backlight_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">S1011E-25-ND</field>
-        <field name="Description">25 Positions Header Breakaway Connector 0.1in</field>
-        <field name="PartCount">2</field>
+        <field name="Reference">MH</field>
+        <field name="Value">MOUNTING_HOLE_4-40</field>
+        <field name="Footprint">backlight_controller_5x3:MOUNTING_HOLE_4-40</field>
       </fields>
       <pins>
-        <pin num="2" name="D2/PWM" type="BiDi"/>
-        <pin num="5" name="D5/PWM/TX1B/MISO1B" type="BiDi"/>
-        <pin num="6" name="D6/PWM" type="BiDi"/>
-        <pin num="11" name="D11/MOSI0" type="BiDi"/>
-        <pin num="12" name="D12/MISO0" type="BiDi"/>
-        <pin num="13" name="D13/LED/SCK0" type="BiDi"/>
-        <pin num="14" name="D14/A0/PWM/SCK0B" type="BiDi"/>
-        <pin num="15" name="D15/A1/CS0" type="BiDi"/>
-        <pin num="16" name="D16/A2/SCL0B" type="BiDi"/>
-        <pin num="17" name="D17/A3/SDA0B" type="BiDi"/>
-        <pin num="18" name="D18/A4/SDA0" type="BiDi"/>
-        <pin num="19" name="D19/A5/SCL0" type="BiDi"/>
-        <pin num="20" name="D20/A6/PWM/CS0/SCK1" type="BiDi"/>
-        <pin num="21" name="D21/A7/PWM/CS0/MOSI1B/RX1B" type="BiDi"/>
-        <pin num="22" name="D22/A8/PWM" type="BiDi"/>
-        <pin num="23" name="D23/A9/PWM" type="BiDi"/>
-        <pin num="29" name="D29/PWM/CAN0TXB" type="BiDi"/>
-        <pin num="30" name="D30/PWM/CAN0RXB" type="BiDi"/>
-        <pin num="33" name="D33/A14/SCL0B/TX5" type="BiDi"/>
-        <pin num="34" name="D34/A15/SDA0B/RX5" type="BiDi"/>
-        <pin num="35" name="D35/A16/PWM" type="BiDi"/>
-        <pin num="36" name="D36/A17/PWM" type="BiDi"/>
-        <pin num="37" name="D37/A18/PWM/SCL1" type="BiDi"/>
-        <pin num="38" name="D38/A19/PWM/SDA1" type="BiDi"/>
-        <pin num="40" name="D40" type="BiDi"/>
-        <pin num="41" name="D41" type="BiDi"/>
-        <pin num="42" name="D42" type="BiDi"/>
-        <pin num="43" name="D43/CS2" type="BiDi"/>
-        <pin num="44" name="D44/MOSI2" type="BiDi"/>
-        <pin num="45" name="D45/MISO2" type="BiDi"/>
-        <pin num="46" name="D46/SCK2" type="BiDi"/>
-        <pin num="47" name="D47/RX6/SCL0B" type="BiDi"/>
-        <pin num="48" name="D48/TX6/SDA0B" type="BiDi"/>
-        <pin num="49" name="D49/A23" type="BiDi"/>
-        <pin num="50" name="D50/A24" type="BiDi"/>
-        <pin num="51" name="D51/MISO2B" type="BiDi"/>
-        <pin num="52" name="D52/MOSI2B" type="BiDi"/>
-        <pin num="53" name="D53/SCK2B" type="BiDi"/>
-        <pin num="54" name="D54/CS2" type="BiDi"/>
-        <pin num="55" name="D55" type="BiDi"/>
-        <pin num="3V3" name="3.3v_(250_mA_max)" type="passive"/>
-        <pin num="A10" name="A10" type="BiDi"/>
-        <pin num="A11" name="A11" type="BiDi"/>
-        <pin num="AGND" name="AGND" type="passive"/>
-        <pin num="AREF" name="AREF" type="passive"/>
-        <pin num="DAC0" name="A21/DAC0" type="BiDi"/>
-        <pin num="DAC1" name="A22/DAC1" type="BiDi"/>
-        <pin num="GND" name="GND" type="passive"/>
-        <pin num="VDD" name="VDD_(+9-42VDC)" type="passive"/>
-        <pin num="VEE" name="VEE_(+4-5VDC)" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="backlight_controller_5x3" part="NUD3124">
@@ -1250,9 +1838,12 @@
         <field name="Reference">U</field>
         <field name="Value">NUD3124</field>
         <field name="Footprint">backlight_controller_5x3:TO-236-3</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">NUD3124LT1GOSCT-ND</field>
-        <field name="Description">IC INDCT LOAD DRVR AUTO SOT23</field>
+        <field name="Description">IC INDCT LOAD DRVR AUTO</field>
+        <field name="Package">SOT-23-3</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">NUD3124LT1G</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">NUD3124LT1GOSCT-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1265,9 +1856,12 @@
         <field name="Reference">U</field>
         <field name="Value">SN74ABT541BDWR</field>
         <field name="Footprint">backlight_controller_5x3:SOIC_20</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">296-14668-1-ND</field>
-        <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC</field>
+        <field name="Package">20-SOIC</field>
+        <field name="Description">Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">SN74ABT541BDWR</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-14668-1-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~OE1" type="input"/>
@@ -1292,518 +1886,552 @@
         <pin num="20" name="Vcc" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_5x3" part="diode_schottky_45V_10A">
-      <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">diode_schottky_45V_10A</field>
-        <field name="Footprint">backlight_controller_5x3:CFP15</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">568-11697-1-ND</field>
-        <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="components" part="M12-5-RCPT_F_SMD">
-      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">M12-5-RCPT_F_SMD</field>
-        <field name="Footprint">footprints:M12-5_RCPT_F_SMD</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">277-10282-1-ND</field>
-        <field name="Description">CONN FMALE INSERT 5POS SOLDER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="backlight_controller_5x3">
       <uri>/home/polidorop/git/kicad/backlight_controller_5x3/backlight_controller_5x3.lib</uri>
     </library>
-    <library logical="components">
-      <uri>/home/polidorop/git/kicad/kicad-libraries/components.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="/CHANNEL_10">
-      <node ref="MDB1" pin="22"/>
-      <node ref="U2" pin="4"/>
+    <net code="1" name="Net-(MH4-Pad1)">
+      <node ref="MH4" pin="1"/>
     </net>
-    <net code="2" name="/CHANNEL_9">
-      <node ref="MDB1" pin="21"/>
-      <node ref="U2" pin="3"/>
+    <net code="2" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
     </net>
-    <net code="3" name="/CHANNEL_8">
-      <node ref="U2" pin="2"/>
-      <node ref="MDB1" pin="20"/>
+    <net code="3" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
     </net>
-    <net code="4" name="/CHANNEL_5">
-      <node ref="U1" pin="7"/>
-      <node ref="MDB1" pin="14"/>
+    <net code="4" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
     </net>
-    <net code="5" name="/CHANNEL_4">
-      <node ref="MDB1" pin="30"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="6" name="/CHANNEL_11">
-      <node ref="U2" pin="5"/>
-      <node ref="MDB1" pin="23"/>
-    </net>
-    <net code="7" name="/CHANNEL_2">
-      <node ref="MDB1" pin="6"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="8" name="/~ENABLE">
-      <node ref="U1" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="MDB1" pin="52"/>
-    </net>
-    <net code="9" name="/CHANNEL_0">
-      <node ref="MDB1" pin="2"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="10" name="/CHANNEL_1">
-      <node ref="U1" pin="3"/>
-      <node ref="MDB1" pin="5"/>
-    </net>
-    <net code="11" name="/CHANNEL_3">
-      <node ref="MDB1" pin="29"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="12" name="/CHANNEL_13">
-      <node ref="U2" pin="7"/>
-      <node ref="MDB1" pin="36"/>
-    </net>
-    <net code="13" name="/CHANNEL_12">
-      <node ref="MDB1" pin="35"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="14" name="/CHANNEL_6">
-      <node ref="U1" pin="8"/>
-      <node ref="MDB1" pin="18"/>
-    </net>
-    <net code="15" name="/CHANNEL_7">
-      <node ref="MDB1" pin="19"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="16" name="/CHANNEL_15">
-      <node ref="U2" pin="9"/>
-      <node ref="MDB1" pin="38"/>
-    </net>
-    <net code="17" name="/CHANNEL_14">
-      <node ref="U2" pin="8"/>
-      <node ref="MDB1" pin="37"/>
-    </net>
-    <net code="18" name="Net-(MDB1-Pad17)">
-      <node ref="MDB1" pin="17"/>
-    </net>
-    <net code="19" name="Net-(MDB1-Pad15)">
-      <node ref="MDB1" pin="15"/>
-    </net>
-    <net code="20" name="Net-(MDB1-Pad16)">
-      <node ref="MDB1" pin="16"/>
-    </net>
-    <net code="21" name="Net-(MDB1-Pad33)">
-      <node ref="MDB1" pin="33"/>
-    </net>
-    <net code="22" name="Net-(MDB1-Pad34)">
-      <node ref="MDB1" pin="34"/>
-    </net>
-    <net code="23" name="Net-(MDB1-Pad11)">
-      <node ref="MDB1" pin="11"/>
-    </net>
-    <net code="24" name="Net-(MDB1-Pad12)">
-      <node ref="MDB1" pin="12"/>
-    </net>
-    <net code="25" name="Net-(MDB1-Pad51)">
-      <node ref="MDB1" pin="51"/>
-    </net>
-    <net code="26" name="Net-(MDB1-Pad41)">
-      <node ref="MDB1" pin="41"/>
-    </net>
-    <net code="27" name="Net-(MDB1-Pad42)">
-      <node ref="MDB1" pin="42"/>
-    </net>
-    <net code="28" name="Net-(MDB1-Pad43)">
-      <node ref="MDB1" pin="43"/>
-    </net>
-    <net code="29" name="Net-(MDB1-Pad44)">
-      <node ref="MDB1" pin="44"/>
-    </net>
-    <net code="30" name="Net-(MDB1-Pad45)">
-      <node ref="MDB1" pin="45"/>
-    </net>
-    <net code="31" name="Net-(MDB1-Pad46)">
-      <node ref="MDB1" pin="46"/>
-    </net>
-    <net code="32" name="Net-(MDB1-Pad47)">
-      <node ref="MDB1" pin="47"/>
-    </net>
-    <net code="33" name="Net-(MDB1-Pad48)">
-      <node ref="MDB1" pin="48"/>
-    </net>
-    <net code="34" name="Net-(MDB1-Pad49)">
-      <node ref="MDB1" pin="49"/>
-    </net>
-    <net code="35" name="Net-(MDB1-Pad50)">
-      <node ref="MDB1" pin="50"/>
-    </net>
-    <net code="36" name="Net-(MDB1-Pad40)">
-      <node ref="MDB1" pin="40"/>
-    </net>
-    <net code="37" name="Net-(MDB1-Pad53)">
-      <node ref="MDB1" pin="53"/>
-    </net>
-    <net code="38" name="Net-(MDB1-Pad54)">
-      <node ref="MDB1" pin="54"/>
-    </net>
-    <net code="39" name="Net-(MDB1-Pad55)">
-      <node ref="MDB1" pin="55"/>
-    </net>
-    <net code="40" name="Net-(MDB1-PadA10)">
-      <node ref="MDB1" pin="A10"/>
-    </net>
-    <net code="41" name="Net-(MDB1-PadA11)">
-      <node ref="MDB1" pin="A11"/>
-    </net>
-    <net code="42" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
-    </net>
-    <net code="43" name="Net-(MDB1-PadAREF)">
-      <node ref="MDB1" pin="AREF"/>
-    </net>
-    <net code="44" name="Net-(MDB1-PadDAC0)">
-      <node ref="MDB1" pin="DAC0"/>
-    </net>
-    <net code="45" name="Net-(MDB1-PadDAC1)">
-      <node ref="MDB1" pin="DAC1"/>
-    </net>
-    <net code="46" name="Net-(MDB1-Pad13)">
-      <node ref="MDB1" pin="13"/>
-    </net>
-    <net code="47" name="Net-(MDB1-Pad3V3)">
-      <node ref="MDB1" pin="3V3"/>
-    </net>
-    <net code="48" name="VEE">
-      <node ref="C2" pin="1"/>
-      <node ref="MDB1" pin="VEE"/>
-      <node ref="U2" pin="20"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="49" name="GND">
-      <node ref="U5" pin="2"/>
-      <node ref="L4" pin="2"/>
-      <node ref="J5" pin="3"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J2" pin="9"/>
-      <node ref="J2" pin="7"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J2" pin="5"/>
-      <node ref="J2" pin="1"/>
-      <node ref="L11" pin="2"/>
-      <node ref="U1" pin="19"/>
-      <node ref="L13" pin="2"/>
-      <node ref="P1" pin="6"/>
-      <node ref="P1" pin="5"/>
-      <node ref="J6" pin="3"/>
-      <node ref="U6" pin="2"/>
-      <node ref="L12" pin="2"/>
-      <node ref="P1" pin="4"/>
-      <node ref="C3" pin="2"/>
-      <node ref="L3" pin="2"/>
-      <node ref="HPS1" pin="5"/>
-      <node ref="L7" pin="2"/>
-      <node ref="L6" pin="2"/>
-      <node ref="L8" pin="2"/>
-      <node ref="L9" pin="2"/>
-      <node ref="L2" pin="2"/>
-      <node ref="L5" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="HPS4" pin="5"/>
-      <node ref="U3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="HPS2" pin="5"/>
-      <node ref="U4" pin="2"/>
-      <node ref="L10" pin="2"/>
+    <net code="54" name="VAA">
+      <node ref="J12" pin="5"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J11" pin="5"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J9" pin="5"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J3" pin="9"/>
       <node ref="J3" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="55" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="U10" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="U9" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="J9" pin="3"/>
+      <node ref="U7" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="J8" pin="3"/>
+      <node ref="U6" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="J4" pin="9"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J4" pin="1"/>
       <node ref="HPS3" pin="5"/>
       <node ref="C5" pin="2"/>
-      <node ref="U10" pin="2"/>
-      <node ref="J9" pin="3"/>
-      <node ref="J10" pin="3"/>
+      <node ref="D5" pin="2"/>
+      <node ref="HPS4" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="HPS1" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="HPS2" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="4"/>
       <node ref="U2" pin="19"/>
-      <node ref="J8" pin="3"/>
-      <node ref="U9" pin="2"/>
-      <node ref="L16" pin="2"/>
-      <node ref="L15" pin="2"/>
       <node ref="U2" pin="10"/>
-      <node ref="L17" pin="2"/>
+      <node ref="U1" pin="19"/>
       <node ref="U1" pin="10"/>
       <node ref="C2" pin="2"/>
-      <node ref="MDB1" pin="GND"/>
-      <node ref="J7" pin="3"/>
       <node ref="C1" pin="2"/>
-      <node ref="U7" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="U8" pin="2"/>
-      <node ref="L14" pin="2"/>
     </net>
-    <net code="50" name="VDD">
-      <node ref="C3" pin="1"/>
-      <node ref="HPS4" pin="1"/>
-      <node ref="MDB1" pin="VDD"/>
-      <node ref="C6" pin="1"/>
+    <net code="56" name="/backlight_5x3/backlight_outputs/visible_3/NPN">
+      <node ref="J12" pin="2"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="57" name="/backlight_5x3/backlight_outputs/ir_3/NPN">
+      <node ref="J11" pin="2"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="58" name="/backlight_5x3/backlight_outputs/visible_0/NPN">
+      <node ref="J6" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="59" name="/backlight_5x3/backlight_outputs/ir_0/NPN">
+      <node ref="J5" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="60" name="/backlight_5x3/backlight_outputs/ir_1/NPN">
+      <node ref="J7" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="61" name="/backlight_5x3/backlight_outputs/ir_2/NPN">
+      <node ref="J9" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="62" name="/backlight_5x3/backlight_outputs/visible_1/NPN">
+      <node ref="J8" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="63" name="/backlight_5x3/backlight_outputs/visible_2/NPN">
+      <node ref="J10" pin="2"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="64" name="Net-(D18-Pad1)">
+      <node ref="R25" pin="2"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="65" name="Net-(D17-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D12-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D11-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D13-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D15-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D14-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="71" name="Net-(D16-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="72" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4"/>
+    </net>
+    <net code="73" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4"/>
+    </net>
+    <net code="74" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="75" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="76" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="77" name="Net-(J9-Pad4)">
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="78" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="79" name="Net-(J10-Pad4)">
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="96" name="Net-(D10-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D7-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="98" name="Net-(D9-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="99" name="Net-(D8-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="109" name="/backlight_5x3/low_voltage_outputs/OUTPUT_3">
+      <node ref="R17" pin="2"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="110" name="/backlight_5x3/low_voltage_outputs/OUTPUT_2">
+      <node ref="R15" pin="2"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="111" name="/backlight_5x3/low_voltage_outputs/OUTPUT_0">
+      <node ref="R11" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="114" name="/backlight_5x3/low_voltage_outputs/OUTPUT_1">
+      <node ref="R13" pin="2"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="116" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="117" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="118" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="119" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="124" name="Net-(HPS3-Pad4)">
+      <node ref="HPS3" pin="4"/>
+    </net>
+    <net code="125" name="Net-(HPS4-Pad4)">
+      <node ref="HPS4" pin="4"/>
+    </net>
+    <net code="126" name="Net-(HPS1-Pad4)">
+      <node ref="HPS1" pin="4"/>
+    </net>
+    <net code="127" name="Net-(HPS2-Pad4)">
+      <node ref="HPS2" pin="4"/>
+    </net>
+    <net code="128" name="VDD">
+      <node ref="J1" pin="1"/>
       <node ref="HPS3" pin="1"/>
-      <node ref="HPS1" pin="1"/>
       <node ref="C5" pin="1"/>
+      <node ref="HPS4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="HPS1" pin="1"/>
+      <node ref="C3" pin="1"/>
       <node ref="HPS2" pin="1"/>
       <node ref="C4" pin="1"/>
       <node ref="D1" pin="1"/>
     </net>
-    <net code="51" name="/backlight_5x3/C_8">
-      <node ref="U2" pin="18"/>
-      <node ref="L10" pin="1"/>
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="52" name="/backlight_5x3/C_9">
-      <node ref="U2" pin="17"/>
-      <node ref="U4" pin="1"/>
-      <node ref="L11" pin="1"/>
-    </net>
-    <net code="53" name="/backlight_5x3/C_10">
-      <node ref="U2" pin="16"/>
-      <node ref="L12" pin="1"/>
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="54" name="/backlight_5x3/C_11">
-      <node ref="U2" pin="15"/>
-      <node ref="L13" pin="1"/>
-      <node ref="U6" pin="1"/>
-    </net>
-    <net code="55" name="VAA">
-      <node ref="J6" pin="1"/>
-      <node ref="J8" pin="5"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="J7" pin="5"/>
-      <node ref="J6" pin="5"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J4" pin="5"/>
-      <node ref="J9" pin="1"/>
-      <node ref="J10" pin="5"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J10" pin="1"/>
-      <node ref="J9" pin="5"/>
-      <node ref="J5" pin="5"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="5"/>
-      <node ref="J1" pin="7"/>
-      <node ref="J1" pin="9"/>
-      <node ref="J1" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="P1" pin="3"/>
-      <node ref="P1" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="L1" pin="1"/>
-    </net>
-    <net code="56" name="/backlight_5x3/C_15">
-      <node ref="U10" pin="1"/>
-      <node ref="L17" pin="1"/>
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="57" name="/backlight_5x3/C_14">
-      <node ref="U2" pin="12"/>
-      <node ref="L16" pin="1"/>
-      <node ref="U9" pin="1"/>
-    </net>
-    <net code="58" name="/backlight_5x3/C_13">
-      <node ref="U8" pin="1"/>
-      <node ref="U2" pin="13"/>
-      <node ref="L15" pin="1"/>
-    </net>
-    <net code="59" name="/backlight_5x3/C_6">
-      <node ref="L8" pin="1"/>
+    <net code="129" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT">
       <node ref="R7" pin="2"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="60" name="/backlight_5x3/C_7">
-      <node ref="U1" pin="11"/>
-      <node ref="L9" pin="1"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="61" name="/backlight_5x3/C_4">
-      <node ref="U1" pin="14"/>
-      <node ref="R5" pin="2"/>
-      <node ref="L6" pin="1"/>
-    </net>
-    <net code="62" name="/backlight_5x3/C_5">
-      <node ref="R6" pin="2"/>
-      <node ref="L7" pin="1"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="63" name="/backlight_5x3/C_12">
-      <node ref="L14" pin="1"/>
-      <node ref="U2" pin="14"/>
-      <node ref="U7" pin="1"/>
-    </net>
-    <net code="64" name="/backlight_5x3/C_0">
-      <node ref="L2" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="65" name="/backlight_5x3/C_1">
-      <node ref="L3" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="66" name="/backlight_5x3/C_2">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="16"/>
-      <node ref="L4" pin="1"/>
-    </net>
-    <net code="67" name="/backlight_5x3/C_3">
-      <node ref="R4" pin="2"/>
-      <node ref="L5" pin="1"/>
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="68" name="/backlight_5x3/high_voltage_outputs/OUTPUT_2">
-      <node ref="J1" pin="6"/>
-      <node ref="HPS3" pin="6"/>
-    </net>
-    <net code="69" name="/backlight_5x3/high_voltage_outputs/OUTPUT_0">
-      <node ref="HPS1" pin="6"/>
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="70" name="/backlight_5x3/high_voltage_outputs/OUTPUT_1">
-      <node ref="HPS2" pin="6"/>
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="71" name="/backlight_5x3/high_voltage_outputs/OUTPUT_3">
-      <node ref="HPS4" pin="6"/>
-      <node ref="J1" pin="8"/>
-    </net>
-    <net code="72" name="/backlight_5x3/low_voltage_outputs/OUTPUT_3">
-      <node ref="J2" pin="8"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="73" name="/backlight_5x3/low_voltage_outputs/OUTPUT_2">
-      <node ref="J2" pin="6"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="74" name="/backlight_5x3/low_voltage_outputs/OUTPUT_1">
-      <node ref="J2" pin="4"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="75" name="/backlight_5x3/low_voltage_outputs/OUTPUT_0">
-      <node ref="J2" pin="2"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="76" name="Net-(HPS1-Pad4)">
-      <node ref="HPS1" pin="4"/>
-    </net>
-    <net code="77" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT">
-      <node ref="R1" pin="1"/>
-      <node ref="HPS1" pin="2"/>
-    </net>
-    <net code="78" name="Net-(HPS2-Pad4)">
-      <node ref="HPS2" pin="4"/>
-    </net>
-    <net code="79" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT">
-      <node ref="HPS2" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="80" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_2/FAULT">
       <node ref="HPS3" pin="2"/>
-      <node ref="R3" pin="1"/>
     </net>
-    <net code="81" name="Net-(HPS3-Pad4)">
-      <node ref="HPS3" pin="4"/>
-    </net>
-    <net code="82" name="Net-(HPS4-Pad4)">
-      <node ref="HPS4" pin="4"/>
-    </net>
-    <net code="83" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT">
-      <node ref="R4" pin="1"/>
+    <net code="130" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_3/FAULT">
+      <node ref="R9" pin="2"/>
       <node ref="HPS4" pin="2"/>
     </net>
-    <net code="84" name="Net-(J3-Pad4)">
+    <net code="131" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_0/FAULT">
+      <node ref="R3" pin="2"/>
+      <node ref="HPS1" pin="2"/>
+    </net>
+    <net code="132" name="/backlight_5x3/high_voltage_outputs/high_voltage_output_1/FAULT">
+      <node ref="R5" pin="2"/>
+      <node ref="HPS2" pin="2"/>
+    </net>
+    <net code="137" name="/backlight_5x3/high_voltage_outputs/OUTPUT_3">
+      <node ref="HPS4" pin="6"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="138" name="/backlight_5x3/high_voltage_outputs/OUTPUT_1">
+      <node ref="HPS2" pin="6"/>
       <node ref="J3" pin="4"/>
     </net>
-    <net code="85" name="/backlight_5x3/backlight_outputs/ir_0/NPN">
-      <node ref="U3" pin="3"/>
+    <net code="139" name="/backlight_5x3/high_voltage_outputs/OUTPUT_0">
+      <node ref="HPS1" pin="6"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="86" name="Net-(J4-Pad4)">
-      <node ref="J4" pin="4"/>
+    <net code="140" name="/backlight_5x3/high_voltage_outputs/OUTPUT_2">
+      <node ref="HPS3" pin="6"/>
+      <node ref="J3" pin="6"/>
     </net>
-    <net code="87" name="/backlight_5x3/backlight_outputs/visible_0/NPN">
-      <node ref="J4" pin="2"/>
-      <node ref="U4" pin="3"/>
+    <net code="145" name="Net-(D2-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="88" name="Net-(J5-Pad4)">
-      <node ref="J5" pin="4"/>
+    <net code="152" name="VEE">
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="89" name="/backlight_5x3/backlight_outputs/ir_1/NPN">
-      <node ref="J5" pin="2"/>
-      <node ref="U5" pin="3"/>
+    <net code="154" name="/backlight_5x3/C_8">
+      <node ref="R18" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="18"/>
     </net>
-    <net code="90" name="Net-(J6-Pad4)">
-      <node ref="J6" pin="4"/>
+    <net code="155" name="/backlight_5x3/C_9">
+      <node ref="R19" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="17"/>
     </net>
-    <net code="91" name="/backlight_5x3/backlight_outputs/visible_1/NPN">
-      <node ref="U6" pin="3"/>
-      <node ref="J6" pin="2"/>
+    <net code="156" name="/backlight_5x3/C_10">
+      <node ref="R20" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U2" pin="16"/>
     </net>
-    <net code="92" name="Net-(J7-Pad4)">
-      <node ref="J7" pin="4"/>
+    <net code="157" name="/backlight_5x3/C_11">
+      <node ref="R21" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U2" pin="15"/>
     </net>
-    <net code="93" name="/backlight_5x3/backlight_outputs/ir_2/NPN">
-      <node ref="J7" pin="2"/>
-      <node ref="U7" pin="3"/>
+    <net code="158" name="/backlight_5x3/C_12">
+      <node ref="R22" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U2" pin="14"/>
     </net>
-    <net code="94" name="Net-(J8-Pad4)">
-      <node ref="J8" pin="4"/>
+    <net code="159" name="/backlight_5x3/C_13">
+      <node ref="R23" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U2" pin="13"/>
     </net>
-    <net code="95" name="/backlight_5x3/backlight_outputs/visible_2/NPN">
-      <node ref="U8" pin="3"/>
-      <node ref="J8" pin="2"/>
+    <net code="160" name="/backlight_5x3/C_14">
+      <node ref="R24" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U2" pin="12"/>
     </net>
-    <net code="96" name="Net-(J9-Pad4)">
-      <node ref="J9" pin="4"/>
+    <net code="161" name="/backlight_5x3/C_15">
+      <node ref="R25" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U2" pin="11"/>
     </net>
-    <net code="97" name="/backlight_5x3/backlight_outputs/ir_3/NPN">
-      <node ref="J9" pin="2"/>
-      <node ref="U9" pin="3"/>
+    <net code="168" name="/backlight_5x3/C_0">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="98" name="Net-(J10-Pad4)">
-      <node ref="J10" pin="4"/>
+    <net code="169" name="/backlight_5x3/C_1">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="99" name="/backlight_5x3/backlight_outputs/visible_3/NPN">
-      <node ref="J10" pin="2"/>
-      <node ref="U10" pin="3"/>
+    <net code="170" name="/backlight_5x3/C_3">
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="171" name="/backlight_5x3/C_4">
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="172" name="/backlight_5x3/C_5">
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="173" name="/backlight_5x3/C_6">
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="179" name="/backlight_5x3/C_7">
+      <node ref="R16" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="180" name="/backlight_5x3/C_2">
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="181" name="/AGND">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="182" name="/CHANNEL_15">
+      <node ref="J2" pin="20"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="183" name="/CHANNEL_9">
+      <node ref="J2" pin="7"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="184" name="/CHANNEL_6">
+      <node ref="J2" pin="10"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="185" name="/3.3V_250mA">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="186" name="/CHANNEL_11">
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="187" name="/CHANNEL_10">
+      <node ref="J2" pin="6"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="188" name="/AREF">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="189" name="/CHANNEL_5">
+      <node ref="J2" pin="14"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="190" name="/CHANNEL_12">
+      <node ref="J2" pin="23"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="191" name="/D33.A14.SCL0B.TX5">
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="192" name="/CHANNEL_13">
+      <node ref="J2" pin="22"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="193" name="/D15.A1.CS0">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="194" name="/D17.A3.SDA0B">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="195" name="/CHANNEL_7">
+      <node ref="J2" pin="9"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="196" name="/D13.LED.SCK0">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="197" name="/CHANNEL_14">
+      <node ref="J2" pin="21"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="198" name="/CHANNEL_8">
+      <node ref="J2" pin="8"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="199" name="/D46.SCK2">
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="200" name="/D45.MISO2">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="201" name="/CHANNEL_4">
+      <node ref="J1" pin="23"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="202" name="/CHANNEL_3">
+      <node ref="J1" pin="22"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="203" name="/D44.MOSI2">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="204" name="/D43.CS2">
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="205" name="/D47.RX6.SCLOB">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="206" name="/D48.TX6.SDA0B">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="207" name="/D49.A23">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="208" name="/D50.A24">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="209" name="/D12.MISO0">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="210" name="/D11.MOSI0">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="211" name="/D42">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="212" name="/D41">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="213" name="/D40">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="214" name="/~ENABLE">
+      <node ref="J1" pin="10"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="215" name="/CHANNEL_2">
+      <node ref="J1" pin="9"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="216" name="/CHANNEL_1">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="217" name="/D54.CS2">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="218" name="/D55">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="219" name="/CHANNEL_0">
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="220" name="/A11">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="221" name="/A10">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="222" name="/D34.A15.SDA0B.RX5">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="223" name="/A21.DAC0">
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="224" name="/A22.DAC1">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="225" name="/D53.SCK2B">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="226" name="/D16.A2.SCL0B">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="227" name="/D51.MISO2B">
+      <node ref="J2" pin="19"/>
     </net>
   </nets>
 </export>
