@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP HEADER_01x25_MALE
-K connector
-F ~
-$ENDCMP
-#
 $CMP M12-5-RCPT
 K connector
 F ~

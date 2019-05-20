@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L backlight_controller_5x3:HEADER_01x25_MALE J1
-U 1 1 5CDA5966
-P 2850 3450
-F 0 "J1" H 2858 4731 50  0000 C CNN
-F 1 "HEADER_01x25_MALE" H 2858 2190 50  0000 C CNN
-F 2 "backlight_controller_5x3:HEADER_01x25" H 2850 3450 50  0001 C CNN
-F 3 "~" H 2850 3450 50  0001 C CNN
-F 4 "Sullins Connector Solutions" H 2850 3450 60  0001 C CNN "Manufacturer"
-F 5 "PBC25SAAN" H 2850 3450 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 2850 3450 60  0001 C CNN "Vendor"
-F 7 "S1011E-25-ND" H 2850 3450 60  0001 C CNN "Vendor Part Number"
-	1    2850 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 2250 3150 2250
 Wire Wire Line
@@ -216,21 +201,6 @@ Text HLabel 5800 4150 2    60   BiDi ~ 0
 D38.A19.PWM.SDA1
 Text HLabel 5800 2450 2    60   UnSpc ~ 0
 AGND
-$Comp
-L backlight_controller_5x3:HEADER_01x25_MALE J2
-U 1 1 5CDB25EF
-P 5500 3450
-F 0 "J2" H 5508 4731 50  0000 C CNN
-F 1 "HEADER_01x25_MALE" H 5508 2190 50  0000 C CNN
-F 2 "backlight_controller_5x3:HEADER_01x25" H 5500 3450 50  0001 C CNN
-F 3 "~" H 5500 3450 50  0001 C CNN
-F 4 "Sullins Connector Solutions" H 5500 3450 60  0001 C CNN "Manufacturer"
-F 5 "PBC25SAAN" H 5500 3450 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 5500 3450 60  0001 C CNN "Vendor"
-F 7 "S1011E-25-ND" H 5500 3450 60  0001 C CNN "Vendor Part Number"
-	1    5500 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 2550 5800 2550
 Wire Wire Line
@@ -333,6 +303,38 @@ F 1 "FIDUCIAL" H 6078 5655 50  0000 L CNN
 F 2 "backlight_controller_5x3:FIDUCIAL" H 6200 5700 50  0001 C CNN
 F 3 "" H 6200 5700 50  0001 C CNN
 	1    6000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L backlight_controller_5x3:HEADER_01X25_MALE J1
+U 1 1 5CE302B5
+P 2850 3450
+F 0 "J1" H 2958 4831 50  0000 C CNN
+F 1 "HEADER_01X25_MALE" H 2958 4740 50  0000 C CNN
+F 2 "backlight_controller_5x3:HEADER_01x25" H 2850 3450 50  0001 C CNN
+F 3 "" H 2850 3450 50  0001 C CNN
+F 4 "CONN HEADER VERT 25POS 2.54MM" H 2850 3450 60  0001 C CNN "Description"
+F 5 "Sullins Connector Solutions" H 2850 3450 60  0001 C CNN "Manufacturer"
+F 6 "PBC25SAAN" H 2850 3450 60  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 2850 3450 60  0001 C CNN "Vendor"
+F 8 "S1011E-25-ND" H 2850 3450 60  0001 C CNN "Vendor Part Number"
+	1    2850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L backlight_controller_5x3:HEADER_01X25_MALE J2
+U 1 1 5CE3520D
+P 5500 3450
+F 0 "J2" H 5608 4831 50  0000 C CNN
+F 1 "HEADER_01X25_MALE" H 5608 4740 50  0000 C CNN
+F 2 "backlight_controller_5x3:HEADER_01x25" H 5500 3450 50  0001 C CNN
+F 3 "" H 5500 3450 50  0001 C CNN
+F 4 "CONN HEADER VERT 25POS 2.54MM" H 5500 3450 60  0001 C CNN "Description"
+F 5 "Sullins Connector Solutions" H 5500 3450 60  0001 C CNN "Manufacturer"
+F 6 "PBC25SAAN" H 5500 3450 60  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 5500 3450 60  0001 C CNN "Vendor"
+F 8 "S1011E-25-ND" H 5500 3450 60  0001 C CNN "Vendor Part Number"
+	1    5500 3450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
